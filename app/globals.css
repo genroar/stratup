@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header {
+    padding: 15px, 50px, 15px, 50px
+    ;
+}
