@@ -46,4 +46,4 @@ function Rolex() {
   )
 }
 
-export default Rolex
+export default Rolex;

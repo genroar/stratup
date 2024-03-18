@@ -3,7 +3,7 @@ import AnchorTag from '../atoms/Anchortag'
 
 function Navigation() {
   return (
-    <div className='flex w-[437px] h-[20px] gap-[30px] ' >
+    <div className='flex  h-[20px] gap-[30px] ' >
       <AnchorTag>Buy</AnchorTag>
       <AnchorTag>Sell</AnchorTag>
       <AnchorTag>Sources</AnchorTag>

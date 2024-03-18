@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-function CustomImage({ src, alt, variant }) {
+function CustomImage({ src, alt, variant, }) {
   const imageType = (variant) => {
     let imageStyle;
     switch (variant) {

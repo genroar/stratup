@@ -1,14 +1,21 @@
 import React from 'react'
+import '..//../app/globals.css'
 import CustomImage from '../atoms/CustomImage'
 import Navigation from '../molecules/Navigation'
 import HeaderRight from '../molecules/HeaderRight'
 
 function Header() {
   return (
-    <div className='flex w-full h-[70px] gap-[202px] header' >
+    <div className='flex  items-center px-[50px] py-[15px] h-[40px] justify-between  ' >
+        <div>
         <CustomImage variant='logo' src='/assits/assits/image/header-logo.png' alt='logo' ></CustomImage>
+        </div>
+        <div>
         <Navigation />
+        </div>
+        <div>
         <HeaderRight />
+        </div>
     </div>
   )
 }

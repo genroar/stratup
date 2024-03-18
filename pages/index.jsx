@@ -1,15 +1,15 @@
 import React from "react";
 import "../../strapup/app/globals.css";
-import SignIntem from "@/component/templates/signin/signintem";
-import Header from "@/component/organisms/Header";
+import Product from "@/component/molecules/Product";
+import Button from "@/component/atoms/Button";
 
 
 function Home() {
   return (
-    <div className="">
-      <Header />
-      <div>
-      <SignIntem />
+    <div >
+
+      <div className="mt-[100px]" >
+        <Product />
       </div>
     </div>
   );
