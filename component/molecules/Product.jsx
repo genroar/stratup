@@ -4,41 +4,32 @@ import Heading from "../atoms/Heading";
 
 function Product() {
   return (
-    <div className="w-[320px]">
-      <div>
-        <div className="relative">
-          <CustomImage 
-            variant="second"
+    <div className="w-[270px] h-[398px]  rounded-[25px] ">
+      <div className="image-outer relative h-[250px]  ">
+        <div>
+          <CustomImage
             src="/assits/assits/image/home recent 1.png"
+            variant="prime"
           ></CustomImage>
         </div>
-        <div className="absolute top-[5px] left-[5px]">
-          <CustomImage
-            variant="five"
-            src="/assits/assits/image/UAE.png"
-          ></CustomImage>
+        <div className="absolute top-[8px] left-[8px]  ">
+          <CustomImage src="/assits/assits/image/UAE.png"></CustomImage>
         </div>
       </div>
-      <div className="divide-y w-[320px] px-[15px] py-[10px] rounded-br-[20px] rounded-bl-[20px] bg-gray-100 ">
-        <div className=" py-[10px]">
+      <div className="text-outer flex flex-col gap-[8px] justify-center divide-y  bg-gray-100 rounded-br-[25px] rounded-bl-[25px] px-[15px] py-[10px] w-[270px] h-[148px] ">
+        <div>
           <Heading level="5">Rolex</Heading>
         </div>
-        <div className=" py-[10px]">
-          <Heading level="6">Datejust </Heading>
+        <div>
+          <Heading level="6">Datejust</Heading>
         </div>
-        <div className="flex justify-between">
-          <span className="text-[14.6px] font-normal text-spanGray py-[10px]">2017</span>
-          <span className="text-[14.6px] font-normal text-gray-800 text-opacity-50 py-[10px]">
-            New
-          </span>
+        <div className="flex justify-between" >
+          <p className="text-[14px] font-normal ">2017</p>
+          <p className="text-[14px] font-normal text-gray-800 ">New</p>
         </div>
-        <div className="flex justify-between">
-          <span className="text-[14.6px] font-semibold text-gray-800  py-[10px]">
-            AED 5,500
-          </span>
-          <span className="text-[14.6px] font-normal text-gray-800 text-opacity-50 py-[10px]">
-            Negotiable
-          </span>
+        <div className="flex justify-between" >
+          <p className="text-[14px] font-semibold ">AED 5,500</p>
+          <p className="text-[14px] font-normal text-gray-800 ">Negotiatable</p>
         </div>
       </div>
     </div>

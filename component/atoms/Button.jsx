@@ -22,19 +22,23 @@ const Button = ({ href, children, variant }) => {
       break;
     case "tl-radius":
       buttonStyle =
-        "bg-buttonGray h-[60px] border-[0px,1px,0px,0px]  text-center w-[150px] rounded-tl-[25px] pt-[16px]  text-[20px] font-medium text-white";
+        "bg-buttonGray h-[60px] border-[1px]  text-center w-[150px] rounded-tl-[25px] pt-[16px]  text-[20px] font-medium text-white";
+      break;
+    case "tr-radius":
+      buttonStyle =
+        "bg-white  h-[60px] border-2  text-center w-[150px] rounded-tr-[25px] pt-[16px]  text-[20px] font-medium text-buttonGray";
       break;
     case "rectangle":
       buttonStyle =
-        "bg-white h-[60px] border-2 border-black border-opacity-10 text-center w-[150px]  pt-[16px]  text-[20px] font-medium text-buttonGray";
+        "bg-white h-[60px] border-2 border-black border-opacity-10 text-center w-[150px]  flex items-center justify-center  text-[20px] font-medium text-buttonGray";
       break;
     case "oval":
       buttonStyle =
         "bg-white h-[40px] border-2 border-black border-opacity-10 text-center w-[150px] rounded-[40px]  pt-[6px] text-[16px] font-normal  text-buttonGray";
       break;
-    case "wide-oval":
+    case "high-oval":
       buttonStyle =
-        "bg-buttonGray h-[60px] text-center w-[150px]  pt-[16px] text-[20px] font-normal text-white rounded-[40px]";
+        "bg-buttonGray h-[60px] text-center w-[150px]  flex justify-center items-center text-[20px] font-normal text-white rounded-[40px]";
       break;
     case "rectangle-2":
       buttonStyle =
@@ -42,7 +46,11 @@ const Button = ({ href, children, variant }) => {
       break;
     case "rectangle-3":
       buttonStyle =
-        "bg-gray-100 h-[60px]  text-center w-[212px] rounded-br-[25px]  pt-[16px] text-[20px] font-normal text-buttonGray";
+        "bg-gray-100 h-[60px]  text-center w-[201px] rounded-br-[25px] rounded-tr-[25px]  pt-[16px] text-[20px] font-normal text-buttonGray";
+      break;
+    case "rectangle-4":
+      buttonStyle =
+        "bg-gray-100 h-[60px]  text-center w-[212px]   pt-[16px] text-[20px] font-normal text-buttonGray";
       break;
     case "rectangle":
       buttonStyle =
@@ -51,15 +59,16 @@ const Button = ({ href, children, variant }) => {
     case "white-oval":
       buttonStyle =
         "bg-white h-[40px]  text-center w-[120px] rounded-[40px] py-[5px] border-2 border-buttonGray  text-buttonGray ";
-      break;a
-      case "contact":
-        buttonStyle =
-          "bg-buttonGray h-[40px]  text-center w-[140px] rounded-[40px] py-[7px]  text-white";
-        break;
-        case "submit":
-          buttonStyle =
-            "bg-buttonGray h-[41px] text-center w-[235px] text-[16px] font-medium rounded-[20px] py-[7px] curser-pointer text-white";
-          break;
+      break;
+      a;
+    case "contact":
+      buttonStyle =
+        "bg-buttonGray h-[40px]  text-center w-[140px] rounded-[40px] py-[7px]  text-white";
+      break;
+    case "submit":
+      buttonStyle =
+        "bg-buttonGray h-[41px] text-center w-[235px] text-[16px] font-medium rounded-[20px] py-[7px] curser-pointer text-white";
+      break;
   }
 
   return (

@@ -1,16 +1,12 @@
 import React from "react";
 import "../../strapup/app/globals.css";
-import Product from "@/component/molecules/Product";
-import Button from "@/component/atoms/Button";
+import Listing from "@/component/organisms/Listing";
 
 
 function Home() {
   return (
-    <div >
-
-      <div className="mt-[100px]" >
-        <Product />
-      </div>
+    <div className="mt-[100px] " >
+      <Listing />
     </div>
   );
 }
