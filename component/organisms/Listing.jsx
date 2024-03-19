@@ -7,10 +7,10 @@ import Button from "../atoms/Button";
 
 function Listing() {
   return (
-    <div className="">
+    <div className=" margin-auto">
       <ListingButton />
-      <div className=" h-[696px] border-2 rounded-tr-[40px]  py-[20px]  ">
-        <div className="  m-auto w-[1200px] flex flex-col gap-[30px]  ">
+      <div className=" h-[1005px] w-[1200px] border-2 rounded-tr-[40px] rounded-br-[40px] rounded-bl-[40px]  py-[20px]  ">
+        <div className="  m-auto w-[1170px] flex flex-col gap-[30px]  ">
           <div>
             <Listingsearch  />
           </div>

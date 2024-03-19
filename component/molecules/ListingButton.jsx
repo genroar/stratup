@@ -7,7 +7,7 @@ function ListingButton() {
       <Button variant='tl-radius' >Buy</Button>
       <Button variant='rectangle' >Sell</Button>
       <Button variant='rectangle' >Sources</Button>
-      <Button variant='tr-radius' >Buy</Button>
+      <Button variant='tr-radius' >Consign</Button>
     </div>
   )
 }

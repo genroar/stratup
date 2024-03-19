@@ -22,15 +22,15 @@ const Button = ({ href, children, variant }) => {
       break;
     case "tl-radius":
       buttonStyle =
-        "bg-buttonGray h-[60px] border-[1px]  text-center w-[150px] rounded-tl-[25px] pt-[16px]  text-[20px] font-medium text-white";
+        "bg-buttonGray h-[50px] border-[1px]  text-center w-[150px] rounded-tl-[25px] flex items-center justify-center text-[20px] font-medium text-white";
       break;
     case "tr-radius":
       buttonStyle =
-        "bg-white  h-[60px] border-2  text-center w-[150px] rounded-tr-[25px] pt-[16px]  text-[20px] font-medium text-buttonGray";
+        "bg-white  h-[50px] border-2  text-center w-[150px] rounded-tr-[25px] flex items-center justify-center  text-[20px] font-medium text-buttonGray";
       break;
     case "rectangle":
       buttonStyle =
-        "bg-white h-[60px] border-2 border-black border-opacity-10 text-center w-[150px]  flex items-center justify-center  text-[20px] font-medium text-buttonGray";
+        "bg-white h-[50px] border-2 border-black border-opacity-10 text-center w-[150px]  flex items-center justify-center  text-[20px] font-medium text-buttonGray";
       break;
     case "oval":
       buttonStyle =

@@ -5,7 +5,7 @@ import Listing from "@/component/organisms/Listing";
 
 function Home() {
   return (
-    <div className="mt-[100px] " >
+    <div className="mt-[100px] ml-[35px] " >
       <Listing />
     </div>
   );
