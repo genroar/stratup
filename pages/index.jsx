@@ -1,12 +1,13 @@
 import React from "react";
 import "../../strapup/app/globals.css";
-import Listing from "@/component/organisms/Listing";
+import AboutUs from "@/component/organisms/AboutUs";
+import Header from "@/component/organisms/Header";
 
 
 function Home() {
   return (
-    <div className="mt-[100px] ml-[35px] " >
-      <Listing />
+    <div className="  " >
+      <AboutUs />
     </div>
   );
 }

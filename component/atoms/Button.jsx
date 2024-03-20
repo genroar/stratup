@@ -38,19 +38,19 @@ const Button = ({ href, children, variant }) => {
       break;
     case "high-oval":
       buttonStyle =
-        "bg-buttonGray h-[60px] text-center w-[150px]  flex justify-center items-center text-[20px] font-normal text-white rounded-[40px]";
+        "bg-buttonGray h-[55px] text-center w-[145px]  flex justify-center items-center text-[20px] font-normal text-white rounded-[40px]";
       break;
     case "rectangle-2":
       buttonStyle =
-        "bg-gray-100 h-[60px]  text-center w-[160px]  pt-[16px] text-[20px] font-normal text-buttonGray";
+        "bg-gray-100 h-[55px]  text-center w-[155px]  pt-[16px] text-[20px] font-normal text-buttonGray";
       break;
     case "rectangle-3":
       buttonStyle =
-        "bg-gray-100 h-[60px]  text-center w-[201px] rounded-br-[25px] rounded-tr-[25px]  pt-[16px] text-[20px] font-normal text-buttonGray";
+        "bg-gray-100 h-[55px]  text-center w-[195px] rounded-br-[25px] rounded-tr-[25px]  pt-[16px] text-[20px] font-normal text-buttonGray";
       break;
     case "rectangle-4":
       buttonStyle =
-        "bg-gray-100 h-[60px]  text-center w-[212px]   pt-[16px] text-[20px] font-normal text-buttonGray";
+        "bg-gray-100 h-[55px]  text-center w-[207px]   pt-[16px] text-[20px] font-normal text-buttonGray";
       break;
     case "rectangle":
       buttonStyle =
@@ -65,6 +65,10 @@ const Button = ({ href, children, variant }) => {
       buttonStyle =
         "bg-buttonGray h-[40px]  text-center w-[140px] rounded-[40px] py-[7px]  text-white";
       break;
+      case "aboutus":
+        buttonStyle =
+          "bg-white cursor-pointer text-gray-700 border-2 h-[40px]  text-center w-[140px] rounded-[40px] flex items-center justify-center  ";
+        break;
     case "submit":
       buttonStyle =
         "bg-buttonGray h-[41px] text-center w-[235px] text-[16px] font-medium rounded-[20px] py-[7px] curser-pointer text-white";
