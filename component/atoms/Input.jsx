@@ -19,12 +19,16 @@ function Input({ variant, type, children }) {
       break;
     case "four":
       inputStyle =
-        "w-[750px] h-[41px] rounded-[40px] outline-none border-2 p-[10px]  border-opacity-10 border-gray-500  ";
+        "w-[630px] h-[41px] rounded-[40px] outline-none border-2 p-[10px]  border-opacity-10 border-gray-500  ";
       break;
     case "five":
       inputStyle =
-        "w-[418px] h-[25px] outline-none border-[2px]  border-b-gray-500 p-[10px]  ";
+        "w-[418px] h-[25px] outline-none border-[2px] bg-black border-none p-[10px]  ";
       break;
+      case "five2":
+        inputStyle =
+          "w-[418px] h-[25px] outline-none border-[2px] bg-black border-none pb-[10px ]  ";
+        break;
     case "six":
       inputStyle =
         "w-[455px] h-[41px] rounded-[40px] outline-none border-2 border-opacity-10 p-[10px]  border-gray-500  ";
