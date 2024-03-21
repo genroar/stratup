@@ -45,7 +45,7 @@ function Input({ variant, type, children }) {
 Input.propTypes = {
   type: PropTypes.string.isRequired,
   children: PropTypes.string.isRequired,
-  variant: PropTypes.string.isRequired, // Assuming variant is a string
+  variant: PropTypes.string.isRequired, 
 };
 
 export default Input;
