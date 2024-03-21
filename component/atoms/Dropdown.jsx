@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 
-const Dropdown = () => {
+const Dropdown = ({child, parent}) => {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedItem, setSelectedItem] = useState(null);
 
@@ -16,7 +16,7 @@ const Dropdown = () => {
       <button
         onClick={() => setIsOpen(!isOpen)}
         type="button"
-        className="inline-flex justify-center w-[83px] h-[40px] rounded-[40px] border border-gray-300 shadow-sm items-center justify-center flex bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-100"
+        className="inline-flex justify-center w-[83px] h-[40px] rounded-[40px] border border-gray-300 shadow-sm items-center justify-center flex bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 "
         id="menu-button"
         aria-expanded="true"
         aria-haspopup="true"

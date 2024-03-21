@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-function CustomImage({ src, alt, variant, }) {
+function CustomImage({ src, alt, variant }) {
   const imageType = (variant) => {
     let imageStyle;
     switch (variant) {
@@ -27,6 +27,9 @@ function CustomImage({ src, alt, variant, }) {
         break;
       case "logo":
         imageStyle = "w-[228.42px] h-[38px]";
+        break;
+      case "work":
+        imageStyle = "w-[450px] h-[370px]";
         break;
       default:
         // Default style if no variant matches

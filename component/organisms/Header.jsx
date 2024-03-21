@@ -1,23 +1,23 @@
-import React from 'react'
-import '..//../app/globals.css'
-import CustomImage from '../atoms/CustomImage'
-import Navigation from '../molecules/Navigation'
-import HeaderRight from '../molecules/HeaderRight'
+import React from 'react';
+import '../../app/globals.css';
+import CustomImage from '../atoms/CustomImage';
+import Navigation from '../molecules/Navigation';
+import HeaderRight from '../molecules/HeaderRight';
 
 function Header() {
   return (
-    <div className='flex  items-center header  px-[50px] py-[15px] h-[65px] justify-between  ' >
-        <div>
-        <CustomImage variant='logo' src='/assits/assits/image/header-logo.png' alt='logo' ></CustomImage>
-        </div>
-        <div>
+    <div className='flex w-full py-[15px] header items-center px-[50px]  h-[65px] justify-between'>
+      <div>
+        <CustomImage variant='logo' src='/assits/assits/image/header-logo.png' alt='logo' />
+      </div>
+      <div>
         <Navigation />
-        </div>
-        <div>
+      </div>
+      <div>
         <HeaderRight />
-        </div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Header
+export default Header;

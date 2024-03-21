@@ -11,7 +11,7 @@ function Input({ variant, type, children }) {
       break;
     case "secondary":
       inputStyle =
-        "w-[1130px] h-[41px] rounded-[40px] p-[10px]  outline-none border-2 border-opacity-10 border-gray-500  ";
+        "w-[1170px] h-[41px] rounded-[40px] p-[10px]  outline-none border-2 border-opacity-10 border-gray-500  ";
       break;
     case "third":
       inputStyle =
@@ -49,7 +49,7 @@ function Input({ variant, type, children }) {
 Input.propTypes = {
   type: PropTypes.string.isRequired,
   children: PropTypes.string.isRequired,
-  variant: PropTypes.string.isRequired, // Assuming variant is a string
+  variant: PropTypes.string.isRequired, 
 };
 
 export default Input;
