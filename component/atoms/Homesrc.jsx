@@ -22,7 +22,7 @@ const Filterdrop = ({ parent, child }) => {
           aria-expanded={isOpen ? "true" : "false"}
           aria-haspopup="true"
         >
-          <span className="text-[15px] text-medium">{selectedItem || parent}</span>
+          <span className="text-[15px] text-gray-700 text-opacity-50 text-medium">{selectedItem || parent}</span>
           <svg
             className="h-5 w-5 ml-2"
             xmlns="http://www.w3.org/2000/svg"
