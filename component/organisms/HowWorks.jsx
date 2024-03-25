@@ -1,35 +1,51 @@
-import React from "react";
-import '..//../app/globals.css'
-import Heading from "../atoms/Heading";
-import Worksinput from "../molecules/Worksinput";
-import WorksButtons from "../molecules/WorksButtons";
-import CustomImage from "../atoms/CustomImage";
+import React, { useState } from 'react';
+import Button from '../atoms/Button';
+import Listing from './Listing';
+import Rolex from '../molecules/Rolex';
+import Source from './Source';
 
-function HowWorks() {
+function ListingButton() {
+  const [activeTab, setActiveTab] = useState('buy'); // Default active tab is 'buy'
+
+  const handleTabClick = (tab) => {
+    setActiveTab(tab);
+  };
+
   return (
-    <div className=" bg-gray-100 pt-[100px] pb-[80px] rounded-tr-[40px] flex flex-col   " >
-      <div className="flex flex-col gap-[30px] items-center " >
-        <Heading level="1">Find out how much your watch is worth</Heading>
-        <Worksinput />
-      </div>
-      <div className="bg-white mt-[110px] w-[1150px] shadow flex flex-col    rounded-[40px] ml-[60px]  " >
-        <div className="flex w-[1150px] flex-col border-b-[1px] items-center text-center gap-[30px] py-[20px] " >
-          <Heading level="1" >How it works</Heading>
-          <WorksButtons />
-        </div>
-        <div className="flex px-[25px] gap-[45px] py-[25px] items-center" >
-          <CustomImage variant="work" src="/assits/assits/image/home overview.png"  ></CustomImage>
-          <div className="flex flex-col gap-[25px]" >
-            <Heading level="1" >Overview</Heading>
-            <div className="flex flex-col gap-[10px] " >
-              <Heading>Submit a free listing with ease. Fill in your watch details and directly get <br /> offers from interested individuals.Submit a free listing with ease. Fill in <br /> your watch details and directly get offers from interested individuals.</Heading>
-              <Heading>Submit a free listing with ease. Fill in your watch details and directly get <br /> offers from interested individuals.Submit a free listing with ease. Fill in <br /> your watch details and directly get offers from interested individuals.</Heading>
-            </div>
-          </div>
-        </div>
+    <div className='flex w-[600px] shadow-md transform rotate-y-1 rounded-tr-[25px]'>
+      <Button
+        variant={activeTab === 'buy' ? 'tl-radius active' : 'tl-radius'}
+        onClick={() => handleTabClick('buy')}
+      >
+        Buy
+      </Button>
+      <Button
+        variant={activeTab === 'sell' ? 'rectangle active' : 'rectangle'}
+        onClick={() => handleTabClick('sell')}
+      >
+        Sell
+      </Button>
+      <Button
+        variant={activeTab === 'source' ? 'rectangle active' : 'rectangle'}
+        onClick={() => handleTabClick('source')}
+      >
+        Sources
+      </Button>
+      <Button
+        variant={activeTab === 'consign' ? 'tr-radius active' : 'tr-radius'}
+        onClick={() => handleTabClick('consign')}
+      >
+        Consign
+      </Button>
+      <div className="tab-content">
+        {/* Render different tab content based on the active tab */}
+        {activeTab === 'buy' && <Listing title="listing" />}
+        {activeTab === 'sell' && <Rolex title="Sell Tab" />}
+        {activeTab === 'source' && <Source title="Source Tab" />}
+        {activeTab === 'consign' && <Rolex title="Consign Tab" />}
       </div>
     </div>
   );
 }
 
-export default HowWorks;
+export default ListingButton;
