@@ -1,15 +1,15 @@
 import React from 'react'
 import Button from '../atoms/Button'
 
-function ListingButton() {
+function ListingButton({ buy, sell, source, consign }) {
   return (
     <div className='flex w-[600px] shadow-md transform rotate-y-1 rounded-tr-[25px]'>
-      <Button variant='tl-radius' >Buy</Button>
-      <Button variant='rectangle' >Sell</Button>
-      <Button variant='rectangle' >Sources</Button>
-      <Button variant='tr-radius' >Consign</Button>
+      <Button onClick={buy}  variant='tl-radius' >Buy</Button>
+      <Button onClick={sell} variant='rectangle' >Sell</Button>
+      <Button onClick={source} variant='rectangle' >Sources</Button>
+      <Button onClick={consign} variant='tr-radius' >Consign</Button>
     </div>
   )
 }
 
-export default ListingButton
+export default ListingButton

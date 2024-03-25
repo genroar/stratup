@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-const Button = ({ href, children, variant }) => {
+const Button = ({ href, children, variant, onClick }) => {
   let buttonStyle = "";
 
   switch (variant) {
@@ -76,7 +76,7 @@ const Button = ({ href, children, variant }) => {
   }
 
   return (
-    <a className={buttonStyle} href={href}>
+    <a className={buttonStyle} onClick={onClick} href={href}>
       {children}
     </a>
   );
@@ -87,4 +87,4 @@ Button.propTypes = {
   children: PropTypes.string.isRequired,
 };
 
-export default Button;
+export default Button;

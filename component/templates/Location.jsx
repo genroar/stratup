@@ -11,7 +11,7 @@ function Location() {
             <Header/>
         </div>
         <div className=''>
-            <div className='let'>
+            <div className='let flex flex-col gap-[20px]'>
                 <span className='text-[20px] font-medium text-gray-700 leading-[28.52px]'>Call us at this number</span>
                 <Heading level='5'>+ 9 (999)-999-99-99</Heading>
                 <span className='text-[20px] font-medium text-gray-700 leading-[28.52px]'>Company location</span>
