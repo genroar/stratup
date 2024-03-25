@@ -5,7 +5,7 @@ import "../../strapup/app/globals.css";
 function Home() {
   return (
     <div className="">
-      
+      hello
     </div>
   );
 }
