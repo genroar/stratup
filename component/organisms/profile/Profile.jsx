@@ -1,11 +1,13 @@
 import React, { useState } from "react";
-import '../../app/globals.css'
-import ListingButton from "../molecules/ListingButton";
-import BuyHome from "./BuyHome";
-import Rolex from "../molecules/Rolex";
-import Homesource from "./Homesource";
+import "../../../app/globals.css";
+import BuyHome from "../BuyHome";
+import Rolex from "@/component/molecules/Rolex";
+import Homesource from "../Homesource";
+import Sidebar from "./Sidebar";
 
-function Listing() {
+
+
+function Profile() {
   const [activeTab, setActiveTab] = useState("buy");
 
   const handleTabChange = (tabName) => {
@@ -13,13 +15,14 @@ function Listing() {
   };
 
   return (
-    <div className="margin-auto">
-      <ListingButton
+    <div className=" flex gap-[20px] mt-[100px] ml-[100px] margin-auto">
+      <Sidebar
         buy={() => handleTabChange("buy")}
         sell={() => handleTabChange("sell")}
         source={() => handleTabChange("source")}
         consign={() => handleTabChange("consign")}
       />
+      
       <div className="h-[1005px] w-[1200px]">
         {activeTab === "buy" && <BuyHome />}
         {activeTab === "sell" && <Rolex />}
@@ -30,4 +33,4 @@ function Listing() {
   );
 }
 
-export default Listing;
+export default Profile;

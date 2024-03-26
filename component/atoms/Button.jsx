@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-const Button = ({ href, children, variant }) => {
+const  Button = ({ href, children, variant, onClick }) => {
   let buttonStyle = "";
 
   switch (variant) {
@@ -22,11 +22,11 @@ const Button = ({ href, children, variant }) => {
       break;
     case "tl-radius":
       buttonStyle =
-        "bg-buttonGray h-[50px] cursor-pointer border-[1px]  text-center w-[150px] rounded-tl-[25px] flex items-center justify-center text-[20px] font-medium text-white";
+        "bg-buttonGray active:bg-buttonGray h-[50px] cursor-pointer border-[1px]  text-center w-[150px] rounded-tl-[25px] flex items-center justify-center text-[20px] font-medium text-white";
       break;
     case "tr-radius":
       buttonStyle =
-        "bg-white  h-[50px] border-2 cursor-pointer  text-center w-[150px] rounded-tr-[25px] flex items-center justify-center  text-[20px] font-medium text-buttonGray";
+        "bg-white  h-[50px] active:bg-buttonGray ${isClicked ? 'bg-blue-700' : 'bg-blue-500 hover:bg-blue-600'} border-2 cursor-pointer  text-center w-[150px] rounded-tr-[25px] flex items-center justify-center  text-[20px] font-medium text-buttonGray";
       break;
     case "rectangle":
       buttonStyle =
@@ -76,7 +76,7 @@ const Button = ({ href, children, variant }) => {
   }
 
   return (
-    <a className={buttonStyle} href={href}>
+    <a className={buttonStyle} onClick={onClick} href={href}>
       {children}
     </a>
   );
@@ -87,4 +87,4 @@ Button.propTypes = {
   children: PropTypes.string.isRequired,
 };
 
-export default Button;
+export default Button;

@@ -5,8 +5,8 @@ import FAQdrop from "../atoms/FAQdrop1";
 
 function Source() {
   return (
-    <div>
-      <div className="left flex-flex-col gap-[25px] ">
+    <div className="" >
+      <div className="left 	 flex-flex-col gap-[25px] ">
         <div>
           <Heading level="3">Source</Heading>
           <SourceSpan variant="secondary">
@@ -15,7 +15,7 @@ function Source() {
         </div>
         <div className="inner">
             <div className="main">
-                <div><FAQdrop  ></FAQdrop></div>
+                <div><FAQdrop  >huhihi</FAQdrop></div>
             </div>
             <div className="main"></div>
             <div className="main"></div>

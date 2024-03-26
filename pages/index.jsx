@@ -1,13 +1,12 @@
-import React from "react";
-import "../../strapup/app/globals.css";
+import Profile from '@/component/organisms/profile/Profile'
+import React from 'react'
 
-
-function Home() {
+function index() {
   return (
-    <div className="">
-      hello
+    <div>
+      <Profile/>
     </div>
-  );
+  )
 }
 
-export default Home;
+export default index
