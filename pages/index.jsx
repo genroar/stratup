@@ -1,9 +1,9 @@
 import React from "react";
 import "../../strapup/app/globals.css";
-import Photo from "@/component/organisms/Photo";
-import Location from "@/component/templates/Location";
-import Rolex from "@/component/molecules/Rolex";
-import Dashboard from "@/component/molecules/Dashboard";
+import Notification from "@/component/molecules/Notification";
+import Watch from "@/component/molecules/Watch";
+import Notificationbar from "@/component/organisms/Notificationbar";
+import Notificationoffer from "@/component/organisms/Notificationoffer";
 function index() {
   return (
     <div className="">
@@ -14,7 +14,12 @@ function index() {
       {/* <Photo/> */}
       {/* <Location/> */}
       {/* <Rolex/> */}
-      <Dashboard />
+      {/* <Dashboard /> */}
+      {/* <Listings/> */}
+      {/* <Notification/>
+      <Watch/> */}
+      {/* <Notificationbar/> */}
+      <Notificationoffer/>
       </div>
   );
 }
