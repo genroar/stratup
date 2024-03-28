@@ -7,28 +7,28 @@ import { IoPersonSharp } from "react-icons/io5";
 import { PiWatchFill } from "react-icons/pi";
 import { IoLogOut } from "react-icons/io5";
 
-function Sidebar({ buy, sell, source, consign }) {
+function Sidebar({ dashboard, listing, profile, notification ,stock}) {
   return (
-    <div className="flex py-[25px] justify-between flex-col w-[600px] shadow-lg h-[657px] rounded-[20px]">
+    <div className="flex py-[25px] justify-between flex-col w-[320px] shadow-lg h-[657px] rounded-[20px]">
       <div>
         {" "}
-        <ProfileButton onClick={buy} variant="primary">
+        <ProfileButton onClick={dashboard} variant="primary">
           <HiViewGrid  className=" w-[30px] h-[30px]"/>
           Dashboard
         </ProfileButton>
-        <ProfileButton onClick={sell} variant="primary">
+        <ProfileButton onClick={listing} variant="primary">
           <FaTag className=" w-[30px] h-[30px]" />
           Listing
         </ProfileButton>
-        <ProfileButton onClick={source} variant="primary">
-          <FaBell className=" w-[30px] h-[30px]" />
+        <ProfileButton onClick={notification} variant="primary">
+          <FaBell className="  w-[30px] h-[30px]" />
           Notification
         </ProfileButton>
-        <ProfileButton onClick={consign} variant="primary">
+        <ProfileButton onClick={profile} variant="primary">
           <IoPersonSharp className=" w-[30px] h-[30px]" />
           Profile
         </ProfileButton>
-        <ProfileButton variant="primary">
+        <ProfileButton onClick={stock} variant="primary">
           <PiWatchFill className=" w-[30px] h-[30px]" />
           Stock Managment
         </ProfileButton>
