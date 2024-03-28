@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import "../../../app/globals.css";
-import Homesource from "../Homesource";
 import Sidebar from "./Sidebar";
 import Dashboard from "@/component/molecules/Dashboard";
 import Profile from "./Profile";
+import Notificationbar from "../Notificationbar";
 
 
 
@@ -26,7 +26,7 @@ function Acount() {
       <div className="h-[1005px] w-[1200px]">
         {activeTab === "dashboard" && <Dashboard/>}
         {activeTab === "listing" && 'ddf'}
-        {activeTab === "notification" && <Homesource />}
+        {activeTab === "notification" && <Notificationbar/>}
         {activeTab === "profile" && <Profile/>}
         {activeTab === "stock" && <Profile/>}
       </div>
