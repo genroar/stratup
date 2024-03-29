@@ -3,7 +3,7 @@ import Heading from '../atoms/Heading';
 import { FiPlus } from 'react-icons/fi';
 import { RxCross2 } from 'react-icons/rx';
 
-function Photo() {
+function  Photo() {
   const [photos, setPhotos] = useState([
     '/assits/assits/image/photo1.png',
     '/assits/assits/image/photo2.png',
