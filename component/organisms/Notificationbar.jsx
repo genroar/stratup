@@ -3,7 +3,7 @@ import Notification from '../molecules/Notification'
 import Watch from '../molecules/Watch'
 function Notificationbar() {
   return (
-    <div className='shadow-sm w-[990px] rounded-[20px] py-[20px] px-[20px]'>
+    <div className='border border-opacity-10 w-[990px] rounded-[20px] py-[20px] px-[20px]'>
         <div className="text py-[20px]">
             <span className='text-[24px] font-medium'>Notifications</span>
         </div>
