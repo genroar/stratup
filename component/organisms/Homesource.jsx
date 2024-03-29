@@ -1,12 +1,13 @@
 import React from 'react'
+import '../../app/globals.css'
 import Homesrc from '../atoms/Homesrc'
 import Button from '../atoms/Button'
 import AnchorTag from '../atoms/Anchortag'
 import Heading from '../atoms/Heading'
 function Homesource() {
   return (
-    <div className='w-[1305px] h-[540px] shadow-lg  bg-opacity-10 bg-white px-[30px] py-[70px] rounded-[50px]'>
-      <div className='main flex justify-between'>
+    <div className='w-[1305px] source-outer   shadow-lg  bg-opacity-10 bg-white px-[30px] py-[70px] rounded-[50px]'>
+      <div className='flex justify-between main'>
         <div className='w-[900px]'>
           <div className='flex flex-col gap-[10px]'>
             <span className='text-[24px] font-medium text-gray-700'>Source</span>

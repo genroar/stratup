@@ -1,8 +1,9 @@
 import React, { useState } from "react";
+import '../../app/globals.css'
 import ListingButton from "../molecules/ListingButton";
 import BuyHome from "./BuyHome";
 import Rolex from "../molecules/Rolex";
-import Source from "./Source";
+import Homesource from "./Homesource";
 
 function Listing() {
   const [activeTab, setActiveTab] = useState("buy");
@@ -19,10 +20,10 @@ function Listing() {
         source={() => handleTabChange("source")}
         consign={() => handleTabChange("consign")}
       />
-      <div className="h-[1005px] w-[1200px] border-2 rounded-tr-[40px] rounded-br-[40px] rounded-bl-[40px] py-[20px]">
+      <div className="h-[1005px] w-[1200px]">
         {activeTab === "buy" && <BuyHome />}
         {activeTab === "sell" && <Rolex />}
-        {activeTab === "source" && <Source />}
+        {activeTab === "source" && <Homesource />}
         {activeTab === "consign" && <Rolex />}
       </div>
     </div>

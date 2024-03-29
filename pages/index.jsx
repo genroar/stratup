@@ -1,5 +1,6 @@
 import React from "react";
 import "../../strapup/app/globals.css";
+<<<<<<< HEAD
 import Notification from "@/component/molecules/Notification";
 import Watch from "@/component/molecules/Watch";
 import Notificationbar from "@/component/organisms/Notificationbar";
@@ -44,8 +45,20 @@ function index() {
       {/* <Listingmessenger/> */}
       {/* <Createlisting/> */}
     <Createorgan/>      
+=======
+import Acount from '@/component/organisms/account/Acount';
+import Header from '@/component/organisms/Header';
+
+function index() {
+  return (
+    <div className="">
+      <Header/>
+      <div>
+        <Acount/>
+>>>>>>> a32d7da8a45f6b5ae7bd567afab59ec33dec5b3f
       </div>
-  );
+    </div>
+  )
 }
 
-export default index; 
+export default index;
