@@ -2,7 +2,7 @@ import React from 'react'
 
 function Watch() {
   return (
-    <div className='w-[990px] '>
+    <div className='w-[950px] cursor-pointer hover:bg-profiletext hover:bg-opacity-10 px-[5px] rounded-[10px] '>
         <div className='watch flex items-center gap-[100px] w-[950px]'>
             <div className="watch-image flex items-center gap-[10px]">
                 <img src="/assits/assits/image/watch.png" alt="" />

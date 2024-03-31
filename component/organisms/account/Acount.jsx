@@ -15,7 +15,7 @@ function Acount() {
   };
 
   return (
-    <div className=" flex gap-[20px] ml-[40px] max-w-full margin-auto">
+    <div className=" mt-[50px]  flex gap-[20px] mx-auto -w-full margin-auto">§  
       <Sidebar
         dashboard={() => handleTabChange("dashboard")}
         listing={() => handleTabChange("listing")}
