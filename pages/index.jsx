@@ -1,23 +1,10 @@
 import React from "react";
 import "../../strapup/app/globals.css";
-<<<<<<< HEAD
-import Notification from "@/component/molecules/Notification";
-import Watch from "@/component/molecules/Watch";
-import Notificationbar from "@/component/organisms/Notificationbar";
-import Notificationoffer from "@/component/organisms/Notificationoffer";
-import Listingoverlayorgan from "@/component/molecules/Listingoverlaymalicule";
-import Dashanalitic from "@/component/molecules/Dashanalitic";
-import Dashboard from "@/component/molecules/Dashboard";
-import Listingoverlaymolicule from "@/component/molecules/Listingoverlaymalicule";
-import Listingdelte from "@/component/molecules/Listingdelte";
-import ListingBtn from "@/component/molecules/ListingBtn";
-import Listingoverall from "@/component/organisms/Listingoverall";
-import Listingmassege from "@/component/organisms/Listingmassege";
-import Listingbanned from "@/component/organisms/Listingbanned";
-import Listingmessenger from "@/component/organisms/Listingmessenger";
-import Createlisting from "@/component/atoms/Createlisting";
-import Createorgan from "@/component/organisms/Createorgan";
-import Photo from "@/component/organisms/Photo";
+import ModelSize from "@/component/molecules/ModelSize";
+import ModelPaper from "@/component/molecules/ModelPaper";
+import Modelprice from "@/component/organisms/Modelprice";
+import Source from "@/component/organisms/Source";
+import Homesource from "@/component/organisms/Homesource";
 function index() {
   return (
     <div className="">
@@ -36,6 +23,7 @@ function index() {
       {/* <Notificationoffer/> */}
       {/* <Dashanalitic/> */}
       {/* <Dashboard/> */}
+      {/* <ModelYear/> */}
       {/* <Listingoverlaymolicule/> */}
       {/* <Listingdelte/> */}
       {/* <ListingBtn/> */}
@@ -44,21 +32,17 @@ function index() {
       {/* <Listingbanned/> */}
       {/* <Listingmessenger/> */}
       {/* <Createlisting/> */}
-    <Createorgan/>      
-=======
-import Acount from '@/component/organisms/account/Acount';
-import Header from '@/component/organisms/Header';
-
-function index() {
-  return (
-    <div className="">
-      <Header/>
-      <div>
-        <Acount/>
->>>>>>> a32d7da8a45f6b5ae7bd567afab59ec33dec5b3f
+    {/* <Createorgan/>       */}
+    {/* <Listingstok/> */}
+    {/* <Modelhead/> */}
+    {/* <ModelCondition/> */}
+    {/* <ModelSize/> */}
+    {/* <ModelPaper/> */}
+    {/* <Modelprice/> */}
+    <Modelprice/>
+    {/* <Homesource/> */}
       </div>
-    </div>
-  )
+  );
 }
 
-export default index;
+export default index; 

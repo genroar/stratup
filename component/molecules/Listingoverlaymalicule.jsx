@@ -5,8 +5,9 @@ function Listingoverlaymalicule() {
     <div className='w-[990px]'>
             <div className='overlay shadow-sm w-[990px] rounded-[20px] py-[20px] px-[20px]'>
         <div className="over-inner flex items-center gap-[20px] ">
-            <div className='image'>
+            <div className='image relative'>
                 <img src="/assits/assits/image/over.png" alt="" />
+                <div className='bg-green-400 rounded-[20px] bottom-[106px] left-[10px] flex justify-center items-center absolute w-[66px] h-[26px]'><span className='text-[13px] font-normal text-white'>Available</span></div>
             </div>
             <div className='main flex gap-[40px]'>
             <div className='head divide-y-2'>

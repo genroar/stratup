@@ -15,7 +15,7 @@ function Source() {
         </div>
         <div className="inner">
             <div className="main">
-                <div><FAQdrop  >huhihi</FAQdrop></div>
+                <div><FAQdrop  ></FAQdrop></div>
             </div>
             <div className="main"></div>
             <div className="main"></div>

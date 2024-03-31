@@ -1,8 +1,6 @@
-// components/Dropdown.js
-
 import { useState } from 'react';
 
-const Dropdown = ({child, parent}) => {
+function Dropprice({child, parent}) {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedItem, setSelectedItem] = useState(null);
 
@@ -10,13 +8,13 @@ const Dropdown = ({child, parent}) => {
     setSelectedItem(item);
     setIsOpen(false);
   };
-
   return (
-    <div className="relative inline-block text-left">
+    <div>
+        <div className="relative inline-block text-left">
       <button
         onClick={() => setIsOpen(!isOpen)}
         type="button"
-        className="inline-flex justify-center w-[83px] h-[40px] rounded-[40px] border border-gray-300 shadow-sm items-center justify-center flex
+        className="inline-flex justify-center w-[360px] h-[40px] rounded-[40px] border border-gray-300 shadow-sm items-center justify-center flex
          bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 "
         id="menu-button"
         aria-expanded="true"
@@ -74,7 +72,8 @@ const Dropdown = ({child, parent}) => {
         </div>
       )}
     </div>
-  );
-};
+    </div>
+  )
+}
 
-export default Dropdown;
+export default Dropprice

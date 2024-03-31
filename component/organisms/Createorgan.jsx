@@ -40,44 +40,44 @@ function Createorgan() {
   return (
    <div className='w-[990px] shadow-sm rounded-[20px]'>
     <div className='px-[20px] py-[10px]'><Heading level='3'>Listing Creation</Heading></div>
-     <div className='w-[990px] flex flex-wrap px-[20px] justify-between'>
-        <div className='text flex flex-col gap-[10px]'>
+     <div className='w-[990px] flex flex-wrap gap-[20px] px-[20px] justify-between'>
+        <div className='text flex flex-col gap-[5px]'>
              <span className='text-[15px] font-normal'>Brand</span>
              <Createlisting parent='Type or select' child='Type or select'/>
         </div>
-        <div className='text flex flex-col gap-[10px]'>
+        <div className='text flex flex-col gap-[5px]'>
              <span className='text-[15px] font-normal'>Watch Model</span>
              <Createlisting parent='Type or select' child='Type or select'/>
         </div>
-        <div className='text flex flex-col gap-[10px]'>
+        <div className='text flex flex-col gap-[5px]'>
              <span className='text-[15px] font-normal'>Year</span>
              <Createlisting parent='Type' child='Type'/>
         </div>
-        <div className='text flex flex-col gap-[10px]'>
+        <div className='text flex flex-col gap-[5px]'>
              <span className='text-[15px] font-normal'>Condition</span>
              <Createlisting parent='select' child='select'/>
         </div>
-        <div className='text flex flex-col gap-[10px]'>
+        <div className='text flex flex-col gap-[5px]'>
              <span className='text-[15px] font-normal'>Case Diameter</span>
              <Createlisting parent=' select' child='select'/>
         </div>
-        <div className='text flex flex-col gap-[10px]'>
+        <div className='text flex flex-col gap-[5px]'>
              <span className='text-[15px] font-normal'>Case material</span>
              <Createlisting parent='select' child='select'/>
         </div>
-        <div className='text flex flex-col gap-[10px]'>
+        <div className='text flex flex-col gap-[5px]'>
              <span className='text-[15px] font-normal'>Box & Papers</span>
              <Createlisting parent='select' child='select'/>
         </div>
-        <div className='text flex flex-col gap-[10px]'>
+        <div className='text flex flex-col gap-[5px]'>
              <span className='text-[15px] font-normal'>Price</span>
              <Createlisting parent='Type' child='Type '/>
         </div>
-        <div className='text flex flex-col gap-[10px]'>
+        <div className='text flex flex-col gap-[5px]'>
              <span className='text-[15px] font-normal'>Price type</span>
              <Createlisting parent='select' child='select'/>
         </div>
-        <div className='text flex flex-col gap-[10px]'>
+        <div className='text flex flex-col gap-[5px]'>
              <span className='text-[15px] font-normal'>Country</span>
              <Createlisting parent='Type' child='Type'/>
         </div>

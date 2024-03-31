@@ -15,27 +15,27 @@ function Homesource() {
           </div>
           <div className='flex w-[930px] gap-[30px] mt-[10px] flex-wrap'>
             <div>
-              <span className='text-[15px] leading-[18.6px] font-normal'>Brand</span>
+              <span className='text-[15px] leading-[18.6px] font-normal text-gray-500'>Brand</span>
               <Homesrc parent='Type or select' child='umair'></Homesrc>
             </div>
             <div>
-              <span className='text-[15px] font-normal leading-[18.6px]'>Watch Model</span>
+              <span className='text-[15px] font-normal leading-[18.6px] text-gray-500'>Watch Model</span>
               <Homesrc parent='Type or select' child='umair'></Homesrc>
             </div>
             <div>
-              <span className='text-[15px] font-normal'>Year</span>
+              <span className='text-[15px] font-normal text-gray-500'>Year</span>
               <Homesrc parent='Type or select' child='umair'></Homesrc>
             </div>
             <div>
-              <span className='text-[15px] font-normal'>Condition</span>
+              <span className='text-[15px] font-normal text-gray-500'>Condition</span>
               <Homesrc parent='Select' child='umair'></Homesrc>
             </div>
             <div>
-              <span className='text-[15px] font-normal'>Email</span>
+              <span className='text-[15px] font-normal text-gray-500'>Email</span>
               <Homesrc parent='Type or select' child='umair'></Homesrc>
             </div>
             <div>
-              <span className='text-[15px] font-normal'>Phone Number</span>
+              <span className='text-[15px] font-normal text-gray-500'>Phone Number</span>
               <Homesrc parent='Type' child='umair'></Homesrc>
             </div>
           </div>
