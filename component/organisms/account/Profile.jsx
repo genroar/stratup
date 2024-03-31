@@ -6,9 +6,6 @@ import ProButtons from "@/component/molecules/ProButtons";
 import ProPassword from "./ProPassword";
 import ProDetail from "./ProDetail";
 
-// Define the URL of your default image
-const DEFAULT_IMAGE_URL = "path_to_your_default_image.jpg";
-
 function Profile() {
   const [activeTab, setActiveTab] = useState('genrel');
 
