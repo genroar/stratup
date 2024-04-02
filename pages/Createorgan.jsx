@@ -1,15 +1,23 @@
 import React, { useState, useRef } from 'react';
-import Createlisting from '../atoms/Createlisting';
+import { useRouter,  } from 'next/router'; // Import useRouter from Next.js
+import Createlisting from '../component/atoms/Createlisting';
 import { AiOutlinePlus } from "react-icons/ai";
 import Checkbox from "@/component/atoms/Checkbox"
-import AnchorTag from '../atoms/Anchortag';
-import Button from '../atoms/Button';
+import AnchorTag from '../component/atoms/Anchortag';
+import Button from '../component/atoms/Button';
 import { RxCross2 } from "react-icons/rx";
 import { FiPlus } from 'react-icons/fi';
 import { RxCross1 } from "react-icons/rx";
 
-import Heading from '../atoms/Heading';
+import Heading from '../component/atoms/Heading';
 function Createorgan() {
+
+    const router = useRouter();
+
+   const  handleButtonClick = () => {
+      router.push("/Account")
+    }
+
     const [photos, setPhotos] = useState([
         '/assits/assits/image/photo2.png',
         '/assits/assits/image/photo4.png',
@@ -39,10 +47,10 @@ function Createorgan() {
         setPhotos(updatedPhotos);
       };
   return (
-<div className=" flex flex-col gap-[50px]">
+<div className=" flex pb-[50px] flex-col gap-[50px]">
 <div className=''>
         <div className='main flex items-center px-[50px] py-[20px]'>
-          <button><RxCross1 /></button>
+          <button onClick={handleButtonClick} ><RxCross1 /></button>
           <div className='flex justify-center items-center w-full'><img className='w-[160px]' src="/assits/assits/image/header-Logo.png" alt="" /></div>
         </div>
         <div className='w-full h-[15px] bg-gray-400 shadow-md'>
