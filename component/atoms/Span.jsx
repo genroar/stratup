@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 
 const Span = ({ children }) => {
 
-  const spanStyle = "text-secondary"
+  const spanStyle = "text-secondary"  
 
   return (
     <span className={spanStyle}>{children}</span>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import "../../strapup/app/globals.css";
 import Header from "@/component/organisms/Header";
 import Footer from "@/component/organisms/Footer";
@@ -7,21 +7,21 @@ import Listing from "@/component/organisms/Listing";
 function Home() {
   return (
     <div>
-            <div className="">
-      <Header />
-      <div>
-        <Banner />
-        <div className="flex justify-center items-center">
-          <Listing />
-        </div>
+      <div className="">
+        <Header />
         <div>
-          <div></div>
+          <Banner />
+          <div className="flex items-center justify-center">
+            <Listing />
+          </div>
+          <div>
+            <div></div>
+          </div>
         </div>
+        <Footer />
       </div>
-      <Footer />
     </div>
-    </div>
-  )
+  );
 }
 
-export default Home
+export default Home;

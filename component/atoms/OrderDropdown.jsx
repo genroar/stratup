@@ -16,14 +16,14 @@ const OrderDropdown = () => {
       <button
         onClick={() => setIsOpen(!isOpen)}
         type="button"
-        className="inline-flex justify-center w-[235px] h-[40px] rounded-[40px] flex px-[15px] items-center justify-between border border-gray-300 shadow-sm items-center justify-center flex bg-gray-300 bg-opacity-20 text-sm font-medium text-gray-700 "
+        className="inline-flex justify-center w-[200px] h-[40px] rounded-[40px] flex px-[15px] items-center justify-between border border-gray-300 shadow-sm items-center justify-center flex bg-gray-300 bg-opacity-20 text-sm font-medium text-gray-700 "
         id="menu-button"
         aria-expanded="true"
         aria-haspopup="true"
       >
         {selectedItem || 'Order by'}
         <svg
-          className="-mr-1 ml-2 h-5 w-5"
+          className="w-5 h-5 ml-2 -mr-1"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 20 20"
           fill="currentColor"
@@ -39,7 +39,7 @@ const OrderDropdown = () => {
 
       {isOpen && (
         <div
-          className="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5"
+          className="absolute right-0 w-56 mt-2 origin-top-right bg-white rounded-md shadow-lg ring-1 ring-black ring-opacity-5"
           role="menu"
           aria-orientation="vertical"
           aria-labelledby="menu-button"

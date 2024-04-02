@@ -30,7 +30,7 @@ function AboutUs() {
               comfortable{" "}
             </Heading>
           </div>
-          <div className="relative  ">
+          <div className="relative ">
             <div className="absolute mt-[-12px] left-[425px]" > 
             <Button  variant="aboutus">Read more</Button>
             </div>

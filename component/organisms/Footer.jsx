@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../app/globals.css'
 import CustomImage from '../atoms/CustomImage'
 import Paragraph from '../atoms/Paragraph'
 import Input from '../atoms/Input'
@@ -6,13 +7,13 @@ import AnchorTag2 from '../atoms/Anchortag2'
 function Footer() {
     return (
         <div className='main-footer '>
-            <div className='footer  bg-gray-800 flex gap-[180px] py-[50px]'>
+            <div className='footer   flex gap-[180px] py-[50px]'>
                 <div className='strap flex flex-col gap-[20px] pl-[40px]'>
                     <div className='text-white'>
                         <CustomImage src='/assits/assits/image/footer.png' />
                         <p className='text-[18px] font-light leading-[25.67px] pt-[15px]'>Subscribe to recieve updates, acces to <br />exlusive deald and more</p>
                     </div>
-                    <div className='flex relative'>
+                    <div className='relative flex'>
                         <div className='border-b-[1px] border-bg-white  w-[418px] text-white'><Input variant='five2' type='Email' children='E-mail' /></div>
                         <div className='absolute left-[407px]'><img src="/assits/assits/svg/greater.svg" alt="" /></div>
                     </div>
