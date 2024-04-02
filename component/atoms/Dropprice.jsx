@@ -9,18 +9,19 @@ function Dropprice({child, parent}) {
     setIsOpen(false);
   };
   return (
-    <div>
-        <div className="relative inline-block text-left">
-      <button
+    <div className=''>
+        <div className="relative">
+  <div>
+  <button
         onClick={() => setIsOpen(!isOpen)}
         type="button"
-        className="inline-flex justify-center w-[360px] h-[40px] rounded-[40px] border border-gray-300 shadow-sm items-center justify-center flex
+        className=" justify-between px-[20px] w-[360px] h-[40px] rounded-[40px] border border-gray-300 shadow-sm items-center  flex
          bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 "
         id="menu-button"
         aria-expanded="true"
         aria-haspopup="true"
       >
-        {selectedItem || 'AED'}
+        {selectedItem || 'Fixed'}
         <svg
           className="-mr-1 ml-2 h-5 w-5"
           xmlns="http://www.w3.org/2000/svg"
@@ -35,10 +36,11 @@ function Dropprice({child, parent}) {
           />
         </svg>
       </button>
-
-      {isOpen && (
+  </div>
+<div>
+{isOpen && (
         <div
-          className="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5"
+          className="origin-top-right absolute right-0 mt-2 w-[360px] rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5"
           role="menu"
           aria-orientation="vertical"
           aria-labelledby="menu-button"
@@ -48,9 +50,9 @@ function Dropprice({child, parent}) {
               href="#"
               className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
               role="menuitem"
-              onClick={() => handleItemClick('AED')}
+              onClick={() => handleItemClick('Fixed')}
             >
-              AED
+              Fixed
             </a>
             <a
               href="#"
@@ -71,6 +73,8 @@ function Dropprice({child, parent}) {
           </div>
         </div>
       )}
+</div>
+
     </div>
     </div>
   )

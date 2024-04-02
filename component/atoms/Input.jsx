@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-
+import '../../app/globals.css'
 import React from "react";
 
 function Input({ variant, type, children }) {
@@ -27,7 +27,7 @@ function Input({ variant, type, children }) {
       break;
       case "five2":
         inputStyle =
-          "w-[418px] h-[25px] outline-none border-[2px] bg-black border-none pb-[10px ]  ";
+          "w-[418px] h-[25px] outline-none border-[2px] bg-footerbg border-none pb-[10px]  ";
         break;
     case "six":
       inputStyle =

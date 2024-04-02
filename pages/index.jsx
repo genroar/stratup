@@ -1,12 +1,12 @@
 import React from "react";
 import "../../strapup/app/globals.css";
 import Buy from "@/component/templates/Buy";
-import Acount from "@/component/organisms/account/Acount";
+import About from "./about";
 
 function index() {
   return (
     <div className="">
-        <Acount/>
+      <About/>      
     </div>
   )
 }
