@@ -1,10 +1,24 @@
 import React from 'react'
 import Heading from '../atoms/Heading'
 import Button from '../atoms/Button'
+import { RxCross1 } from "react-icons/rx";
 
 function Submitment() {
   return (
-    <div className='flex flex-col gap-[20px]  w-[360px]'>
+ <div className="flex flex-col gap-[150px]">
+    <div className=''>
+        <div className='main flex items-center px-[50px] py-[20px]'>
+          <button><RxCross1 /></button>
+          <div className='flex justify-center items-center w-full'><img className='w-[160px]' src="/assits/assits/image/header-Logo.png" alt="" /></div>
+        </div>
+        <div className='w-full h-[15px] bg-gray-400 shadow-md'>
+          <div className='w-full rounded-r-[10px] bg-gray-700 h-[15px]'>
+
+          </div>
+        </div>
+      </div>
+     <div className="flex flex-col justify-center items-center">
+      <div className='flex flex-col gap-[20px]  w-[360px]'>
         <div className='text-center'><Heading level='4'>Our management fees are</Heading></div>
         <div className='w-[360px] rounded-[20px] shadow-sm text-center flex flex-col gap-[10px] py-[20px]'> 
             <span className='text-[15px] font-normal text-gray-900'>500 AED for watches below 10k</span>
@@ -23,6 +37,8 @@ function Submitment() {
             <Button variant='primary'>Submit</Button>
         </div>
     </div>
+  </div>
+ </div>
   )
 }
 
