@@ -2,6 +2,7 @@ import React, { useState, useRef } from 'react';
 import Heading from '../atoms/Heading';
 import { FiPlus } from 'react-icons/fi';
 import { RxCross2 } from 'react-icons/rx';
+import { RxCross1 } from "react-icons/rx";
 
 function  Photo() {
   const [photos, setPhotos] = useState([
@@ -35,7 +36,20 @@ function  Photo() {
   };
 
   return (
-    <div className="main flex flex-col justify-center items-center text-center gap-[20px]">
+<div className="flex flex-col gap-[150px]">
+<div className=''>
+        <div className='main flex items-center px-[50px] py-[20px]'>
+          <button><RxCross1 /></button>
+          <div className='flex justify-center items-center w-full'><img className='w-[160px]' src="/assits/assits/image/header-Logo.png" alt="" /></div>
+        </div>
+        <div className='w-full h-[15px] bg-gray-400 shadow-md'>
+          <div className='w-[1080px] rounded-r-[10px] bg-gray-700 h-[15px]'>
+
+          </div>
+        </div>
+      </div>
+<div className="flex flex-col justify-center items-center">
+<div className="main flex flex-col justify-center items-center text-center gap-[20px]">
       <div className="inner w-[360px] ">
         <div className="text flex flex-col">
           <span className="text-[20px] font-medium text-gray-700">Photos</span>
@@ -81,6 +95,8 @@ function  Photo() {
         <span className="text-[15px] font-medium text-white">Next</span>
       </div>
     </div>
+</div>
+</div>
   );
 }
 

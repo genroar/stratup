@@ -10,6 +10,13 @@ import FAQ from "@/component/organisms/FAQ";
 import ModelHeader from "@/component/molecules/ModelHeader";
 import Modelcountry from "@/component/organisms/Modelcountry";
 import ModelCondition from "@/component/molecules/ModelCondition";
+import Modelprice from "@/component/organisms/Modelprice";
+import Modelsignup from "@/component/organisms/Modelsignup";
+import ModelYear from "@/component/molecules/ModelYear";
+import ModelSize from "@/component/molecules/ModelSize";
+import Modelmeterial from "@/component/molecules/Modelmeterial";
+import ModelPaper from "@/component/molecules/ModelPaper";
+import Photo from "@/component/organisms/Photo";
 function index() {
   return (
     <div className="">
@@ -27,8 +34,14 @@ function index() {
       </div>
       <Footer />
       {/* <Modelcountry/> */}
-      <ModelCondition/>
-
+      {/* <ModelCondition/> */}
+      {/* <Modelprice/> */}
+      {/* <Modelsignup/> */}
+      {/* <ModelYear/> */}
+      {/* <ModelSize/> */}
+      {/* <Modelmeterial/> */}
+      {/* <ModelPaper/> */}
+      {/* <Photo/> */}
       
     </div>
   );
