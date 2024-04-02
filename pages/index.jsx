@@ -5,6 +5,8 @@ import Footer from '@/component/organisms/Footer'
 import Createlisting from '@/component/atoms/Createlisting'
 import Createorgan from '@/component/organisms/Createorgan'
 import Submitment from '@/component/organisms/Submitment'
+import Source2 from '@/component/organisms/Source2'
+import Homesource from '@/component/organisms/Homesource'
 function index() {
   return (
     <div>
@@ -13,7 +15,9 @@ function index() {
         <Footer/> */}
         {/* <Createlisting/> */}
         {/* <Createorgan/> */}
-        <Submitment/>
+        {/* <Submitment/> */}
+        {/* <Homesource/> */}
+        <Source2/>
     </div>
   )
 }
