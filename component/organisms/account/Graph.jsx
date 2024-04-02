@@ -7,11 +7,11 @@ function Graph() {
      
     useEffect(() => {
         const data = [
-          { year: 2010, count: 20 },
-          { year: 2012, count: 50 },
-          { year: 2016, count: 28 },
-          { year: 2015, count: 30 },
-          { year: 2015, count: 30 },
+          { Rolex: 2010, count: 3 },
+          { Tissot: 2012, count: 2 },
+          { PatekPhilippe: 2016, count: 2 },
+          { TagHeurer: 2015, count: 1 },
+          { Omega: 2015, count: 1 },
 
         ];
 

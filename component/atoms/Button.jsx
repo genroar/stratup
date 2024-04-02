@@ -1,12 +1,20 @@
+import React, { useState } from "react";
+import '../../app/globals.css'
 import PropTypes from "prop-types";
 
-const  Button = ({ href, children, variant, onClick }) => {
+const Button = ({ href, children, variant, onClick }) => {
+  const [activeButton, setActiveButton] = useState(null);
+
+  const handleButtonClick = (buttonName) => {
+    setActiveButton(buttonName);
+  };
+
   let buttonStyle = "";
 
   switch (variant) {
     case "primary":
       buttonStyle =
-        "bg-buttonGray  cursor-pointer flex justify-center items-center h-[41px] text-center w-[340px] rounded-[20px] py-[7px] curser-pointer text-[15px] font-medium text-white";
+        "bg-buttonGray cursor-pointer flex justify-center items-center h-[41px] text-center w-[360px] rounded-[20px] py-[7px] curser-pointer text-[15px] font-medium text-white";
       break;
     case "secondary":
       buttonStyle =
@@ -22,11 +30,14 @@ const  Button = ({ href, children, variant, onClick }) => {
       break;
     case "tl-radius":
       buttonStyle =
-        "bg-buttonGray active:bg-buttonGray h-[50px] cursor-pointer border-[1px]  text-center w-[150px] rounded-tl-[25px] flex items-center justify-center text-[20px] font-medium text-white";
+        "bg-buttonGray cursor-pointer border border-opacity-10 text-center w-[150px] rounded-tl-[25px] flex items-center justify-center text-[20px] font-medium text-white";
+      if (activeButton === "tl-radius") {
+        buttonStyle += " active:bg-buttonGray";
+      }
       break;
     case "tr-radius":
       buttonStyle =
-        "bg-white  h-[50px] active:bg-buttonGray ${isClicked ? 'bg-blue-700' : 'bg-blue-500 hover:bg-blue-600'} border-2 cursor-pointer  text-center w-[150px] rounded-tr-[25px] flex items-center justify-center  text-[20px] font-medium text-buttonGray";
+        "bg-white  h-[50px] active:bg-buttonGray ${isClicked ? 'bg-blue-700' : 'bg-blue-500 hover:bg-blue-600'} border border-opacitiy cursor-pointer  text-center w-[150px] rounded-tr-[25px] flex items-center justify-center  text-[20px] font-medium text-buttonGray";
       break;
     case "rectangle":
       buttonStyle =
@@ -60,25 +71,34 @@ const  Button = ({ href, children, variant, onClick }) => {
       buttonStyle =
         "bg-white h-[40px] cursor-pointer  text-center w-[120px] rounded-[40px] py-[5px] border-2 border-buttonGray  text-buttonGray ";
       break;
-      a;
     case "contact":
       buttonStyle =
         "bg-buttonGray h-[40px] cursor-pointer  text-center w-[140px] rounded-[40px] py-[7px]  text-white";
       break;
-      case "aboutus":
-        buttonStyle =
-          "bg-white cursor-pointer text-gray-700 border-2 h-[40px]  text-center w-[140px] rounded-[40px] flex items-center justify-center  ";
-        break;
+    case "aboutus":
+      buttonStyle =
+        "bg-white cursor-pointer text-gray-700 border-2 h-[40px]  text-center w-[140px] rounded-[40px] flex items-center justify-center  ";
+      break;
     case "submit":
       buttonStyle =
         "bg-buttonGray h-[41px] cursor-pointer text-center w-[235px] text-[16px] font-medium rounded-[20px] py-[7px] curser-pointer text-white";
       break;
+    default:
+      buttonStyle = "";
+      break;
   }
 
   return (
-    <a className={buttonStyle} onClick={onClick} href={href}>
-      {children}
-    </a>
+    <a
+    className={buttonStyle}
+    onClick={() => {
+      handleButtonClick(variant);
+      onClick && onClick();
+    }}
+    href={href}
+  >
+    {children}
+  </a>
   );
 };
 
@@ -87,4 +107,4 @@ Button.propTypes = {
   children: PropTypes.string.isRequired,
 };
 
-export default Button;
+export default Button;

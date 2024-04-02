@@ -15,7 +15,7 @@ function Input({ variant, type, children }) {
       break;
     case "third":
       inputStyle =
-        "w-[835px] h-[41px] rounded-[40px] outline-none p-[10px]  border-2 border-opacity-10 border-gray-500  ";
+        "w-[780px] h-[41px] rounded-[40px] outline-none p-[10px]  border-2 border-opacity-10 border-gray-500  ";
       break;
     case "four":
       inputStyle =

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Button from '../atoms/Button';
 
 function ListingButton({ buy, sell, source, consign }) {
+
   return (
     <div className='flex w-[600px] shadow-md transform rotate-y-1 rounded-tr-[25px]'>
       <Button onClick={buy} variant='tl-radius'>Buy</Button>

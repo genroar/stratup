@@ -4,6 +4,7 @@ import Sidebar from "./Sidebar";
 import Dashboard from "@/component/molecules/Dashboard";
 import Profile from "./Profile";
 import Notificationbar from "../Notificationbar";
+import Stockmenag from "./Stockmenag";
 
 
 
@@ -21,6 +22,7 @@ function Acount() {
         listing={() => handleTabChange("listing")}
         notification={() => handleTabChange("notification")}
         profile={() => handleTabChange("profile")}
+        stock={() => handleTabChange("stock")}
       />
       
       <div className="h-[1005px] w-[1200px]">
@@ -28,7 +30,7 @@ function Acount() {
         {activeTab === "listing" && 'ddf'}
         {activeTab === "notification" && <Notificationbar/>}
         {activeTab === "profile" && <Profile/>}
-        {activeTab === "stock" && <Profile/>}
+        {activeTab === "stock" && <Stockmenag/>}
       </div>
     </div>
   );
