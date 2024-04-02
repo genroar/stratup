@@ -1,16 +1,51 @@
-import React from 'react'
-import Button from '../atoms/Button'
+import React, { useState } from "react";
 
-function ListingBtn() {
+function ListingBtn({ analytic , msg , offer }) {
+  const [activeButton, setActiveButton] = useState(null);
+
+  const handleButtonClick = (buttonName) => {
+    setActiveButton(buttonName);
+  };
+
   return (
-    <div className='btn'>
-        <div className='btn-inner flex w-[990px] shadow-sm rounded-[20px] py-[10px] px-[10px]'>
-            <div className='w-[87px] h-[35px] rounded-[20px] bg-gray-700 text-[white] flex justify-center items-center'><Button>Analysis</Button></div>
-            <div className='w-[87px] h-[35px] rounded-[20px] flex justify-center items-center'><Button>Messages</Button></div>
-            <div className='w-[87px] h-[35px] rounded-[20px]  flex justify-center items-center'><Button>Offers</Button></div>
-        </div>
+    <div>
+      <div className="w-[990px] flex gap-[6px] py-[8px] border rounded-[20px] px-[8px]">
+        <button
+          onClick={() => {
+            handleButtonClick("analytic");
+            analytic();
+          }}
+          className={`w-[86px] h-[35px] font-regular text-gray-400  flex items-center justify-center  rounded-[20px] ${
+            activeButton === "analytic" ? "bg-buttonGray text-white " : ""
+          }`}
+        >
+          Analytic
+        </button>
+        <button
+          onClick={() => {
+            handleButtonClick("msg");
+            msg();
+          }}
+          className={`w-[97px] h-[35px] font-regular text-gray-400 flex items-center justify-center  rounded-[20px] ${
+            activeButton === "msg" ? "bg-buttonGray text-white" : ""
+          }`}
+        >
+          Message
+        </button>
+        <button
+          onClick={() => {
+            handleButtonClick("offer");
+            offer();
+          }}
+          className={`w-[75px] h-[35px] font-regular text-gray-400 flex items-center justify-center  rounded-[20px] ${
+            activeButton === "offer" ? "bg-buttonGray text-white" : ""
+          }`}
+        >
+          offer
+        </button>
+      </div>
     </div>
-  )
+  );
 }
 
-export default ListingBtn
+export default ListingBtn;

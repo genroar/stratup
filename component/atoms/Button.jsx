@@ -32,7 +32,7 @@ const Button = ({ href, children, variant, onClick }) => {
       break;
     case "tl-radius":
       buttonStyle =
-        "bg-buttonGray cursor-pointer border border-opacity-10 text-center w-[150px] rounded-tl-[25px] flex items-center justify-center text-[20px] font-medium text-white";
+        "bg-white cursor-pointer border border-opacity-10 text-center w-[150px] rounded-tl-[25px] flex items-center justify-center text-[20px] font-medium text-white";
       if (activeButton === "tl-radius") {
         buttonStyle += " active:bg-buttonGray";
       }

@@ -11,7 +11,10 @@ function ProButtons({ genrel, password, address }) {
     <div>
       <div className="w-[990px] flex gap-[6px] py-[8px] border rounded-[20px] px-[8px]">
         <button
- 
+           onClick={() => {
+            handleButtonClick("genrel");
+            genrel();
+          }}
           className={`w-[86px] h-[35px] font-regular text-gray-400  flex items-center justify-center  rounded-[20px] ${
             activeButton === "genrel" ? "bg-buttonGray text-white " : ""
           }`}
