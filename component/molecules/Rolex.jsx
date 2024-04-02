@@ -6,7 +6,7 @@ import Other from '../atoms/Other'
 
 function Rolex() {
   return ( 
-    <div className="flex shadow-sm w-[1195px] justify-center items-center py-[20px] relative top-[-45px] rounded-br-[40px] rounded-bl-[40px] rounded-tr-[40px]">
+    <div className="flex shadow-sm w-[1195px] justify-center items-center py-[50px] relative top-[-45px] rounded-br-[40px] rounded-bl-[40px] rounded-tr-[40px]">
             <div className='w-[360px]   flex flex-col text-center gap-[25px] '>
         <div>
             <Heading level='4'>Watch brand</Heading>
