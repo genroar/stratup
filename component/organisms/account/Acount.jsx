@@ -5,6 +5,7 @@ import Dashboard from "@/component/molecules/Dashboard";
 import Profile from "./Profile";
 import Notificationbar from "../Notificationbar";
 import Stockmenag from "./Stockmenag";
+import Listingoverall from "../Listingoverall";
 
 
 
@@ -27,7 +28,7 @@ function Acount() {
       
       <div className="h-[1005px] w-[1200px]">
         {activeTab === "dashboard" && <Dashboard/>}
-        {activeTab === "listing" && 'ddf'}
+        {activeTab === "listing" && <Listingoverall/>}
         {activeTab === "notification" && <Notificationbar/>}
         {activeTab === "profile" && <Profile/>}
         {activeTab === "stock" && <Stockmenag/>}
