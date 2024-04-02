@@ -6,8 +6,9 @@ import AnchorTag from '../atoms/Anchortag'
 import Heading from '../atoms/Heading'
 function Homesource() {
   return (
-    <div className='w-[1305px] source-outer   shadow-lg  bg-opacity-10 bg-white px-[30px] py-[70px] rounded-[50px]'>
-      <div className='flex justify-between main'>
+    <div className=''>
+         <div className='w-[1200px] source-outer shadow-sm relative top-[-45px]  bg-opacity-10 bg-white px-[20px] py-[20px] rounded-tr-[50px] rounded-bl-[50px]  rounded-br-[50px]'>
+      <div className='flex main w-[1200px]'>
         <div className='w-[900px]'>
           <div className='flex flex-col gap-[10px]'>
             <span className='text-[24px] font-medium text-gray-700'>Source</span>
@@ -43,9 +44,11 @@ function Homesource() {
             <div className='w-[11.5px] h-[12.5px] '><input type="checkbox" /></div>
             <span className='text-[13px] leading-[16.12px] mt-[4px]'>I accept the <AnchorTag>Terms & Conditions</AnchorTag></span>
           </div>
-          <div className='button bg-gray-700 w-[235px] h-[40px] flex justify-center items-center rounded-[20px] py-[20px] my-[25px] text-white text-[16px] text-medium font-medium float-right'>
+         <div className='w-[835px]'>
+         <div className='button bg-gray-700 w-[235px] h-[40px] flex justify-center items-center rounded-[20px] py-[20px] my-[25px] text-white text-[16px] text-medium font-medium float-right'>
             <Button children='Submit'></Button>
           </div>
+         </div>
         </div>
         <div className='box flex flex-col gap-[25px] '>
         <div className='text-center'><Heading level='4'>Our sourcing fees are</Heading></div>
@@ -58,6 +61,7 @@ function Homesource() {
         </div>
       </div>
 
+    </div>
     </div>
   )
 }

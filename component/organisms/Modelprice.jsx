@@ -4,6 +4,8 @@ import Input from '../atoms/Input'
 import Dropdown from '../atoms/Dropdown'
 import Homesrc from "@/component/atoms/Homesrc"
 import Dropprice from '../atoms/Dropprice';
+import AnchorTag from '../atoms/Anchortag';
+import Button from '../atoms/Button';
 
 
 function Modelprice() {
@@ -15,20 +17,20 @@ function Modelprice() {
         setIsOpen(false);
     };
     return (
-        <div>
+        <div className='w-[360px] flex flex-col gap-[20px] items-center text-center'>
             <div className="">
                 <div><Heading level='4'>Price</Heading></div>
                 <div><span className='text-[15px] font-normal text-gray-700'>How much does your watch cost?</span></div>
                 <div><span className='text-[13px] font-normal text-gray-600 text-opacity-50'>Enter the price you want to sell the watch for</span></div>
             </div>
-            <div className='absolute'>
+            <div className='absolute top-[95px]'>
                 <Input variant='eight' type='input' children='Type here' />
-                <div className='relative bottom-[40px] left-[277px]'>
+                <div className='relative bottom-[40px] left-[137px]'>
                     <div className="relative inline-block text-left">
                         <button
                             onClick={() => setIsOpen(!isOpen)}
                             type="button"
-                            className=" justify-center w-[360px] h-[40px] rounded-[40px] border bg-buttonGray border-gray-300 shadow-sm items-center text-white flex
+                            className=" justify-center w-[83px] h-[40px] rounded-[40px] border bg-buttonGray border-gray-300 shadow-sm items-center text-white flex
          text-sm font-medium  "
                             id="menu-button"
                             aria-expanded="true"
@@ -88,12 +90,15 @@ function Modelprice() {
                     </div>
                 </div>
             </div>
-            <div className=''>
+            <div className='flex flex-col gap-[35px] text-center mt-[15px]'>
                 <div className='relative top-[30px]'><span className='text-[13px] font-normal text-gray-900'>AND</span></div>
                 <div><span className='text-gray-600 text-[13px] font-normal'>Select the price type</span></div>
             </div>
             <div className=''>
                 <Dropprice child='Fixed' parent='Fixed' />
+            </div>
+            <div className='bg-buttonGray w-[360px] h-[40px] rounded-[20px] text-center flex justify-center items-center text-white'>
+                <Button>Next</Button>
             </div>
         </div>
     )

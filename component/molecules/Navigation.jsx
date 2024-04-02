@@ -1,15 +1,16 @@
 import React from 'react'
 import AnchorTag from '../atoms/Anchortag'
+import Link from 'next/link'
 
 function Navigation() {
   return (
     <div className='flex  h-[20px] gap-[30px] ' >
-      <AnchorTag>Buy</AnchorTag>
-      <AnchorTag>Sell</AnchorTag>
-      <AnchorTag>Sources</AnchorTag>
-      <AnchorTag>Consign</AnchorTag>
-      <AnchorTag>About Us</AnchorTag>
-      <AnchorTag>Blog</AnchorTag>
+      <Link href='/buy'>Buy</Link>
+      <Link href='/sell'>Sell</Link>
+      <Link href='/sources'>Sources</Link>
+      <Link href='/consign'>Consign</Link>
+      <Link href='/about'>About Us</Link>
+      <Link href='/blog'>Blog</Link>
     </div>
   )
 }

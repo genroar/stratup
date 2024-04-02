@@ -6,7 +6,7 @@ const  Button = ({ href, children, variant, onClick }) => {
   switch (variant) {
     case "primary":
       buttonStyle =
-        "bg-buttonGray  cursor-pointer flex justify-center items-center h-[41px] text-center w-[340px] rounded-[20px] py-[7px] curser-pointer text-[15px] font-medium text-white";
+        "bg-buttonGray  cursor-pointer flex justify-center items-center h-[41px] text-center w-[360px] rounded-[20px] py-[7px] curser-pointer text-[15px] font-medium text-white";
       break;
     case "secondary":
       buttonStyle =
@@ -22,7 +22,7 @@ const  Button = ({ href, children, variant, onClick }) => {
       break;
     case "tl-radius":
       buttonStyle =
-        "bg-buttonGray active:bg-buttonGray h-[50px] cursor-pointer border-[1px]  text-center w-[150px] rounded-tl-[25px] flex items-center justify-center text-[20px] font-medium text-white";
+        "bg-buttonGray active:bg-buttonGray h-[50px] cursor-pointer   text-center w-[150px] rounded-tl-[25px] flex items-center justify-center text-[20px] font-medium text-white";
       break;
     case "tr-radius":
       buttonStyle =

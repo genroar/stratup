@@ -1,15 +1,13 @@
-import React from "react";
+import React from 'react'
 import "../../strapup/app/globals.css";
 import Header from "@/component/organisms/Header";
 import Footer from "@/component/organisms/Footer";
 import Banner from "@/component/organisms/Banner";
 import Listing from "@/component/organisms/Listing";
-import HowWorks from "@/component/organisms/HowWorks";
-import AboutUs from "@/component/organisms/AboutUs";
-import FAQ from "@/component/organisms/FAQ";
-function index() {
+function Home() {
   return (
-    <div className="">
+    <div>
+            <div className="">
       <Header />
       <div>
         <Banner />
@@ -17,15 +15,13 @@ function index() {
           <Listing />
         </div>
         <div>
-      <div> <HowWorks/></div>
-      <div className="bg-white rounded-tl-[20px] rounded-tr-[20px] w-[100%]"><AboutUs/></div>
-      <div className="mb-[20px]"><FAQ/></div>
+          <div></div>
         </div>
       </div>
       <Footer />
-      
     </div>
-  );
+    </div>
+  )
 }
 
-export default index; 
+export default Home
