@@ -7,6 +7,7 @@ import Createorgan from '@/component/organisms/Createorgan'
 import Submitment from '@/component/organisms/Submitment'
 import Source2 from '@/component/organisms/Source2'
 import Homesource from '@/component/organisms/Homesource'
+import Home from '@/component/templates/Home'
 function index() {
   return (
     <div>
@@ -17,7 +18,8 @@ function index() {
         {/* <Createorgan/> */}
         {/* <Submitment/> */}
         {/* <Homesource/> */}
-        <Source2/>
+        {/* <Source2/> */}
+        <Home/>
     </div>
   )
 }
