@@ -6,6 +6,7 @@ import AnchorTag from '../atoms/Anchortag';
 import Button from '../atoms/Button';
 import { RxCross2 } from "react-icons/rx";
 import { FiPlus } from 'react-icons/fi';
+import { RxCross1 } from "react-icons/rx";
 
 import Heading from '../atoms/Heading';
 function Createorgan() {
@@ -38,7 +39,20 @@ function Createorgan() {
         setPhotos(updatedPhotos);
       };
   return (
-   <div className='w-[990px] shadow-sm rounded-[20px]'>
+<div className=" flex flex-col gap-[50px]">
+<div className=''>
+        <div className='main flex items-center px-[50px] py-[20px]'>
+          <button><RxCross1 /></button>
+          <div className='flex justify-center items-center w-full'><img className='w-[160px]' src="/assits/assits/image/header-Logo.png" alt="" /></div>
+        </div>
+        <div className='w-full h-[15px] bg-gray-400 shadow-md'>
+          <div className='w-full rounded-r-[10px] bg-gray-700 h-[15px]'>
+
+          </div>
+        </div>
+      </div>
+<div className='flex flex-col justify-center items-center'>
+<div className='w-[990px] shadow-sm rounded-[20px]'>
     <div className='px-[20px] py-[10px]'><Heading level='3'>Listing Creation</Heading></div>
      <div className='w-[990px] flex flex-wrap gap-[20px] px-[20px] justify-between'>
         <div className='text flex flex-col gap-[5px]'>
@@ -132,6 +146,8 @@ function Createorgan() {
     </div>
    </div>
    </div>
+</div>
+</div>
   )
 }
 

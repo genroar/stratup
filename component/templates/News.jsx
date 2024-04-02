@@ -6,7 +6,7 @@ function News() {
     <div className='new'>
           <div className='main flex justify-between px-[48px] py-[50px] '>
         <div className='left'> 
-           <div className='text flex flex-col '>
+           <div className='text flex flex-col'>
            <div>
                 <div><span className='text-[20px] font-medium text-gray-800 text-opacity-50'>12/01/24</span></div>
                 <div><span className='text-[36px] font-medium text-gray-900'>Title</span></div>
