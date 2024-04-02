@@ -14,7 +14,7 @@ module.exports = {
       },
       colors: {
         customGray: '#47484E',
-        buttonGray: '#5E6062',
+       buttonGray : '#5E6062',
         spanGray: '#282828',
         profiletext: '#5E6062'
       },

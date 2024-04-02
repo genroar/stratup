@@ -7,6 +7,9 @@ import Listing from "@/component/organisms/Listing";
 import HowWorks from "@/component/organisms/HowWorks";
 import AboutUs from "@/component/organisms/AboutUs";
 import FAQ from "@/component/organisms/FAQ";
+import ModelHeader from "@/component/molecules/ModelHeader";
+import Modelcountry from "@/component/organisms/Modelcountry";
+import ModelCondition from "@/component/molecules/ModelCondition";
 function index() {
   return (
     <div className="">
@@ -23,6 +26,9 @@ function index() {
         </div>
       </div>
       <Footer />
+      {/* <Modelcountry/> */}
+      <ModelCondition/>
+
       
     </div>
   );
