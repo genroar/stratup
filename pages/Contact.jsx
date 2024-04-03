@@ -2,9 +2,10 @@ import React from "react";
 import { RiFacebookBoxFill } from "react-icons/ri";
 import { AiFillInstagram } from "react-icons/ai";
 import { AiFillTwitterCircle } from "react-icons/ai";
-import Heading from "../component/atoms/Heading";
+import Header from "@/component/organisms/Header";
 import Footer from "../component/organisms/Footer";
-import Header from "@/component/templates/Header";
+import Heading from "@/component/atoms/Heading";
+
 function Contact() {
   return (
     <div>

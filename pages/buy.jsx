@@ -1,5 +1,5 @@
 import Footer from "@/component/organisms/Footer";
-import Header from "@/component/templates/Header";
+import Header from "@/component/organisms/Header";
 import News from "@/component/templates/News";
 import React from "react";
 

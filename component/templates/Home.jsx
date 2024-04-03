@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "@/component/templates/Header";
+import Header from "../organisms/Header";
 import Footer from "@/component/organisms/Footer";
 import Banner from "@/component/organisms/Banner";
 import Listing from "@/component/organisms/Listing";
