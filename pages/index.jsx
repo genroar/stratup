@@ -1,6 +1,11 @@
 
 import React from 'react'
 import Sell from './sell'
+import Watch from '@/component/molecules/Watch'
+import CardSubmit from '@/component/organisms/CardSubmit'
+import Submitment from '@/component/organisms/Submitment'
+import RolexDay from '@/component/organisms/RolexDay'
+
 function index() {
   return (
     <div>
@@ -12,8 +17,10 @@ function index() {
         {/* <Submitment/> */}
         {/* <Homesource/> */}
         {/* <Source2/> */}
-        <Sell/>        
+        {/* <Sell/>         */}
         {/* <Account/> */}
+        {/* <CardSubmit/> */}
+        <RolexDay/>
     </div>  
   )
 }
