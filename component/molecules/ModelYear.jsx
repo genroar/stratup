@@ -19,24 +19,24 @@ function ModelYear() {
           </div>
         </div>
       </div>
-     <div className='flex flex-col justify-center items-center'>
-     <div className='w-[730px]  flex flex-col gap-[20px]'>
-    <div className='ml-[170px]'>
-      <Modelhead icon={<LiaLessThanSolid />} heading='Year' description='What year is your watch?' subDescription='Select an option below' />
-    </div>
-       <div className='w-[730px] flex flex-wrap gap-[10px]'>
-       <button><WatchModel text='2024' /></button> 
-       <button> <WatchModel text='2023' /></button> 
-       <button> <WatchModel text='2022' /></button> 
-       <button> <WatchModel text='2021' /></button> 
-       <button> <WatchModel text='2020' /></button> 
-       <button> <WatchModel text='2019' /></button> 
-       <button> <WatchModel text='2018' /></button> 
-       <button> <WatchModel text='2017' /></button> 
-    </div>
-    <div className='flex justify-center items-center w-[630px]'><Other child='Other' parent='Other'/></div>
-  </div>
-     </div>
+      <div className='flex flex-col justify-center items-center'>
+        <div className='w-[730px]  flex flex-col gap-[20px]'>
+          <div className='ml-[170px]'>
+            <Modelhead icon={<LiaLessThanSolid />} heading='Year' description='What year is your watch?' subDescription='Select an option below' />
+          </div>
+          <div className='w-[730px] flex flex-wrap gap-[10px]'>
+            <button><WatchModel text='2024' /></button>
+            <button> <WatchModel text='2023' /></button>
+            <button> <WatchModel text='2022' /></button>
+            <button> <WatchModel text='2021' /></button>
+            <button> <WatchModel text='2020' /></button>
+            <button> <WatchModel text='2019' /></button>
+            <button> <WatchModel text='2018' /></button>
+            <button> <WatchModel text='2017' /></button>
+          </div>
+          <div className='flex justify-center items-center w-[630px]'><Other child='Other' parent='Other' /></div>
+        </div>
+      </div>
     </div>
   )
 }

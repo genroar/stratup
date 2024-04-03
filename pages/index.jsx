@@ -1,7 +1,6 @@
 
 import React from 'react'
-import Account from './Account'
-import Createorgan from './Createorgan'
+import Sell from './sell'
 function index() {
   return (
     <div>
@@ -9,13 +8,14 @@ function index() {
         <News/>
         <Footer/> */}
         {/* <Createlisting/> */}
-        <Createorgan/>
+        {/* <Createorgan/> */}
         {/* <Submitment/> */}
         {/* <Homesource/> */}
         {/* <Source2/> */}
+        <Sell/>        
         {/* <Account/> */}
     </div>  
   )
 }
 
-export default index
+export default index    

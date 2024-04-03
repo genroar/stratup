@@ -4,13 +4,12 @@ import Header from "@/component/organisms/Header";
 import Home from "@/component/templates/Home";
 import React from 'react'
 
-function sell() {
+function Sell() {
   return (
     <div>
-    <Header />
       <Brand/>
 </div>
   )
 }
 
-export default sell
+export default Sell
