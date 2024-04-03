@@ -16,7 +16,7 @@ const Dropdown = ({child, parent}) => {
       <button
         onClick={() => setIsOpen(!isOpen)}
         type="button"
-        className="inline-flex justify-center w-[83px] h-[40px] rounded-[40px] border border-gray-300 shadow-sm items-center justify-center flex
+        className=" justify-center w-[83px] h-[40px] rounded-[40px] border border-gray-300 shadow-sm items-center  flex
          bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 "
         id="menu-button"
         aria-expanded="true"
