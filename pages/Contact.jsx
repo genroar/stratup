@@ -4,7 +4,7 @@ import { AiFillInstagram } from "react-icons/ai";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import Heading from "../component/atoms/Heading";
 import Footer from "../component/organisms/Footer";
-import Header from "@/component/organisms/Header";
+import Header from "@/component/templates/Header";
 function Contact() {
   return (
     <div>

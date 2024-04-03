@@ -6,7 +6,7 @@ function Navigation() {
   return (
     <div className='flex  h-[20px] gap-[30px] ' >
       <Link href='/buy'>Buy</Link>
-      <Link href='/Brand'>Sell</Link>
+      <Link href='../organisms/Brand'>Sell</Link>
       <Link href='/sources'>Sources</Link>
       <Link href='/consign'>Consign</Link>
       <Link href='/about'>About Us</Link>

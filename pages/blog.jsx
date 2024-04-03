@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from "@/component/organisms/Header";
+import Header from "@/component/templates/Header";
 import Footer from "@/component/organisms/Footer";
 import Blog from '@/component/templates/Blog';
 

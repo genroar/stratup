@@ -5,7 +5,7 @@ import Button from "../atoms/Button";
 
 function SignUpmol() {
   return (
-    <div className="flex flex-col gap-[30px] w-[360px] text-center border-2 border-gray-500 ">
+    <div className="flex flex-col gap-[30px] w-[360px] text-center  ">
       <Heading level="4">Sign up</Heading>
       <div className="flex flex-col gap-[20px]">
           <Input variant="primary" children="First name*" type="text"></Input>
