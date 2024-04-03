@@ -49,7 +49,7 @@ const Button = ({ href, children, variant, onClick }) => {
       break;
     case "oval":
       buttonStyle =
-        "bg-white h-[40px] border-2 cursor-pointer border-black border-opacity-10 text-center w-[150px] rounded-[40px]  pt-[6px] text-[16px] font-normal  text-buttonGray";
+        "bg-white h-[40px] border-2 cursor-pointer border-black border-opacity-10 text-center w-[170px] rounded-[40px]  pt-[6px] text-[16px] font-normal  text-buttonGray";
       break;
     case "high-oval":
       buttonStyle =
