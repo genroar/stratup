@@ -1,4 +1,4 @@
-import AccHeader from '@/pages/AccHeader'
+import AccHeader from '@/pages/accHeader'
 import Acount from '@/component/organisms/account/Acount'
 import React from 'react'
 

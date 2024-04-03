@@ -3,7 +3,7 @@ import { useRouter } from 'next/router'; // Import useRouter from Next.js
 import Heading from "../atoms/Heading";
 import SourceSpan from "../atoms/SourceSpan";
 import Button from "../atoms/Button";
-import Contact from "@/pages/Contact";
+import Contact from "@/pages/contact";
 
 function Chat() {
   const router = useRouter(); // Initialize useRouter

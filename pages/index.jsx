@@ -1,13 +1,13 @@
 import React from "react";
 import "../../strapup/app/globals.css";
-import Account from "./Account";
-import Createlisting from "@/component/atoms/Createlisting";
-import Createorgan from "@/pages/Createorgan";
+import Blog from "@/component/templates/Blog";
+import Header from "@/component/organisms/Header";
 
 function index() {
   return (
     <div className="">
-      <Account/>      
+      
+      <Header/>
 
     </div>
 )
