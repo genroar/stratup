@@ -91,9 +91,7 @@ function  Photo() {
           </div>
         ))}
       </div>
-      <div className="w-[360px] h-[41px] rounded-[20px] bg-gray-700 flex justify-center items-center shadow-sm">
-        <span className="text-[15px] font-medium text-white">Next</span>
-      </div>
+       <button className='w-[360px] h-[41px] rounded-[20px] bg-gray-700 flex justify-center items-center shadow-sm'> <span className="text-[15px] font-medium text-white">Next</span></button>
     </div>
 </div>
 </div>

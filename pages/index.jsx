@@ -1,13 +1,7 @@
-import Header from '@/component/organisms/Header'
-import News from '@/component/templates/News'
+
 import React from 'react'
-import Footer from '@/component/organisms/Footer'
-import Createlisting from '@/component/atoms/Createlisting'
-import Createorgan from '@/component/organisms/Createorgan'
-import Submitment from '@/component/organisms/Submitment'
-import Source2 from '@/component/organisms/Source2'
-import Homesource from '@/component/organisms/Homesource'
-import Home from '@/component/templates/Home'
+import Account from './Account'
+import Createorgan from './Createorgan'
 function index() {
   return (
     <div>
@@ -15,12 +9,12 @@ function index() {
         <News/>
         <Footer/> */}
         {/* <Createlisting/> */}
-        {/* <Createorgan/> */}
+        <Createorgan/>
         {/* <Submitment/> */}
         {/* <Homesource/> */}
         {/* <Source2/> */}
-        <Home/>
-    </div>
+        {/* <Account/> */}
+    </div>  
   )
 }
 
