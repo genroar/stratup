@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import '../../app/globals.css'
 import React from "react";
 
-function Input({ variant, type, children }) {
+function Input({ variant, type, placeholder }) {
   let inputStyle = "";
   switch (variant) {
     case "primary":
@@ -43,12 +43,12 @@ function Input({ variant, type, children }) {
       break;
   }
 
-  return <input type={type} placeholder={children} className={inputStyle} />;
+  return <input type={type} placeholder={placeholder} className={inputStyle} />;
 }
 
 Input.propTypes = {
   type: PropTypes.string.isRequired,
-  children: PropTypes.string.isRequired,
+  placeholder: PropTypes.string.isRequired,
   variant: PropTypes.string.isRequired, 
 };
 

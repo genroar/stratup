@@ -1,5 +1,5 @@
-import Brand from "@/component/molecules/Brand";
-import Rolex from "@/component/molecules/Rolex";
+import Brand from "@/component/molecules/WatchFiltration";
+import Rolex from "@/component/organisms/WatchBrand";
 import Header from "@/component/templates/Header";
 import Home from "@/component/templates/Home";
 import React from 'react'
@@ -7,7 +7,6 @@ import React from 'react'
 function consign() {
   return (
     <div>
-    <Header />
     <Brand/>
 </div>
   )

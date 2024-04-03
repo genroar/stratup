@@ -4,7 +4,7 @@ import CustomImage from '../atoms/CustomImage'
 import Button from '../atoms/Button'
 import Other from '../atoms/Other'
 
-function Rolex() {
+function WatchBrand() {
     return (
         <div className='flex flex-col justify-center items-center'>
             <div className="flex shadow-sm w-[1195px] justify-center items-center py-[50px] relative top-[-45px] rounded-br-[40px] rounded-bl-[40px] rounded-tr-[40px]">
@@ -51,4 +51,4 @@ function Rolex() {
     )
 }
 
-export default Rolex;
+export default WatchBrand;

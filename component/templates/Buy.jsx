@@ -7,7 +7,6 @@ import BuyList from '../organisms/BuyList'
 function Buy() {
   return (
     <div>
-        <Header/>
         <div className='flex gap-[20px] ' >
             <Filter/>
             <BuyList/>

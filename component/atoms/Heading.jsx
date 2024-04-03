@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-const   Heading = ({ level, children }) => {
+const Heading = ({ level, children }) => {
   const HeadingTag = `h${level}`;
 
   const getHeadingStyles = (level) => {

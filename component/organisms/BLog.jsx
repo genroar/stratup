@@ -1,22 +1,20 @@
 import React from "react";
+import Link from 'next/link';
 import { useRouter } from "next/router";
 import CustomImage from "../atoms/CustomImage";
 
 function BLog() {
 
-    const router = useRouter();
-    const handleButtonClick = ()=> {
-        router.push('/rolexday')
-    }
+ 
 
   return (
     <div className="main flex justify-between">
       <div className="lft relative">
-        <button onClick={handleButtonClick} >
+        <Link href={'/News'} >
           <div className="image1 block">
             <img src="/assits/assits/image/blog 1.png" alt="" />
           </div>
-        </button>
+        </Link>
         <div className="text absolute bottom-[20px] text-white left-[35px]">
           <span className="text-[32px] font-medium ">Title</span>
           <p className="text-[14px] leading-[17.36px] w-[550px] pt-[10px]">
