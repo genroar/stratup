@@ -21,7 +21,7 @@ function ModelSize() {
       </div>
 <div className='flex flex-col justify-center items-center'>
          <div className='w-[730px] flex flex-col gap-[20px]'>
-    <div className='w-[650px] flex justify-center items-center flex-col gap-[20px]'><Modelhead icon={<LiaLessThanSolid />} heading='Case size' description='What year is size of the case?' subDescription='Select an option below' /></div>
+    <div className='flex justify-center'><Modelhead icon={<LiaLessThanSolid />} heading='Case size' description='What year is size of the case?' subDescription='Select an option below' /></div>
      <div className=' w-[730px] flex flex-wrap gap-[10px]'>
        <button> <WatchModel text='28mm' /></button>
        <button> <WatchModel text='33mm' /></button>

@@ -2,6 +2,10 @@
 import React from 'react'
 import Home from '@/component/templates/Home'
 import ModelYear from '@/component/organisms/account/ModelYear'
+import ModelCondition from '@/component/organisms/account/ModelCondition'
+import ModelSize from '@/component/organisms/ModelSize'
+import Modelmeterial from '@/component/organisms/Modelmeterial'
+import ModelPaper from '@/component/organisms/account/ModelPaper'
 function index() {
   return (
     <div>
@@ -27,6 +31,10 @@ function index() {
         {/* <Modelhead2/> */}
         {/* <Home/> */}
         <ModelYear/>
+        <ModelCondition/>
+        <ModelSize/>
+        <Modelmeterial/>
+        <ModelPaper/>
     </div>  
   )
 }

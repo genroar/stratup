@@ -21,7 +21,7 @@ function Modelmeterial() {
       </div>
       <div className='flex flex-col justify-center items-center'>
           <div className='flex flex-col gap-[20px] w-[730px]'>
-    <div className='flex justify-center items-center w-[630px]'>
+    <div className='flex justify-center'>
     <Modelhead
         icon={<LiaLessThanSolid />}
         heading='Case material'
