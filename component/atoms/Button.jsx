@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import '../../app/globals.css'
 import PropTypes from "prop-types";
 
-const Button = ({ href, children, variant, onClick }) => {
+const   Button = ({ href, children, variant, onClick }) => {
   const [activeButton, setActiveButton] = useState(null);
 
   const handleButtonClick = (buttonName) => {
@@ -85,7 +85,7 @@ const Button = ({ href, children, variant, onClick }) => {
       break;
     case "submit":
       buttonStyle =
-        "bg-buttonGray h-[41px] cursor-pointer text-center w-[235px] text-[16px] font-medium rounded-[20px] py-[7px] curser-pointer text-white";
+        "bg-buttonGray h-[41px] cursor-pointer text-center w-[235px] text-[16px] font-medium rounded-[20px] py-[7px] curser-pointer text-white leading-[19.5px]";
       break;
     default:
       buttonStyle = "";

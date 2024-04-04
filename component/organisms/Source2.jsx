@@ -59,7 +59,7 @@ function Source2() {
      </div>
     <div className='w-[835px]'>
     <div className='button bg-gray-700 w-[235px] h-[40px] flex justify-center items-center rounded-[20px] py-[20px] my-[25px] text-white text-[16px] text-medium font-medium float-right'>
-       <Button variant='Submit'></Button>
+       <Button variant='Submit'>SUBMIT</Button>
      </div>
     </div>
    </div>
