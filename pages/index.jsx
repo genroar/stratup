@@ -1,7 +1,5 @@
-import React from 'react'
-import Home from '@/component/templates/Home'
-
-
+import React from 'react';
+import Home from '@/component/templates/Home';
 
 function index() {
   return (
@@ -10,4 +8,5 @@ function index() {
     </div>
   );
 }
+
 export default index;

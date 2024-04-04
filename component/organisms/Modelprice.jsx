@@ -7,6 +7,7 @@ import Dropprice from '../atoms/Dropprice';
 import AnchorTag from '../atoms/Anchortag';
 import Button from '../atoms/Button';
 import { RxCross1 } from "react-icons/rx";
+import ButtonCross from '../atoms/ButtonCross';
 
 
 function Modelprice() {
@@ -21,7 +22,7 @@ function Modelprice() {
         <div className='flex flex-col gap-[150px]'>
                  <div className=''>
         <div className='main flex items-center px-[50px] py-[20px]'>
-          <button><RxCross1 /></button>
+            <ButtonCross />
           <div className='flex justify-center items-center w-full'><img className='w-[160px]' src="/assits/assits/image/header-Logo.png" alt="" /></div>
         </div>
         <div className='w-full h-[15px] bg-gray-400 shadow-md'>
@@ -38,7 +39,7 @@ function Modelprice() {
                 <div><span className='text-[13px] font-normal text-gray-600 text-opacity-50'>Enter the price you want to sell the watch for</span></div>
             </div>
             <div className=' '>
-                <Input variant='eight' type='input' children='Type here' />
+                <Input variant='eight' type='input' placeholder='Type here' />
                 <div className='relative bottom-[40px] float-end'>
                     <div className="relative inline-block text-left">
                         <button

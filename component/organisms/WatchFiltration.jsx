@@ -8,6 +8,7 @@ import ButtonCross from "../atoms/ButtonCross";
 import WatchBrand from "./WatchBrand";
 import Modelwatch from "./Modelwatch";
 import ModelSize from "./ModelSize";
+import ModelYear from "./account/ModelYear";
 
 function WatchFiltration() {
 
@@ -22,6 +23,13 @@ function WatchFiltration() {
 
   const handlModelSelelct = (model) => {
     console.log('selected model' , model)
+  }
+
+  //model year
+
+  
+  const handlebrandYear = (year) => {
+    console.log('selected model' , year)
   }
 
   // modelsize 
@@ -50,6 +58,7 @@ function WatchFiltration() {
 
         <WatchBrand onSelectBrand={handleBrandSelect} />
         <Modelwatch onSelectModel={handlModelSelelct} />
+        <ModelYear onSelectYear={handlebrandYear} />
         <ModelSize onSelectSize={handelSizeSelect} />
       </div>
     </div>

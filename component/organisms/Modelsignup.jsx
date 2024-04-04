@@ -3,13 +3,14 @@ import Heading from '../atoms/Heading'
 import Input from '../atoms/Input'
 import Button from '../atoms/Button'
 import { RxCross1 } from "react-icons/rx";
+import ButtonCross from '../atoms/ButtonCross';
 
 function Modelsignup() {
   return (
 <div className="flex flex-col gap-[150px]">
 <div className=''>
         <div className='main flex items-center px-[50px] py-[20px]'>
-          <button><RxCross1 /></button>
+          <ButtonCross />
           <div className='flex justify-center items-center w-full'><img className='w-[160px]' src="/assits/assits/image/header-Logo.png" alt="" /></div>
         </div>
         <div className='w-full h-[15px] bg-gray-400 shadow-md'>

@@ -4,6 +4,7 @@ import WatchModel from '../atoms/WatchModel'
 import Modelhead from '../atoms/Modelhead'
 import { LiaLessThanSolid } from 'react-icons/lia';
 import Other from '../atoms/Other';
+import ButtonCross from '../atoms/ButtonCross';
 function Modelwatch({ onSelectModel }) {
   
   const handlModelSelelct = (Model) => {
@@ -15,7 +16,7 @@ function Modelwatch({ onSelectModel }) {
             <div className='flex flex-col gap-[100px]'>
       <div className=''>
         <div className='main flex items-center px-[50px] py-[20px]'>
-          <button><RxCross1 /></button>
+            <ButtonCross />
           <div className='flex justify-center items-center w-full'><img className='w-[160px]' src="/assits/assits/image/header-Logo.png" alt="" /></div>
         </div>
         <div className='w-full h-[15px] bg-gray-400 shadow-md'>
