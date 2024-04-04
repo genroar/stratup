@@ -40,21 +40,7 @@ function ModelSize({ onSelectSize }) { // Destructure onSelectSize from props
           <div className='flex justify-center items-center'><Other parent='Other' /></div>
         </div>
       </div>
-<<<<<<< HEAD
-=======
-<div className='flex flex-col justify-center items-center'>
-         <div className='w-[730px] flex flex-col gap-[20px]'>
-    <div className='flex justify-center'><Modelhead icon={<LiaLessThanSolid />} heading='Case size' description='What year is size of the case?' subDescription='Select an option below' /></div>
-     <div className=' w-[730px] flex flex-wrap gap-[10px]'>
-       <button> <WatchModel text='28mm' /></button>
-       <button> <WatchModel text='33mm' /></button>
-       <button> <WatchModel text='33mm' /></button>
-       <button> <WatchModel text='36mm' /></button>
-       <button> <WatchModel text='40mm' /></button>
-       <button> <WatchModel text='41mm' /></button>
-       <button> <WatchModel text='42mm' /></button>
-       <button> <WatchModel text='44mm' /></button>
->>>>>>> b1b4bb376dd5eb765a51b59ce53e87375b99007e
+
     </div>
   );
 }
