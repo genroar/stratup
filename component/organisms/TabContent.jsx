@@ -1,6 +1,6 @@
 // TabContent.js
 import React from 'react';
-import Rolex from '../molecules/Rolex';
+import Rolex from './WatchBrand';
 import Source from './Source';
 import Listing from './Listing';
 

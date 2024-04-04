@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../organisms/Header'
+import Header from './Header'
 import Filter from '../molecules/Filter'
 import BuyHome from '../organisms/BuyHome'
 import BuyList from '../organisms/BuyList'
@@ -7,7 +7,6 @@ import BuyList from '../organisms/BuyList'
 function Buy() {
   return (
     <div>
-        <Header/>
         <div className='flex gap-[20px] ' >
             <Filter/>
             <BuyList/>

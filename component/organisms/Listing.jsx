@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import '../../app/globals.css'
 import ListingButton from "../molecules/ListingButton";
 import BuyHome from "./BuyHome";
-import Rolex from "../molecules/Rolex";
+import Rolex from "./WatchBrand";
 import Homesource from "./Homesource";
 
 function Listing() {

@@ -3,14 +3,14 @@ import { useRouter } from 'next/router'; // Import useRouter from Next.js
 import Heading from "../atoms/Heading";
 import SourceSpan from "../atoms/SourceSpan";
 import Button from "../atoms/Button";
-import Contact from "@/pages/Contact";
+import Contact from "@/component/organisms/Contact";
 
 function Chat() {
   const router = useRouter(); // Initialize useRouter
   
   const handleButtonClick = () => {
     // Navigate to the contact page when the button is clicked
-    router.push('/Contact');
+    router.push('/contact');
   };
 
   return (

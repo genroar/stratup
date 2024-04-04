@@ -3,7 +3,7 @@ import Heading from '../atoms/Heading'
 import { BsLightningChargeFill } from "react-icons/bs";
 import { AiFillMessage } from "react-icons/ai";
 import { IoAnalyticsOutline } from "react-icons/io5";
-import Header from '../organisms/Header';
+import Header from '../templates/Header';
 import Weekdrop from '../atoms/Weekdrop';
 import Dashanalitic from './Dashanalitic';
 function Dashboard() {

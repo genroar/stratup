@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from "@/component/organisms/Header";
-import Footer from "@/component/organisms/Footer";
-import Blog from '@/component/templates/Blog';
+import Header from '@/component/templates/Header';
+import Footer from "@/component/templates/Footer";
+import Blog from '@/component/templates/Blogtemp';
 
 
 function blog() {

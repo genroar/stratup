@@ -1,14 +1,15 @@
-import Footer from "@/component/organisms/Footer";
-import Header from "@/component/organisms/Header";
-import News from "@/component/templates/News";
-import React from 'react'
+import Footer from "@/component/templates/Footer";
+import Header from "@/component/templates/Header";
+import News from "@/component/organisms/News";
+import React from "react";
+import Buy from "@/component/templates/Buy";
 
-export default function Buy() {
+export default function buy() {
   return (
     <div>
       <Header />
-    <News/>
-    <Footer/>
+      <Buy />
+      <Footer />
     </div>
-  )
+  );
 }

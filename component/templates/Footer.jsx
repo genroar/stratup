@@ -14,7 +14,7 @@ function Footer() {
                         <p className='text-[18px] font-light leading-[25.67px] pt-[15px]'>Subscribe to recieve updates, acces to <br />exlusive deald and more</p>
                     </div>
                     <div className='relative flex'>
-                        <div className='border-b-[1px] border-bg-white  w-[418px] text-white'><Input variant='five2' type='Email' children='E-mail' /></div>
+                        <div className='border-b-[1px] border-bg-white  w-[418px] text-white'><Input variant='five2' type='Email' placeholder='E-mail' /></div>
                         <div className='absolute left-[407px]'><img src="/assits/assits/svg/greater.svg" alt="" /></div>
                     </div>
                 </div>

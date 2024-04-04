@@ -1,8 +1,11 @@
 import React from "react";
-import Header from "@/component/organisms/Header";
-import Footer from "@/component/organisms/Footer";
+import Header from "./Header";
+import Footer from "@/component/templates/Footer";
 import Banner from "@/component/organisms/Banner";
 import Listing from "@/component/organisms/Listing";
+import HowWorks from "../organisms/HowWorks";
+import AboutUs from "../organisms/AboutUs";
+import FAQ from "../organisms/FAQ";
 function Home() {
   return (
     <div>
@@ -17,6 +20,9 @@ function Home() {
             <div></div>
           </div>
         </div>
+        <HowWorks/>
+        <AboutUs/>
+        <FAQ/>
         <Footer />
       </div>
     </div>

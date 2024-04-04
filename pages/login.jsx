@@ -1,10 +1,10 @@
-import Header from "@/component/organisms/Header";
+import Signintemp from '@/component/templates/Signintemp'
 import React from 'react'
 
 function login() {
   return (
     <div>
-    <Header />
+      <Signintemp />
 </div>
   )
 }
