@@ -1,4 +1,4 @@
-import Brand from "@/component/molecules/WatchFiltration";
+import Brand from "@/component/organisms/WatchFiltration";
 import Rolex from "@/component/organisms/WatchBrand";
 import Header from "@/component/templates/Header";
 import Home from "@/component/templates/Home";

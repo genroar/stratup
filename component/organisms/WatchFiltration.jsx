@@ -5,8 +5,15 @@ import Button from "../atoms/Button";
 import Other from "../atoms/Other";
 import { RxCross1 } from "react-icons/rx";
 import ButtonCross from "../atoms/ButtonCross";
-import WatchBrand from "../organisms/WatchBrand";
+import WatchBrand from "./WatchBrand";
+
 function WatchFiltration() {
+
+  const handleBrandSelect = (brand) => {
+    // Do something with the selected brand
+    console.log("Selected brand:", brand);
+  };
+
   return (
     <div>
       <div className="flex flex-col gap-[50px]">
@@ -26,7 +33,7 @@ function WatchFiltration() {
           </div>
         </div>
 
-        <WatchBrand />
+        <WatchBrand onSelectBrand={handleBrandSelect} />
       </div>
     </div>
   );
