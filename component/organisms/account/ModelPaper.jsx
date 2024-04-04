@@ -1,8 +1,8 @@
 import React from 'react'
-import WatchModel from '../atoms/WatchModel'
-import Modelhead2 from '../atoms/Modelhead2'
+import WatchModel from '../../atoms/WatchModel'
+import Modelhead2 from '../../atoms/Modelhead2'
 import { LiaLessThanSolid } from 'react-icons/lia';
-import Other from '../atoms/Other';
+import Other from '../../atoms/Other';
 import { RxCross1 } from "react-icons/rx";
 
 function ModelPaper() {
