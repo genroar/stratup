@@ -1,8 +1,8 @@
 import React from 'react'
-import WatchModel from '../atoms/WatchModel'
-import Modelhead from '../atoms/Modelhead'
+import WatchModel from '../../atoms/WatchModel'
+import Modelhead from '../../atoms/Modelhead'
 import { LiaLessThanSolid } from 'react-icons/lia';
-import Other from '../atoms/Other';
+import Other from '../../atoms/Other';
 import { RxCross1 } from "react-icons/rx";
 
 function ModelYear() {
@@ -34,7 +34,7 @@ function ModelYear() {
             <button> <WatchModel text='2018' /></button>
             <button> <WatchModel text='2017' /></button>
           </div>
-          <div className='flex justify-center items-center w-[630px]'><Other child='Other' parent='Other' /></div>
+          <div className='flex justify-center items-center w-[740px]'><Other child='Other' parent='Other' /></div>
         </div>
       </div>
     </div>

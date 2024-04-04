@@ -1,6 +1,5 @@
 import React from 'react'
-import WatchModel from '../atoms/WatchModel'
-import Modelhead2 from '../atoms/Modelhead2'
+import Modelhead2 from '../../atoms/Modelhead2'
 import { LiaLessThanSolid } from 'react-icons/lia';
 import { RxCross1 } from "react-icons/rx";
 
