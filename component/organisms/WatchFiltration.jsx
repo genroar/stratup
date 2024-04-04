@@ -6,14 +6,29 @@ import Other from "../atoms/Other";
 import { RxCross1 } from "react-icons/rx";
 import ButtonCross from "../atoms/ButtonCross";
 import WatchBrand from "./WatchBrand";
+import Modelwatch from "./Modelwatch";
+import ModelSize from "./ModelSize";
 
 function WatchFiltration() {
+
+  // selelctbrand
 
   const handleBrandSelect = (brand) => {
     // Do something with the selected brand
     console.log("Selected brand:", brand);
   };
 
+  // modelwatch 
+
+  const handlModelSelelct = (model) => {
+    console.log('selected model' , model)
+  }
+
+  // modelsize 
+
+  const handelSizeSelect = (size) =>{
+    console.log("Select size", size)
+  }
   return (
     <div>
       <div className="flex flex-col gap-[50px]">
@@ -34,6 +49,8 @@ function WatchFiltration() {
         </div>
 
         <WatchBrand onSelectBrand={handleBrandSelect} />
+        <Modelwatch onSelectModel={handlModelSelelct} />
+        <ModelSize onSelectSize={handelSizeSelect} />
       </div>
     </div>
   );
