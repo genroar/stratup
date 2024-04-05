@@ -5,8 +5,8 @@ import Heading from './Heading';
 function Modelhead({ icon, heading, description, subDescription }) {
   return (
 
-    <div className='flex items-center justify-center gap-[100px]'>
-      <button>{icon}</button>
+    <div className='flex items-center justify-center'>
+      {/* <button>{icon}</button> */}
       <div className='flex flex-col text-center'>
 
     <div className='flex items-center'>

@@ -1,14 +1,4 @@
-import React from 'react';
-import Home from '@/component/templates/Home';
 
-<<<<<<< HEAD
-function index() {
-  return (
-    <div className="">
-      <Home />
-    </div>
-  );
-=======
 import React from 'react'
 import Home from '@/component/templates/Home'
 import ModelYear from '@/component/organisms/account/ModelYear'
@@ -40,14 +30,16 @@ function index() {
         {/* <ModelHeader/> */}
         {/* <Modelhead2/> */}
         {/* <Home/> */}
-        <ModelYear/>
-        <ModelCondition/>
+        {/* <ModelYear/>
         <ModelSize/>
         <Modelmeterial/>
-        <ModelPaper/>
+      <ModelPaper/> */}
+        
+      {/* <ModelCondition/> */}
+      <Home/>
+        
     </div>  
   )
->>>>>>> b1b4bb376dd5eb765a51b59ce53e87375b99007e
 }
 
-export default index;
+export default index    
