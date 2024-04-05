@@ -13,19 +13,8 @@ function ModelYear({ onSelectYear }) {
   }
 
   return (
-    <div className='flex flex-col gap-[100px]'>
-      <div className=''>
-        <div className='main flex items-center px-[50px] py-[20px]'>
-          <ButtonCross />
-          <div className='flex justify-center items-center w-full'><img className='w-[160px]' src="/assits/assits/image/header-Logo.png" alt="" /></div>
-        </div>
-        <div className='w-full h-[15px] bg-gray-400 shadow-md'>
-          <div className='w-[627px] rounded-r-[10px] bg-gray-700 h-[15px]'>
-
-          </div>
-        </div>
-      </div>
-      <div className='flex flex-col justify-center items-center'>
+    <div className='flex flex-col  pt-[100px] items-center justify-center'>
+      <div className='flex flex-col items-center justify-center'>
         <div className='w-[730px]  flex flex-col gap-[20px]'>
           <div className='ml-[170px]'>
             <Modelhead icon={<LiaLessThanSolid />} heading='Year' description='What year is your watch?' subDescription='Select an option below' />

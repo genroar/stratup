@@ -1,18 +1,16 @@
-import ButtonCross from "../atoms/ButtonCross";
-import ModelSize from "./ModelSize";
-import Modelwatch from "./Modelwatch";
-import WatchBrand from "./WatchBrand";
-import ModelYear from "./account/ModelYear";
 import { useState } from "react";
-import ProgressBar from "./ProgressBar";
+import ButtonCross from "../atoms/ButtonCross";
 import ModelCondition from "./account/ModelCondition";
-import Modelmeterial from "./Modelmeterial";
-import ModelPaper from "./account/ModelPaper";
-import Photo from "./Photo";
+import ModelYear from "./account/ModelYear";
 import Modelprice from "./Modelprice";
-import Modelcountry from "./Modelcountry";
+import Modelsignup from "./Modelsignup";
+import Modelwatch from "./Modelwatch";
+import Photo from "./Photo";
+import ProgressBar from "./ProgressBar";
+import Submitment from "./Submitment";
+import WatchBrand from "./WatchBrand";
 
-function WatchFiltration() {
+function ConsignFiltration() {
   const [selectedBrand, setSelectedBrand] = useState(null);
   const [selectedModel, setSelectedModel] = useState(null);
   const [selectedYear, setSelectedYear] = useState(null);
@@ -21,7 +19,7 @@ function WatchFiltration() {
 
   const [currentStep, setCurrentStep] = useState(1);
   const [progress, setProgress] = useState(0);
-  const totalSteps = 10;
+  const totalSteps = 8;
 
   const handleBrandSelect = (brand) => {
     // Do something with the selected brand
@@ -58,33 +56,7 @@ function WatchFiltration() {
     console.log(progress);
   };
 
-  // modelsize
-
-  const handelSizeSelect = (size) => {
-    console.log("Select size", size);
-    setCurrentStep(currentStep + 1);
-    setProgress((currentStep / totalSteps) * 100);
-    console.log(progress);
-  };
-
-  // modle material
-
-  const handleSelectMaterial = (material) => {
-    console.log("Select material", material);
-    setCurrentStep(currentStep + 1);
-    setProgress((currentStep / totalSteps) * 100);
-    console.log(progress);
-  };
-
-  // model paper 
-
-  const handleSelectPaper = (paper) => {
-    console.log("Select paper", paper);
-    setCurrentStep(currentStep + 1);
-    setProgress((currentStep / totalSteps) * 100);
-    console.log(progress);
-  };
- // model paper 
+ // model photo 
 
  const handlePicSelect = (pic) => {
   console.log("Select pic", pic);
@@ -102,14 +74,26 @@ function WatchFiltration() {
     console.log(progress);
   };
   
-   // model country 
 
-   const handleCountrySelect = (country) => {
-    console.log("Select country", country);
+  // model signup 
+
+  const handleSginSelect = (signup) => {
+    console.log("Select signup", signup);
     setCurrentStep(currentStep + 1);
     setProgress((currentStep / totalSteps) * 100);
     console.log(progress);
   };
+  
+   // model submitment 
+
+   const handleSubSlect = (sub) => {
+    console.log("Select sub", sub);
+    setCurrentStep(currentStep + 1);
+    setProgress((currentStep / totalSteps) * 100);
+    console.log(progress);
+  };
+  
+
 
   const handleNextStep = () => {
     setCurrentStep(currentStep + 1);
@@ -141,15 +125,13 @@ function WatchFiltration() {
         {currentStep === 2 && <Modelwatch onSelectModel={handlModelSelelct} />}
         {currentStep === 3 && <ModelYear onSelectYear={handlebrandYear} />}
         {currentStep === 4 && <ModelCondition onSeleCondition={handleSelectCondition} />}
-        {currentStep === 5 && <ModelSize onSelectSize={handelSizeSelect} />}
-        {currentStep === 6 && <Modelmeterial onSelectMaterial={handleSelectMaterial} />}
-        {currentStep === 7 && <ModelPaper onSelectPaper={handleSelectPaper} />}
-        {currentStep === 8 && <Photo onSelectPic={handlePicSelect} />}
-        {currentStep === 9 && <Modelprice onSelectPrice={handlePriceSelect} />}
-        {currentStep === 10 && <Modelcountry onSelcetCountry={handleCountrySelect} />}
+        {currentStep === 5 && <Modelprice onSelectPrice={handlePriceSelect} />}
+        {currentStep === 6 && <Photo onSelectPic={handlePicSelect} />}
+        {currentStep === 7 && <Modelsignup onSelectSign={handlePicSelect} />}
+        {currentStep === 8 && <Submitment onSelectSub={handleSubSlect} />}
       </div>
     </div>
   );
 }
 
-export default WatchFiltration;
+export default ConsignFiltration;

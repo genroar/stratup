@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 import React from 'react'
 import Home from '@/component/templates/Home'
@@ -40,6 +41,19 @@ function index() {
         
     </div>  
   )
+=======
+import React from "react";
+import Home from "@/component/templates/Home";
+import Account from "./Account";
+import Photo from "@/component/organisms/Photo";
+
+function index() {
+  return (
+    <div className="">
+      <Home />
+    </div>
+  );
+>>>>>>> b05280e5aa458a4c7b9571e19139cd494b324bab
 }
 
 export default index    

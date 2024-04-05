@@ -12,8 +12,8 @@ function WatchBrand({ onSelectBrand }) {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center">
-      <div className="flex shadow-sm w-[1195px] justify-center items-center py-[50px] relative top-[-45px] rounded-br-[40px] rounded-bl-[40px] rounded-tr-[40px]">
+    <div className="flex flex-col pt-[100px] items-center justify-center">
+      <div className="flex w-[1195px] justify-center items-center py-[50px] relative top-[-45px] rounded-br-[40px] rounded-bl-[40px] rounded-tr-[40px]">
         <div className="w-[360px]   flex flex-col text-center gap-[25px] ">
           <div>
             <Heading level="4">Watch brand</Heading>
