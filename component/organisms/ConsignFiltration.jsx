@@ -18,7 +18,7 @@ function ConsignFiltration() {
   // selelctbrand
 
   const [currentStep, setCurrentStep] = useState(1);
-  const [progress, setProgress] = useState(0);
+  const [progress, setProgress] = useState(0)
   const totalSteps = 8;
 
   const handleBrandSelect = (brand) => {
@@ -100,10 +100,10 @@ function ConsignFiltration() {
     setProgress((currentStep / totalSteps) * 100);
   };
 
-  const handlePrevStep = () => {
-    setCurrentStep(currentStep - 1);
-    setProgress(((currentStep - 2) / totalSteps) * 100);
-  };
+//   const handlePrevStep = () => {
+//     setCurrentStep(currentStep - 1);
+//     setProgress(((currentStep - 2) / totalSteps) * 100);
+//   };
 
   return (
     <div>
@@ -121,13 +121,13 @@ function ConsignFiltration() {
           </div>
         <ProgressBar progress={currentStep} totalSteps={totalSteps} />
         </div>
-        {currentStep === 1 && <WatchBrand onSelectBrand={handleBrandSelect} />}
-        {currentStep === 2 && <Modelwatch onSelectModel={handlModelSelelct} />}
-        {currentStep === 3 && <ModelYear onSelectYear={handlebrandYear} />}
-        {currentStep === 4 && <ModelCondition onSeleCondition={handleSelectCondition} />}
-        {currentStep === 5 && <Modelprice onSelectPrice={handlePriceSelect} />}
-        {currentStep === 6 && <Photo onSelectPic={handlePicSelect} />}
-        {currentStep === 7 && <Modelsignup onSelectSign={handlePicSelect} />}
+        {currentStep === 1 && <WatchBrand  onSelectBrand={handleBrandSelect} />}
+        {currentStep === 2 && <Modelwatch onGoBack={handlePrevStep}  onSelectModel={handlModelSelelct} />}
+        {currentStep === 3 && <ModelYear onGoBack={handlePrevStep}  onSelectYear={handlebrandYear} />}
+        {currentStep === 4 && <ModelCondition onGoBack={handlePrevStep}  onSeleCondition={handleSelectCondition} />}
+        {currentStep === 5 && <Modelprice onGoBack={handlePrevStep}  onSelectPrice={handlePriceSelect} />}
+        {currentStep === 6 && <Photo onGoBack={handlePrevStep}  onSelectPic={handlePicSelect} />}
+        {currentStep === 7 && <Modelsignup onGoBack={handlePrevStep}  onSelectSign={handlePicSelect} />}
         {currentStep === 8 && <Submitment onSelectSub={handleSubSlect} />}
       </div>
     </div>

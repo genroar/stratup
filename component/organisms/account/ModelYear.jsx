@@ -6,7 +6,7 @@ import Other from '../../atoms/Other';
 import { RxCross1 } from "react-icons/rx";
 import ButtonCross from '@/component/atoms/ButtonCross';
 
-function ModelYear({ onSelectYear }) {
+function  ModelYear({ onSelectYear }) {
 
   const handlebrandYear = (year) => {
     onSelectYear(year);
