@@ -12,17 +12,13 @@ function ModelSize({ onSelectSize }) { // Destructure onSelectSize from props
   };
 
   return (
-    <div className='flex flex-col gap-[150px]'>
+    <div className='flex flex-col  pt-[100px] items-center justify-center'>
       <div>
-        <div className='main flex items-center px-[50px] py-[20px]'>
-          <ButtonCross />
-          <div className='flex justify-center items-center w-full'><img className='w-[160px]' src="/assits/assits/image/header-Logo.png" alt="" /></div>
-        </div>
-        <div className='w-full h-[15px] bg-gray-400 shadow-md'>
+        {/* <div className='w-full h-[15px] bg-gray-400 shadow-md'>
           <div className='w-[1270px] rounded-r-[10px] bg-gray-700 h-[15px]'></div>
-        </div>
+        </div> */}
       </div>
-      <div className='flex flex-col justify-center items-center'>
+      <div className='flex flex-col items-center justify-center'>
         <div className='w-[730px] flex flex-col gap-[20px]'>
           <div className='w-[650px] flex justify-center items-center flex-col gap-[20px]'>
             <Modelhead icon={<LiaLessThanSolid />} heading='Case size' description='What year is size of the case?' subDescription='Select an option below' />
@@ -37,7 +33,7 @@ function ModelSize({ onSelectSize }) { // Destructure onSelectSize from props
             <button onClick={() => handleSizeSelect("size 7")}> <WatchModel text='42mm' /></button>
             <button onClick={() => handleSizeSelect("size 8")}> <WatchModel text='44mm' /></button>
           </div>
-          <div className='flex justify-center items-center'><Other parent='Other' /></div>
+          <div className='flex items-center justify-center'><Other parent='Other' /></div>
         </div>
       </div>
 

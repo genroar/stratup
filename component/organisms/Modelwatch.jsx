@@ -11,26 +11,11 @@ function Modelwatch({ onSelectModel }) {
   };
 
   return (
-    <div className="">
-      <div className="flex flex-col gap-[100px]">
-        <div className="">
-          <div className="main flex items-center px-[50px] py-[20px]">
-            <ButtonCross />
-            <div className="flex justify-center items-center w-full">
-              <img
-                className="w-[160px]"
-                src="/assits/assits/image/header-Logo.png"
-                alt=""
-              />
-            </div>
-          </div>
-          <div className="w-full h-[15px] bg-gray-400 shadow-md">
-            <div className="w-[360px] rounded-r-[10px] bg-gray-700 h-[15px]"></div>
-          </div>
-        </div>
-        <div className="flex flex-col justify-center items-center">
+    <div className="flex  pt-[100px] items-center justify-center">
+      <div className="flex flex-col ">
+        <div className="flex flex-col items-center justify-center">
           <div className="w-[730px]  flex flex-col gap-[20px]">
-            <div className="flex justify-center items-center ">
+            <div className="flex items-center justify-center ">
               <Modelhead
                 icon={<LiaLessThanSolid />}
                 heading="Watch Model"

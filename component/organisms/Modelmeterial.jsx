@@ -5,21 +5,14 @@ import { LiaLessThanSolid } from 'react-icons/lia';
 import Other from '../atoms/Other';
 import { RxCross1 } from "react-icons/rx";
 
-function Modelmeterial() {
-  return (
-  <div className="flex flex-col gap-[150px]">
-        <div className=''>
-        <div className='main flex items-center px-[50px] py-[20px]'>
-          <button><RxCross1 /></button>
-          <div className='flex justify-center items-center w-full'><img className='w-[160px]' src="/assits/assits/image/header-Logo.png" alt="" /></div>
-        </div>
-        <div className='w-full h-[15px] bg-gray-400 shadow-md'>
-          <div className='w-[1320px] rounded-r-[10px] bg-gray-700 h-[15px]'>
+function Modelmeterial({onSelectMaterial}) {
+  const handleMaterialSeclet = (material) => {
+    onSelectMaterial(material)
+  }
 
-          </div>
-        </div>
-      </div>
-      <div className='flex flex-col justify-center items-center'>
+  return (
+  <div className="flex flex-col  pt-[100px] items-center justify-center">
+      <div className='flex flex-col items-center justify-center'>
           <div className='flex flex-col gap-[20px] w-[730px]'>
     <div className='flex justify-center'>
     <Modelhead
@@ -30,16 +23,16 @@ function Modelmeterial() {
       />
     </div>
       <div className='w-[730px] flex flex-wrap flex-row gap-[10px]'>
-        <WatchModel text='Steel' />
-        <WatchModel text='Yellow Gold' />
-        <WatchModel text='White Gold' />
-        <WatchModel text='Rose Gold' />
-        <WatchModel text='Two Tone' />
-        <WatchModel text='Titanium' />
-        <WatchModel text='Carbon' />
-        <WatchModel text='Platinum' />
+        <button onClick={() => handleMaterialSeclet('materiral 1')} ><WatchModel text='Steel' /></button>
+        <button onClick={() => handleMaterialSeclet('materiral 2')}><WatchModel text='Yellow Gold' /></button>
+        <button onClick={() => handleMaterialSeclet('materiral 3')}><WatchModel text='White Gold' /></button>
+        <button onClick={() => handleMaterialSeclet('materiral 4')}><WatchModel text='Rose Gold' /></button>
+        <button onClick={() => handleMaterialSeclet('materiral 5')}><WatchModel text='Two Tone' /></button>
+        <button onClick={() => handleMaterialSeclet('materiral 6')}><WatchModel text='Titanium' /></button>
+        <button onClick={() => handleMaterialSeclet('materiral 7')}><WatchModel text='Carbon' /></button>
+        <button onClick={() => handleMaterialSeclet('materiral 8')}><WatchModel text='Platinum' /></button>
       </div>
-      <div className='flex justify-center items-center'><Other parent='Other'/></div>
+      <div className='flex items-center justify-center'><Other parent='Other'/></div>
     </div>
     </div>
   </div>

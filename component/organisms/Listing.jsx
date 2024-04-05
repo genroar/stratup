@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import '../../app/globals.css'
+import "../../app/globals.css";
 import ListingButton from "../molecules/ListingButton";
 import BuyHome from "./BuyHome";
 import Rolex from "./WatchBrand";
@@ -23,13 +23,13 @@ function Listing() {
       <div className=" w-[1200px] flex flex-col justify-center source items-center  rounded-tr-[50px] rounded-br-[50px] rounded-bl-[50px]">
         {activeTab === "buy" && <BuyHome />}
         <div className="py-[50px]">
-        <div >{activeTab === "sell" && <Rolex />}</div>
-        {activeTab === "source" && <Homesource/>}
-        <div className="">{activeTab === "consign" && <Rolex />}</div>
+          <div>{activeTab === "sell" && <Rolex />}</div>
+          {activeTab === "source" && <Homesource />}
+          <div className="">{activeTab === "consign" && <Rolex />}</div>
         </div>
       </div>
     </div>
   );
 }
 
-export default Listing;
+export default Listing;

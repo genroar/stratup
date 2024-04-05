@@ -1,13 +1,9 @@
-import Brand from "@/component/organisms/WatchFiltration";
-import Rolex from "@/component/organisms/WatchBrand";
-import Header from "@/component/templates/Header";
-import Home from "@/component/templates/Home";
-import React from 'react'
+import ConsignFiltration from "@/component/organisms/ConsignFiltration";
 
 function consign() {
   return (
     <div>
-    <Brand/>
+    <ConsignFiltration/>
 </div>
   )
 }
