@@ -17,7 +17,7 @@ function Modelwatch({ onSelectModel }) {
           <div className="w-[730px]  flex flex-col gap-[20px]">
             <div className="flex items-center justify-center ">
               <Modelhead
-                icon={<LiaLessThanSolid />}
+                icon={<LiaLessThanSolid  />}
                 heading="Watch Model"
                 description="What is the model of your watch?"
                 subDescription="Find or select an option below"

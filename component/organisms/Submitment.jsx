@@ -11,7 +11,7 @@ function Submitment({onSelectSub}) {
   
 
   return (
- <div className="flex flex-col items-center justify-center pt-[100px]">
+ <div className="flex flex-col items-center justify-center pt-[100px]]">
      <div className="flex flex-col items-center justify-center">
       <div className='flex flex-col gap-[20px]  w-[360px]'>
         <div className='text-center'><Heading level='4'>Our management fees are</Heading></div>
