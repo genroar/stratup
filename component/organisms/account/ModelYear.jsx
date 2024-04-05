@@ -16,7 +16,7 @@ function ModelYear({ onSelectYear }) {
     <div className='flex flex-col  pt-[100px] items-center justify-center'>
       <div className='flex flex-col items-center justify-center'>
         <div className='w-[730px]  flex flex-col gap-[20px]'>
-          <div className='ml-[170px]'>
+          <div className=''>
             <Modelhead icon={<LiaLessThanSolid />} heading='Year' description='What year is your watch?' subDescription='Select an option below' />
           </div>
           <div className='w-[730px] flex flex-wrap gap-[10px]'>
