@@ -11,6 +11,7 @@ import ModelPaper from "./account/ModelPaper";
 import Photo from "./Photo";
 import Modelprice from "./Modelprice";
 import Modelcountry from "./Modelcountry";
+import Modelsignup from "./Modelsignup";
 
 function WatchFiltration() {
   const [selectedBrand, setSelectedBrand] = useState(null);
@@ -111,6 +112,15 @@ function WatchFiltration() {
     console.log(progress);
   };
 
+     // model country 
+
+     const handleSignSelect = (signup) => {
+      console.log("Select signup", signup);
+      setCurrentStep(currentStep + 1);
+      setProgress((currentStep / totalSteps) * 100);
+      console.log(progress);
+    };
+
   const handleNextStep = () => {
     setCurrentStep(currentStep + 1);
     setProgress((currentStep / totalSteps) * 100);
@@ -147,6 +157,7 @@ function WatchFiltration() {
         {currentStep === 8 && <Photo onSelectPic={handlePicSelect} />}
         {currentStep === 9 && <Modelprice onSelectPrice={handlePriceSelect} />}
         {currentStep === 10 && <Modelcountry onSelcetCountry={handleCountrySelect} />}
+        {currentStep === 11 && <Modelsignup   onSelectSign={handleSignSelect} />}
       </div>
     </div>
   );

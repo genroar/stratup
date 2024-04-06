@@ -127,7 +127,7 @@ function ConsignFiltration() {
         {currentStep === 4 && <ModelCondition   onSeleCondition={handleSelectCondition} />}
         {currentStep === 5 && <Modelprice   onSelectPrice={handlePriceSelect} />}
         {currentStep === 6 && <Photo   onSelectPic={handlePicSelect} />}
-        {currentStep === 7 && <Modelsignup   onSelectSign={handlePicSelect} />}
+        {currentStep === 7 && <Modelsignup   onSelectSign={handleSginSelect} />}
         {currentStep === 8 && <Submitment  />}
       </div>
     </div>

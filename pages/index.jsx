@@ -5,8 +5,8 @@ import Account from "./Account";
 function Index() {
   return (
     <div>
-      <Home />
-      {/* <Account /> */}
+      {/* <Home /> */}
+      <Account />
     </div>
   );
 }
