@@ -5,7 +5,7 @@ import { LiaLessThanSolid } from "react-icons/lia";
 import Other from "../../atoms/Other";
 import { RxCross1 } from "react-icons/rx";
 
-function ModelPaper({onSelectPaper}) {
+function ModelPaper({onSelectPaper, }) {
   const handlePaperSelect = (paper) => {
     onSelectPaper(paper);
   };

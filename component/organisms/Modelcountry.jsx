@@ -9,7 +9,7 @@ function Modelcountry({onSelcetCountry}) {
   }
 
   return (
-    <div className='flex flex-col gap-[50px]'>
+    <div className='flex flex-col gap-[50px] pt-[100px]'>
       <div className=' flex flex-col justify-center items-center gap-[20px]'>
         <div className='flex flex-col text-center text'>
           <Heading level='4'>Your country</Heading>

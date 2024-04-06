@@ -28,7 +28,7 @@ function FAQ() {
               ></FAQdrop1>
             </div>
           </div>
-          <div className="w-[320px] h-[398px]  ">
+          <div className="w-[320px] h-[398px] mb-[20px] ">
             <img src="/assits/assits/image/home FAQ.png" alt="" />
           </div>
         </div>

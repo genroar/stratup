@@ -41,7 +41,7 @@ const   Button = ({ href, children, variant, onClick }) => {
       break;
     case "tr-radius":
       buttonStyle =
-        "bg-white  h-[50px] active:bg-buttonGray ${isClicked ? 'bg-blue-700' : 'bg-blue-500 hover:bg-blue-600'} border border-opacitiy cursor-pointer  text-center w-[150px] rounded-tr-[25px] flex items-center justify-center  text-[20px] font-medium text-buttonGray";
+        "bg-white  h-[50px] active:bg-buttonGray border border-opacitiy cursor-pointer  text-center w-[150px] rounded-tr-[25px] flex items-center justify-center  text-[20px] font-medium text-buttonGray";
       break;
     case "rectangle":
       buttonStyle =
