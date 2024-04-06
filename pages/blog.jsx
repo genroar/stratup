@@ -1,17 +1,16 @@
-import React from 'react'
-import Header from '@/component/templates/Header';
+import React from "react";
+import Header from "@/component/templates/Header";
 import Footer from "@/component/templates/Footer";
-import Blog from '@/component/templates/Blogtemp';
-
+import Blog from "@/component/templates/Blogtemp";
 
 function blog() {
-    return (
-        <div>
-            <Header />
-            <Blog />
-            <Footer />
-        </div>
-    )
+  return (
+    <div>
+      <Header />
+      <Blog />
+      <Footer />
+    </div>
+  );
 }
 
-export default blog
+export default blog;

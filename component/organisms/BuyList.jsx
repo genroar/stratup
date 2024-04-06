@@ -7,12 +7,12 @@ import Product from '../molecules/Product'
 
 function BuyList() {
   return (
-    <div>
+    <div className='flex flex-col gap-[30px]' >
         <div className='flex gap-[30px]' > 
             <Worksinput/>
             <OrderDropdown/>     
         </div>
-        <div className='w-[1065px] flex flex-wrap justify-between' > 
+        <div className='w-[1006px] gap-[30px] flex flex-wrap ' > 
           <Product/>
           <Product/>
           <Product/>
