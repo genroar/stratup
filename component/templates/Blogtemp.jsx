@@ -4,7 +4,7 @@ import Container from "../atoms/Container";
 import Heading from "../atoms/Heading";
 import BLoglatest from "../organisms/BLoglatest";
 
-function Blogtemp() {
+function  Blogtemp() {
 
 
   return (

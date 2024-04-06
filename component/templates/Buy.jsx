@@ -7,7 +7,7 @@ import BuyList from '../organisms/BuyList'
 function Buy() {
   return (
     <div>
-        <div className='flex gap-[20px] ' >
+        <div className=' mx-auto flex gap-[20px] ' >
             <Filter/>
             <BuyList/>
         </div>
