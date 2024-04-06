@@ -6,8 +6,8 @@ function index() {
   return (
     <div>
 
-      {/* <Home/> */}
-        <Account/>  
+      <Home/>
+        {/* <Account/>   */}
     
 
 
