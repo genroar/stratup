@@ -8,7 +8,7 @@ import Filterdrop from "../atoms/Filterdrop";
 function HowWorks() {
   return (
     <div className="flex flex-col bg-gray-200 ">
-      <div className="flex flex-col  w-[1340px] items-center justify-center gap-[10px] py-[150px]">
+      <div className="flex flex-col   items-center justify-center gap-[10px] py-[150px]">
         <div className="text-center">
           <Heading level="1">Find out how much your watch is worth</Heading>
         </div>
