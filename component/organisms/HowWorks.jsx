@@ -1,11 +1,18 @@
-import React from "react";
+import React, {useState} from "react";
 import Worksinput from "../molecules/Worksinput";
 import Head from "next/head";
 import Heading from "../atoms/Heading";
 import WorksButtons from "../molecules/WorksButtons";
 import Filterdrop from "../atoms/Filterdrop";
+import OverView from "./OverView";
 
 function HowWorks() {
+  const [activeTab, setActiveTab] = useState('view');
+
+  const handleTabChange = (tabName) => {
+    setActiveTab(tabName);
+  };
+
   return (
     <div className="flex flex-col bg-gray-200 ">
       <div className="flex flex-col   items-center justify-center gap-[10px] py-[150px]">
@@ -21,33 +28,21 @@ function HowWorks() {
               <Heading level="1">How it works</Heading>
             </div>
             <div className="pb-[20px]">
-              <WorksButtons />
+              <WorksButtons
+                view={() => handleTabChange("view")}
+                ad={() => handleTabChange("ad")}
+                consign={() => handleTabChange("consign")}
+                source={() => handleTabChange("source ")}
+              />
             </div>
           </div>
           <div className="flex w-[1300px] gap-[50px] px-[20px] py-[20px]">
-            <div>
-              <img className="" src="/assits/assits/image/work.png" alt="" />
-            </div>
-            <div className="flex flex-col justify-center text">
-              <div className="items-center">
-                <Heading level="1">Overview</Heading>
-              </div>
-              <div className="p w-[682px] flex flex-col gap-[10px]">
-                <span className="text-[20px] font-thin text-gray-900">
-                  Submit a free listing with ease. Fill in your watch details
-                  and directly get offers from interested individuals.Submit a
-                  free listing with ease. Fill in your watch details and
-                  directly get offers from interested individuals.
-                </span>
-                <span className="text-[20px] font-thin text-gray-900">
-                  Submit a free listing with ease. Fill in your watch details
-                  and directly get offers from interested individuals.Submit a
-                  free listing with ease. Fill in your watch details and
-                  directly get offers from interested individuals.
-                </span>
-              </div>
-            </div>
+            {activeTab === "view" && <OverView />}
+            {activeTab === "ad" && 'ad'}
+            {activeTab === "consign" && 'consign'}
+            {activeTab === "source" && 'source'}
           </div>
+
         </div>
       </div>
     </div>

@@ -121,14 +121,14 @@ function ConsignFiltration() {
           </div>
         <ProgressBar progress={currentStep} totalSteps={totalSteps} />
         </div>
-        {currentStep === 1 && <WatchBrand  onSelectBrand={handleBrandSelect} />}
-        {currentStep === 2 && <Modelwatch onGoBack={handlePrevStep}  onSelectModel={handlModelSelelct} />}
-        {currentStep === 3 && <ModelYear onGoBack={handlePrevStep}  onSelectYear={handlebrandYear} />}
-        {currentStep === 4 && <ModelCondition onGoBack={handlePrevStep}  onSeleCondition={handleSelectCondition} />}
-        {currentStep === 5 && <Modelprice onGoBack={handlePrevStep}  onSelectPrice={handlePriceSelect} />}
-        {currentStep === 6 && <Photo onGoBack={handlePrevStep}  onSelectPic={handlePicSelect} />}
-        {currentStep === 7 && <Modelsignup onGoBack={handlePrevStep}  onSelectSign={handlePicSelect} />}
-        {currentStep === 8 && <Submitment onSelectSub={handleSubSlect} />}
+        {currentStep === 1 && <WatchBrand   onSelectBrand={handleBrandSelect}  />}
+        {currentStep === 2 && <Modelwatch   onSelectModel={handlModelSelelct} />}
+        {currentStep === 3 && <ModelYear   onSelectYear={handlebrandYear} />}
+        {currentStep === 4 && <ModelCondition   onSeleCondition={handleSelectCondition} />}
+        {currentStep === 5 && <Modelprice   onSelectPrice={handlePriceSelect} />}
+        {currentStep === 6 && <Photo   onSelectPic={handlePicSelect} />}
+        {currentStep === 7 && <Modelsignup   onSelectSign={handlePicSelect} />}
+        {currentStep === 8 && <Submitment  />}
       </div>
     </div>
   );
