@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Home from "@/component/templates/Home";
 import Account from "./Account";
@@ -5,10 +6,11 @@ import Account from "./Account";
 function Index() {
   return (
     <div>
-      {/* <Home /> */}
-      <Account />
+      <Home />
+      {/* <Account /> */}
     </div>
   );
 }
 
 export default Index;
+

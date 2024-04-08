@@ -4,17 +4,18 @@ import { useRouter } from "next/router";
 import CustomImage from "../atoms/CustomImage";
 
 function BLog() {
-
+ const router = useRouter();
  
+ const handleButtonClick = () => {
+  router.push('/news')
+ }
 
   return (
-    <div className="main flex justify-between">
-      <div className="lft relative">
-        <Link href={'/News'} >
-          <div className="image1 block">
-            <img src="/assits/assits/image/blog 1.png" alt="" />
-          </div>
-        </Link>
+    <div className="flex justify-between main">
+      <div className="relative lft">
+        <button onClick={handleButtonClick}>
+          <img src="/assits/assits/image/blog 1.png" alt="" />
+        </button>
         <div className="text absolute bottom-[20px] text-white left-[35px]">
           <span className="text-[32px] font-medium ">Title</span>
           <p className="text-[14px] leading-[17.36px] w-[550px] pt-[10px]">
@@ -26,9 +27,9 @@ function BLog() {
         </div>
       </div>
       <div className="right flex flex-col gap-[20px]">
-        <div className="tp flex justify-between">
-          <div className=" relative">
-            <div className=" block">
+        <div className="flex justify-between tp">
+          <div className="relative ">
+            <div className="block ">
               <CustomImage
                 variant="four"
                 src="/assits/assits/image/blog-2.png"
@@ -42,8 +43,8 @@ function BLog() {
               </p>
             </div>
           </div>
-          <div className=" relative">
-            <div className=" block">
+          <div className="relative ">
+            <div className="block ">
               <CustomImage
                 variant="four"
                 src="/assits/assits/image/blog3.png"
@@ -59,8 +60,8 @@ function BLog() {
             </div>
           </div>
         </div>
-        <div className="bottom relative">
-          <div className="image block">
+        <div className="relative bottom">
+          <div className="block image">
             <img src="/assits/assits/image/blog 4.png" alt="" />
           </div>
           <div className=" absolute bottom-[20px] text-white left-[20px]">
@@ -79,3 +80,4 @@ function BLog() {
 }
 
 export default BLog;
+

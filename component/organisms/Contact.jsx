@@ -4,6 +4,8 @@ import { AiFillInstagram } from "react-icons/ai";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import Link from "next/link";
 import Heading from "../atoms/Heading";
+import Header from "../templates/Header";
+import Footer from "../templates/Footer";
 
 function ContactUs() {
   return (
@@ -49,6 +51,7 @@ function ContactUs() {
           </Link>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
