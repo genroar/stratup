@@ -129,7 +129,7 @@ function Createorgan() {
            </div>
         </div>
       </div>
-      <div className="photos flex w-[360px] flex-wrap gap-[13px]">
+      <div className="photos flex w-[1010px] flex-wrap gap-[13px]">
         {photos.map((photo, index) => (
           <div key={index} className="relative w-[80px] h-[80px]">
             <img src={photo} alt="" />

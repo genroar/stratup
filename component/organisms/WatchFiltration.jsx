@@ -138,15 +138,15 @@ function WatchFiltration() {
         <ProgressBar progress={currentStep} totalSteps={totalSteps} />
         </div>
         {currentStep === 1 && <WatchBrand onSelectBrand={handleBrandSelect} />}
-        {currentStep === 2 && <Modelwatch onSelectModel={handlModelSelelct} />}
-        {currentStep === 3 && <ModelYear onSelectYear={handlebrandYear} />}
-        {currentStep === 4 && <ModelCondition onSeleCondition={handleSelectCondition} />}
-        {currentStep === 5 && <ModelSize onSelectSize={handelSizeSelect} />}
-        {currentStep === 6 && <Modelmeterial onSelectMaterial={handleSelectMaterial} />}
-        {currentStep === 7 && <ModelPaper onSelectPaper={handleSelectPaper} />}
-        {currentStep === 8 && <Photo onSelectPic={handlePicSelect} />}
-        {currentStep === 9 && <Modelprice onSelectPrice={handlePriceSelect} />}
-        {currentStep === 10 && <Modelcountry onSelcetCountry={handleCountrySelect} />}
+        {currentStep === 2 && <Modelwatch onSelectModel={handlModelSelelct} onSelectType={handlePrevStep}/>}
+        {currentStep === 3 && <ModelYear onSelectYear={handlebrandYear} onSelectType={handlePrevStep} />}
+        {currentStep === 4 && <ModelCondition onSeleCondition={handleSelectCondition} onSelectType={handlePrevStep} />}
+        {currentStep === 5 && <ModelSize onSelectSize={handelSizeSelect} onSelectType={handlePrevStep} />}
+        {currentStep === 6 && <Modelmeterial onSelectMaterial={handleSelectMaterial}  onSelectType={handlePrevStep}/>}
+        {currentStep === 7 && <ModelPaper onSelectPaper={handleSelectPaper} onSelectType={handlePrevStep}/>}
+        {currentStep === 8 && <Photo onSelectPic={handlePicSelect} onSelectType={handlePrevStep}/>}
+        {currentStep === 9 && <Modelprice onSelectPrice={handlePriceSelect} onSelectType={handlePrevStep}/>}
+        {currentStep === 10 && <Modelcountry onSelcetCountry={handleCountrySelect} onSelectType={handlePrevStep}/>}
       </div>
     </div>
   );

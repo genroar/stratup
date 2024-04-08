@@ -29,3 +29,4 @@ Other.propTypes = {
 };
 
 export default Other;
+  

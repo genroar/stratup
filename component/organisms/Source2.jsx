@@ -7,7 +7,7 @@ import Heading from '../atoms/Heading'
 import ButtonCross from '../atoms/ButtonCross'
 function Source2() {
   return (
-    <div className='flex flex-col gap-[50px] '>
+    <div className='flex flex-col gap-[80px] '>
         <div className=''>
         <div className='main flex items-center px-[50px] py-[20px]'>
           <ButtonCross />
