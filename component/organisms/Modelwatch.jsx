@@ -5,7 +5,7 @@ import Modelhead from "../atoms/Modelhead";
 import { LiaLessThanSolid } from "react-icons/lia";
 import Other from "../atoms/Other";
 import ButtonCross from "../atoms/ButtonCross";
-function Modelwatch({ onSelectModel }) {
+function Modelwatch({ onSelectModel, onSelectType }) {
   const handlModelSelelct = (Model) => {
     onSelectModel(Model);
   };
@@ -17,7 +17,8 @@ function Modelwatch({ onSelectModel }) {
           <div className="w-[730px]  flex flex-col gap-[20px]">
             <div className="flex items-center justify-center ">
               <Modelhead
-                icon={<LiaLessThanSolid  />}
+                icon={<LiaLessThanSolid  /> }
+                onclick = {onSelectType}
                 heading="Watch Model"
                 description="What is the model of your watch?"
                 subDescription="Find or select an option below"

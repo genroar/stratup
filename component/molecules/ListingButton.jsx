@@ -8,7 +8,7 @@ function ListingButton({ buy, sell, source, consign }) {
   };
 
   return (
-    <div className="flex w-[600px] shadow-md divide-y transform rotate-y-1 rounded-tr-[25px] rounded-tl-[25px]">
+    <div className="flex w-[600px] shadow-md transform rotate-y-1 rounded-tr-[25px] h-[60px] rounded-tl-[25px]">
       <button
         onClick={() => {
           buy();
@@ -25,8 +25,7 @@ function ListingButton({ buy, sell, source, consign }) {
           sell();
           handleButtonClick("sell");
         }}
-        className={`w-[150px] h-[60px]  font-medium text-gray-700  flex items-center justify-center  text-[20px] ${
-          activeButton === "sell" ? "bg-buttonGray text-white " : ""
+        className={`w-[150px] h-[60px]  font-medium text-gray-700  flex items-center justify-center  text-[20px] ${activeButton === "sell" ? "bg-buttonGray text-white " : ""
         }`}
         variant=""
       >
@@ -37,8 +36,7 @@ function ListingButton({ buy, sell, source, consign }) {
           source();
           handleButtonClick("source");
         }}
-        className={`w-[150px] h-[60px]  font-medium text-gray-700  flex items-center justify-center text-[20px] ${
-          activeButton === "source" ? "bg-buttonGray text-white " : ""
+        className={`w-[150px] h-[60px]  font-medium text-gray-700  flex items-center justify-center text-[20px] ${activeButton === "source" ? "bg-buttonGray text-white " : ""
         }`}
         variant="tr-radius"
       >
@@ -49,8 +47,7 @@ function ListingButton({ buy, sell, source, consign }) {
           consign();
           handleButtonClick("consign");
         }}
-        className={`w-[150px] h-[60px]  font-medium text-gray-700  flex items-center justify-center text-[20px] rounded-tr-[25px] ${
-          activeButton === "consign" ? "bg-buttonGray text-white " : ""
+        className={`w-[150px] h-[60px]  font-medium text-gray-700  flex items-center justify-center text-[20px] rounded-tr-[25px] ${activeButton === "consign" ? "bg-buttonGray text-white " : ""
         }`}
         variant="rectangle"
       >

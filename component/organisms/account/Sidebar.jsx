@@ -19,19 +19,19 @@ function Sidebar({ dashboard, listing, profile, notification, stock }) {
   return (
     <div className="flex py-[px] justify-between flex-col w-[320px] shadow-lg h-[657px] rounded-[10px]">
       <div>
-        <ProfileButton onClick={() => handleButtonClick("dashboard", dashboard)} isActive={activeButton === "dashboard"} icon={<HiViewGrid className={`w-[30px] h-[30px] ${activeButton === "dashboard" ? "bg-gray-600 rounded-[10px]  w-[50px] h-[50px] px-[10px] py-[10px] flex items-center ml-[-10px] justify-center  text-white" : "bg-white"}`} />}>
+        <ProfileButton onClick={() => handleButtonClick("dashboard", dashboard)} isActive={activeButton === "dashboard"} icon={<HiViewGrid className={`w-[30px] h-[30px] ${activeButton === "dashboard" ? "bg-gray-600 rounded-[10px]  w-[50px] h-[50px] px-[11px] py-[11px] flex items-center ml-[-10px] justify-center  text-white" : "bg-white"}`} />}>
           Dashboard
         </ProfileButton>
-        <ProfileButton onClick={() => handleButtonClick("listing", listing)} isActive={activeButton === "listing"} icon={<FaTag className={`w-[30px] h-[30px] ${activeButton === "listing" ? "bg-gray-600 rounded-[10px] flex items-center  w-[50px] h-[50px] px-[10px] py-[10px] ml-[-10px] justify-center  text-white" : "bg-white"}`} />}>
+        <ProfileButton onClick={() => handleButtonClick("listing", listing)} isActive={activeButton === "listing"} icon={<FaTag className={`w-[30px] h-[30px] ${activeButton === "listing" ? "bg-gray-600 rounded-[10px] flex items-center  w-[50px] h-[50px] px-[11px] py-[11px] ml-[-10px] justify-center  text-white" : "bg-white"}`} />}>
           Listing
         </ProfileButton>
-        <ProfileButton onClick={() => handleButtonClick("notification", notification)} isActive={activeButton === "notification"} icon={<FaBell className={`w-[30px] h-[30px] ${activeButton === "notification" ? "bg-gray-600 rounded-[10px]  w-[50px] h-[50px] px-[10px] py-[10px] flex items-center  ml-[-10px] justify-center text-white" : "bg-white"}`} />}>
+        <ProfileButton onClick={() => handleButtonClick("notification", notification)} isActive={activeButton === "notification"} icon={<FaBell className={`w-[30px] h-[30px] ${activeButton === "notification" ? "bg-gray-600 rounded-[10px]  w-[50px] h-[50px] px-[11px] py-[11px] flex items-center  ml-[-10px] justify-center text-white" : "bg-white"}`} />}>
           Notification
         </ProfileButton>
-        <ProfileButton onClick={() => handleButtonClick("profile", profile)} isActive={activeButton === "profile"} icon={<IoPersonSharp className={`w-[30px] h-[30px] ${activeButton === "profile" ? "bg-gray-600 rounded-[10px]  w-[50px] h-[50px] px-[10px] py-[10px] flex items-center ml-[-10px] justify-center text-white" : "bg-white"}`} />}>
+        <ProfileButton onClick={() => handleButtonClick("profile", profile)} isActive={activeButton === "profile"} icon={<IoPersonSharp className={`w-[30px] h-[30px] ${activeButton === "profile" ? "bg-gray-600 rounded-[10px]  w-[50px] h-[50px] px-[11px] py-[11px] flex items-center ml-[-10px] justify-center text-white" : "bg-white"}`} />}>
           Profile
         </ProfileButton>
-        <ProfileButton onClick={() => handleButtonClick("stock", stock)} isActive={activeButton === "stock"} icon={<PiWatchFill className={`w-[30px] h-[30px] ${activeButton === "stock" ? "bg-gray-600 rounded-[10px] w-[50px] h-[50px] px-[10px] py-[10px] flex items-center justify-center ml-[-10px] text-white " : "bg-white"}`} />}>
+        <ProfileButton onClick={() => handleButtonClick("stock", stock)} isActive={activeButton === "stock"} icon={<PiWatchFill className={`w-[30px] h-[30px] ${activeButton === "stock" ? "bg-gray-600 rounded-[10px] w-[50px] h-[50px] px-[11px] py-[11px] flex items-center justify-center ml-[-10px] text-white " : "bg-white"}`} />}>
           Stock Management
         </ProfileButton>
       </div>

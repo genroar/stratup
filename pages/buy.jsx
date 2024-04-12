@@ -1,6 +1,6 @@
 import Footer from "@/component/templates/Footer";
 import Header from "@/component/templates/Header";
-import News from "@/component/organisms/News";
+import News from "@/pages/news";
 import React from "react";
 import Buy from "@/component/templates/Buy";
 

@@ -10,7 +10,6 @@ function Home() {
   return (
     <div>
       <div className="">
-        <Header />
         <div>
           <Banner />
           <div className="flex items-center justify-center">
@@ -23,7 +22,6 @@ function Home() {
         <HowWorks/>
         <AboutUs/>
         <FAQ/>
-        <Footer />
       </div>
     </div>
   );

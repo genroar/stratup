@@ -5,7 +5,7 @@ import { LiaLessThanSolid } from 'react-icons/lia';
 import Other from '../atoms/Other';
 import { RxCross1 } from "react-icons/rx";
 
-function Modelmeterial({onSelectMaterial}) {
+function Modelmeterial({onSelectMaterial, onSelectType}) {
   const handleMaterialSeclet = (material) => {
     onSelectMaterial(material)
   }
@@ -16,6 +16,7 @@ function Modelmeterial({onSelectMaterial}) {
           <div className='flex flex-col gap-[20px] w-[730px]'>
     <div className='flex justify-center'>
     <Modelhead
+      onclick={onSelectType}
         icon={<LiaLessThanSolid />}
         heading='Case material'
         description='What year is your watch?'

@@ -1,16 +1,15 @@
-
-import React from 'react';
+import Footer from "@/component/templates/Footer";
+import Header from "@/component/templates/Header";
 import Home from "@/component/templates/Home";
-import Account from "./Account";
 
 function Index() {
   return (
     <div>
+      <Header />
       <Home />
-      {/* <Account /> */}
+      <Footer />
     </div>
   );
 }
 
 export default Index;
-

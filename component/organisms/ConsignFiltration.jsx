@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import ButtonCross from "../atoms/ButtonCross";
 import ModelCondition from "./account/ModelCondition";
 import ModelYear from "./account/ModelYear";
@@ -15,99 +15,61 @@ function ConsignFiltration() {
   const [selectedModel, setSelectedModel] = useState(null);
   const [selectedYear, setSelectedYear] = useState(null);
   const [selectCondition, setSelectedCondition] = useState(null);
-  // selelctbrand
-
   const [currentStep, setCurrentStep] = useState(1);
-  const [progress, setProgress] = useState(0)
   const totalSteps = 8;
+  const [progress, setProgress] = useState(0);
 
   const handleBrandSelect = (brand) => {
-    // Do something with the selected brand
     console.log("Selected brand:", brand);
     setCurrentStep(currentStep + 1);
     setProgress((currentStep / totalSteps) * 100);
-    console.log(currentStep);
   };
-
-  // modelwatch
 
   const handlModelSelelct = (model) => {
     console.log("selected model", model);
     setCurrentStep(currentStep + 1);
     setProgress((currentStep / totalSteps) * 100);
-    console.log(progress);
   };
-
-  //model year
 
   const handlebrandYear = (year) => {
     console.log("selected model", year);
     setCurrentStep(currentStep + 1);
     setProgress((currentStep / totalSteps) * 100);
-    console.log(progress);
   };
-
-  //modle condition
 
   const handleSelectCondition = (condition) => {
     console.log("selected condition", condition);
     setCurrentStep(currentStep + 1);
     setProgress((currentStep / totalSteps) * 100);
-    console.log(progress);
   };
 
- // model photo 
-
- const handlePicSelect = (pic) => {
-  console.log("Select pic", pic);
-  setCurrentStep(currentStep + 1);
-  setProgress((currentStep / totalSteps) * 100);
-  console.log(progress);
-};
-
-  // model price 
+  const handlePicSelect = (pic) => {
+    console.log("Select pic", pic);
+    setCurrentStep(currentStep + 1);
+    setProgress((currentStep / totalSteps) * 100);
+  };
 
   const handlePriceSelect = (price) => {
     console.log("Select price", price);
     setCurrentStep(currentStep + 1);
     setProgress((currentStep / totalSteps) * 100);
-    console.log(progress);
   };
-  
-
-  // model signup 
 
   const handleSginSelect = (signup) => {
     console.log("Select signup", signup);
     setCurrentStep(currentStep + 1);
     setProgress((currentStep / totalSteps) * 100);
-    console.log(progress);
   };
-  
-   // model submitment 
 
-   const handleSubSlect = (sub) => {
+  const handleSubSlect = (sub) => {
     console.log("Select sub", sub);
     setCurrentStep(currentStep + 1);
     setProgress((currentStep / totalSteps) * 100);
-    console.log(progress);
   };
-  
-
-
-  const handleNextStep = () => {
-    setCurrentStep(currentStep + 1);
-    setProgress((currentStep / totalSteps) * 100);
-  };
-
-//   const handlePrevStep = () => {
-//     setCurrentStep(currentStep - 1);
-//     setProgress(((currentStep - 2) / totalSteps) * 100);
-//   };
 
   return (
     <div>
-      <div className="flex flex-col ">
+      <div className="flex flex-col">
         <div className="">
           <div className="main flex items-center px-[50px] py-[20px]">
             <ButtonCross />
@@ -119,16 +81,46 @@ function ConsignFiltration() {
               />
             </div>
           </div>
-        <ProgressBar progress={currentStep} totalSteps={totalSteps} />
+          <ProgressBar progress={progress} totalSteps={totalSteps} />
         </div>
-        {currentStep === 1 && <WatchBrand   onSelectBrand={handleBrandSelect}  />}
-        {currentStep === 2 && <Modelwatch   onSelectModel={handlModelSelelct} />}
-        {currentStep === 3 && <ModelYear   onSelectYear={handlebrandYear} />}
-        {currentStep === 4 && <ModelCondition   onSeleCondition={handleSelectCondition} />}
-        {currentStep === 5 && <Modelprice   onSelectPrice={handlePriceSelect} />}
-        {currentStep === 6 && <Photo   onSelectPic={handlePicSelect} />}
-        {currentStep === 7 && <Modelsignup   onSelectSign={handleSginSelect} />}
-        {currentStep === 8 && <Submitment  />}
+        {currentStep === 1 && <WatchBrand onSelectBrand={handleBrandSelect} />}
+        {currentStep === 2 && (
+          <Modelwatch
+            onSelectModel={handlModelSelelct}
+            onSelectType={() => setCurrentStep(currentStep - 1)}
+          />
+        )}
+        {currentStep === 3 && (
+          <ModelYear
+            onSelectYear={handlebrandYear}
+            onSelectType={() => setCurrentStep(currentStep - 1)}
+          />
+        )}
+        {currentStep === 4 && (
+          <ModelCondition
+            onSeleCondition={handleSelectCondition}
+            onSelectType={() => setCurrentStep(currentStep - 1)}
+          />
+        )}
+        {currentStep === 5 && (
+          <Modelprice
+            onSelectPrice={handlePriceSelect}
+            onSelectType={() => setCurrentStep(currentStep - 1)}
+          />
+        )}
+        {currentStep === 6 && (
+          <Photo
+            onSelectPic={handlePicSelect}
+            onSelectType={() => setCurrentStep(currentStep - 1)}
+          />
+        )}
+        {currentStep === 7 && (
+          <Modelsignup
+            onSelectSign={handleSginSelect}
+            onSelectType={() => setCurrentStep(currentStep - 1)}
+          />
+        )}
+        {currentStep === 8 && <Submitment />}
       </div>
     </div>
   );

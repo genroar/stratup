@@ -5,13 +5,13 @@ import { LiaLessThanSolid } from 'react-icons/lia';
 import Other from '../atoms/Other';
 import { RxCross1 } from "react-icons/rx";
 
-function ModelSize({ onSelectSize }) {
+function ModelSize({ onSelectSize, onSelectType }) {
   const handleSizeSelect = (size) => {
     onSelectSize(size);
   };
 
   return (
-    <div className='flex flex-col pt-[100px] items-center justify-center'>
+    <div className='flex flex-col pt-[100px]'>
       <div>
         <div className='main flex items-center px-[50px] py-[20px]'>
           <button><RxCross1 /></button>
@@ -23,7 +23,7 @@ function ModelSize({ onSelectSize }) {
       <div className='flex flex-col items-center justify-center'>
         <div className='w-[730px] flex flex-col gap-[20px]'>
           <div className='flex justify-center'>
-            <Modelhead icon={<LiaLessThanSolid />} heading='Case size' description='What year is size of the case?' subDescription='Select an option below' />
+            <Modelhead onClick={onSelectType} icon={<LiaLessThanSolid />} heading='Case size' description='What year is size of the case?' subDescription='Select an option below' />
           </div>
           <div className='w-[730px] flex flex-wrap gap-[10px]'>
             <button onClick={() => handleSizeSelect("28mm")}><WatchModel text='28mm' /></button>

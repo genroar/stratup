@@ -6,7 +6,8 @@ import Other from '../../atoms/Other';
 import { RxCross1 } from "react-icons/rx";
 import ButtonCross from '@/component/atoms/ButtonCross';
 
-function  ModelYear({ onSelectYear }) {
+
+  function  ModelYear({ onSelectYear, onSelectType }) {
 
   const handlebrandYear = (year) => {
     onSelectYear(year);
@@ -17,7 +18,8 @@ function  ModelYear({ onSelectYear }) {
       <div className='flex flex-col items-center justify-center'>
         <div className='w-[730px]  flex flex-col gap-[20px]'>
           <div className=''>
-            <Modelhead icon={<LiaLessThanSolid />} heading='Year' description='What year is your watch?' subDescription='Select an option below' />
+            <Modelhead onclick={onSelectType} icon={<LiaLessThanSolid />} heading='Year' description='What year is your watch?' subDescription='Select an option below' />
+
           </div>
           <div className='w-[730px] flex flex-wrap gap-[10px]'>
             <button onClick={ () => handlebrandYear('year1')} ><WatchModel text='2024' /></button>

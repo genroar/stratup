@@ -2,10 +2,10 @@ import React from "react";
 import { AiOutlineLessThan } from "react-icons/ai";
 import Heading from "./Heading";
 
-function Modelhead({ icon, heading, description, subDescription }) {
+function Modelhead({ icon, heading, onclick, description, subDescription }) {
   return (
     <div className='flex items-center justify-center'>
-      <button>{icon}</button>
+      <button onClick={onclick}>{icon}</button>
       <div className='flex flex-col text-center justify-center w-[360px]'>
         <Heading level='4'>{heading}</Heading>
         <span className='text-[15px] font-normal'>{description}</span>
