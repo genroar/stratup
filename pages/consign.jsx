@@ -1,14 +1,9 @@
-import Brand from "@/component/molecules/Brand";
-import Rolex from "@/component/molecules/Rolex";
-import Header from "@/component/templates/Header";
-import Home from "@/component/templates/Home";
-import React from 'react'
+import ConsignFiltration from "@/component/organisms/ConsignFiltration";
 
 function consign() {
   return (
     <div>
-    <Header />
-    <Brand/>
+    <ConsignFiltration/>
 </div>
   )
 }

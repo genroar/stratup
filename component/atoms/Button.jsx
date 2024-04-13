@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import '../../app/globals.css'
 import PropTypes from "prop-types";
 
-const Button = ({ href, children, variant, onClick }) => {
+const   Button = ({ href, children, variant, onClick }) => {
   const [activeButton, setActiveButton] = useState(null);
 
   const handleButtonClick = (buttonName) => {
@@ -41,7 +41,7 @@ const Button = ({ href, children, variant, onClick }) => {
       break;
     case "tr-radius":
       buttonStyle =
-        "bg-white  h-[50px] active:bg-buttonGray ${isClicked ? 'bg-blue-700' : 'bg-blue-500 hover:bg-blue-600'} border border-opacitiy cursor-pointer  text-center w-[150px] rounded-tr-[25px] flex items-center justify-center  text-[20px] font-medium text-buttonGray";
+        "bg-white  h-[50px] active:bg-buttonGray border border-opacitiy cursor-pointer  text-center w-[150px] rounded-tr-[25px] flex items-center justify-center  text-[20px] font-medium text-buttonGray";
       break;
     case "rectangle":
       buttonStyle =
@@ -85,7 +85,7 @@ const Button = ({ href, children, variant, onClick }) => {
       break;
     case "submit":
       buttonStyle =
-        "bg-buttonGray h-[41px] cursor-pointer text-center w-[235px] text-[16px] font-medium rounded-[20px] py-[7px] curser-pointer text-white";
+        "bg-buttonGray h-[41px] cursor-pointer text-center w-[235px] text-[16px] font-medium rounded-[20px] py-[7px] curser-pointer text-white leading-[19.5px]";
       break;
     default:
       buttonStyle = "";

@@ -2,22 +2,17 @@ import React from 'react'
 import Heading from '../atoms/Heading'
 import Button from '../atoms/Button'
 import { RxCross1 } from "react-icons/rx";
+import AnchorTag from '../atoms/Anchortag';
 
-function Submitment() {
+function Submitment({onSelectSub}) {
+  const handleSubSlect = (sub) => {
+    onSelectSub(sub)
+  }
+  
+
   return (
- <div className="flex flex-col gap-[150px]">
-    <div className=''>
-        <div className='main flex items-center px-[50px] py-[20px]'>
-          <button><RxCross1 /></button>
-          <div className='flex justify-center items-center w-full'><img className='w-[160px]' src="/assits/assits/image/header-Logo.png" alt="" /></div>
-        </div>
-        <div className='w-full h-[15px] bg-gray-400 shadow-md'>
-          <div className='w-full rounded-r-[10px] bg-gray-700 h-[15px]'>
-
-          </div>
-        </div>
-      </div>
-     <div className="flex flex-col justify-center items-center">
+ <div className="flex flex-col items-center justify-center pt-[150px]">
+     <div className="flex flex-col items-center justify-center">
       <div className='flex flex-col gap-[20px]  w-[360px]'>
         <div className='text-center'><Heading level='4'>Our management fees are</Heading></div>
         <div className='w-[360px] rounded-[20px] shadow-sm text-center flex flex-col gap-[10px] py-[20px]'> 
@@ -31,10 +26,10 @@ function Submitment() {
         </div>
         <div className='flex  gap-[10px]'>
             <input type="checkbox" />
-            <span className='text-[13px] font-normal'>I accept the Terms & Conditions</span>
+            <span className='text-[13px] font-normal'>I accept the <AnchorTag>Terms & Conditions</AnchorTag></span>
         </div>
         <div>
-            <Button variant='primary'>Submit</Button>
+            <Button onClick={() => handleSubSlect('Submit')} variant='primary'>Submit</Button>
         </div>
     </div>
   </div>

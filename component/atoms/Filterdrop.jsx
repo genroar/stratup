@@ -16,7 +16,7 @@ const Filterdrop = ({ parent, child }) => {
         <button
           onClick={() => setIsOpen(!isOpen)}
           type="button"
-          className="w-[300px] h-[40px] flex items-center justify-between "
+          className="w-[400px] h-[40px] flex items-center justify-between "
           id="menu-button"
           aria-expanded={isOpen ? "true" : "false"}
           aria-haspopup="true"

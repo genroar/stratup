@@ -1,11 +1,10 @@
 import PropTypes from 'prop-types'
-
-const AnchorTag2 = ({ href, children }) => {
+const AnchorTag2 = ({ href, children, onClick }) => {
   
   const anchorStyle = "cursor-pointer text-[16px] font-normal   "
   
   return (
-    <a className={anchorStyle} href={href}>{children}</a>
+    <a className={anchorStyle} href={href} onClick={onClick} >{children}</a>
   )
 }
 

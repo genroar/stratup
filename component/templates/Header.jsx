@@ -5,41 +5,32 @@ import CustomImage from "../atoms/CustomImage";
 import Navigation from "../molecules/Navigation";
 import HeaderRight from "../molecules/HeaderRight";
 import SignUpmol from "../molecules/SignUpmol";
+import Link from "next/link"
 
 function Header() {
 
   const router = useRouter();
 
-  const handleButtonClick = () => {
-    router.push('/Home')
-  }
-
-  const [activeTab, setActiveTab] = useState("genrel");
-
-  const handleTabChange = (tabName) => {
-    setActiveTab(tabName);
-  };
-
   return (
     <div>
        <div className="flex w-full py-[15px] header items-center px-[50px]  h-[65px] justify-between">
       <div>
-        <button onClick={handleButtonClick} >
+        <Link href="/" >
           <CustomImage
             variant="logo"
             src="/assits/assits/image/header-logo.png"
             alt="logo"
           />
-        </button>
+        </Link>
       </div>
       <div>
         <Navigation />
       </div>
       <div>
-        <HeaderRight login={() => handleTabChange("login")} />
+        <HeaderRight />
       </div>
     </div>
-    {activeTab === "login" &&  <SignUpmol/>}
+    {/* {activeTab === "login" &&  <SignUpmol />} */}
 
     </div>
   );

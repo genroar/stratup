@@ -3,35 +3,28 @@ import Heading from '../atoms/Heading'
 import Other from '../atoms/Other'
 import { RxCross1 } from "react-icons/rx";
 
-function Modelcountry() {
-  return (
-    <div className='flex flex-col gap-[50px]'>
-      <div className=''>
-        <div className='main flex items-center px-[50px] py-[20px]'>
-          <button><RxCross1 /></button>
-          <div className='flex justify-center items-center w-full'><img className='w-[160px]' src="/assits/assits/image/header-Logo.png" alt="" /></div>
-        </div>
-        <div className='w-full h-[15px] bg-gray-400 shadow-md'>
-          <div className='w-[180px] rounded-r-[10px] bg-gray-700 h-[15px]'>
+function Modelcountry({onSelcetCountry}) {
+  const handleCountrySelect = (Country) => {
+    onSelcetCountry(Country)
+  }
 
-          </div>
-        </div>
-      </div>
+  return (
+    <div className='flex flex-col gap-[50px] pt-[100px]'>
       <div className=' flex flex-col justify-center items-center gap-[20px]'>
-        <div className='text flex flex-col text-center'>
+        <div className='flex flex-col text-center text'>
           <Heading level='4'>Your country</Heading>
           <span className='text-[15px] font-normal'>Where are you located?</span>
           <span className='text-[13px] font-normal text-gray-900'>Select an option below</span>
         </div>
         <div className='image w-[360px] flex flex-wrap flex-row gap-[20px] justify-center items-center'>
-         <button> <img className='w-[170px] h-[70px]' src="/assits/assits/image/UAE1.png" alt="" /></button>
-         <button> <img className='w-[170px] h-[70px]' src="/assits/assits/image/UAE1.png" alt="" /></button>
-         <button> <img className='w-[170px] h-[70px]' src="/assits/assits/image/UAE1.png" alt="" /></button>
-         <button> <img className='w-[170px] h-[70px]' src="/assits/assits/image/UAE1.png" alt="" /></button>
-         <button> <img className='w-[170px] h-[70px]' src="/assits/assits/image/UAE1.png" alt="" /></button>
-         <button> <img className='w-[170px] h-[70px]' src="/assits/assits/image/UAE1.png" alt="" /></button>
-         <button> <img className='w-[170px] h-[70px]' src="/assits/assits/image/UAE1.png" alt="" /></button>
-         <button> <img className='w-[170px] h-[70px]' src="/assits/assits/image/UAE1.png" alt="" /></button>
+         <button onClick={() => handleCountrySelect('Country1')} > <img className='w-[170px] h-[70px]' src="/assits/assits/image/UAE1.png" alt="" /></button>
+         <button onClick={() => handleCountrySelect('Country2')} > <img className='w-[170px] h-[70px]' src="/assits/assits/image/UAE1.png" alt="" /></button>
+         <button onClick={() => handleCountrySelect('Country3')} > <img className='w-[170px] h-[70px]' src="/assits/assits/image/UAE1.png" alt="" /></button>
+         <button onClick={() => handleCountrySelect('Country4')} > <img className='w-[170px] h-[70px]' src="/assits/assits/image/UAE1.png" alt="" /></button>
+         <button onClick={() => handleCountrySelect('Country5')} > <img className='w-[170px] h-[70px]' src="/assits/assits/image/UAE1.png" alt="" /></button>
+         <button onClick={() => handleCountrySelect('Country6')} > <img className='w-[170px] h-[70px]' src="/assits/assits/image/UAE1.png" alt="" /></button>
+         <button onClick={() => handleCountrySelect('Country7')} > <img className='w-[170px] h-[70px]' src="/assits/assits/image/UAE1.png" alt="" /></button>
+         <button onClick={() => handleCountrySelect('Country8')} > <img className='w-[170px] h-[70px]' src="/assits/assits/image/UAE1.png" alt="" /></button>
         </div>
         <div className='button'>
           <Other parent='Other' child='umair'></Other>

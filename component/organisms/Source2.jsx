@@ -4,13 +4,13 @@ import Homesrc from '../atoms/Homesrc'
 import Button from '../atoms/Button'
 import AnchorTag from '../atoms/Anchortag'
 import Heading from '../atoms/Heading'
-import { RxCross1 } from "react-icons/rx";
+import ButtonCross from '../atoms/ButtonCross'
 function Source2() {
   return (
-    <div className='flex flex-col gap-[50px] '>
+    <div className='flex flex-col gap-[80px] '>
         <div className=''>
         <div className='main flex items-center px-[50px] py-[20px]'>
-          <button><RxCross1 /></button>
+          <ButtonCross />
           <div className='flex justify-center items-center w-full'><img className='w-[160px]' src="/assits/assits/image/header-Logo.png" alt="" /></div>
         </div>
         <div className='w-full h-[15px] bg-gray-400 shadow-md'>
@@ -59,7 +59,7 @@ function Source2() {
      </div>
     <div className='w-[835px]'>
     <div className='button bg-gray-700 w-[235px] h-[40px] flex justify-center items-center rounded-[20px] py-[20px] my-[25px] text-white text-[16px] text-medium font-medium float-right'>
-       <Button children='Submit'></Button>
+       <Button variant='Submit'>SUBMIT</Button>
      </div>
     </div>
    </div>

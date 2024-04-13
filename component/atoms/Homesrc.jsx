@@ -41,7 +41,7 @@ const Filterdrop = ({ parent, child }) => {
 
       {isOpen && (
         <div
-          className="origin-top-right  right-0 mt-2 w-[430px] rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5"
+          className="origin-top-right  right-0 mt-2 w-[400px] rounded-md  bg-white ring-1 ring-black ring-opacity-5"
           role="menu"
           aria-orientation="vertical"
           aria-labelledby="menu-button"
@@ -49,7 +49,7 @@ const Filterdrop = ({ parent, child }) => {
           <div className="py-1" role="none">
             <a
               href="#"
-              className="block px-4 py-2 w-[430px] text-sm text-gray-700 hover:bg-gray-100"
+              className="block px-4 py-2 w-[400px] text-sm text-gray-700 hover:bg-gray-100"
               role="menuitem"
               onClick={() => handleItemClick(child)}
             >

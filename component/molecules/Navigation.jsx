@@ -5,8 +5,8 @@ import Link from 'next/link'
 function Navigation() {
   return (
     <div className='flex  h-[20px] gap-[30px] ' >
-      <Link href='/buy'>Buy</Link>
-      <Link href='../organisms/Brand'>Sell</Link>
+      <Link href='/buy'></Link>
+      <Link href='/sell'>Sell</Link>
       <Link href='/sources'>Sources</Link>
       <Link href='/consign'>Consign</Link>
       <Link href='/about'>About Us</Link>

@@ -1,58 +1,14 @@
-import React from "react";
-import { RiFacebookBoxFill } from "react-icons/ri";
-import { AiFillInstagram } from "react-icons/ai";
-import { AiFillTwitterCircle } from "react-icons/ai";
-import Heading from "../component/atoms/Heading";
-import Footer from "../component/organisms/Footer";
-import Header from "@/component/templates/Header";
-function Contact() {
+import Contact from '@/component/organisms/Contact'
+import Header from '@/component/templates/Header'
+import React from 'react'
+
+function contact() {
   return (
     <div>
-      <Header/>    
-      <div className="flex gap-[40px] px-[40px] py-[40px] justify-between items-center ">
-        <div className=" flex flex-col gap-[20px] ">
-          <div className="flex flex-col gap-[10px]">
-            <Heading level="4">Call us at this number</Heading>
-            <span className="text-[18px] text-contactGray  text-opacity-80  ">
-              + 9 (999)-999-99-99
-            </span>
-          </div>
-          <div className="flex flex-col gap-[10px]">
-            <Heading level="4">Company location</Heading>
-            <span className="text-[18px] text-contactGray text-opacity-80 ">
-              Moscow, Russia, Lenin Square Street 62/3
-            </span>
-          </div>
-          <div className="flex flex-col gap-[10px]">
-            <Heading level="4">Contact us by mail</Heading>
-            <span className="text-[18px] text-contactGray   text-opacity-80">
-              Stratup@mail.com
-            </span>
-          </div>
-          <div className="flex flex-col gap-[10px]">
-            <Heading level="4">Follow us on social networks</Heading>
-            <div className="icon flex flex-row gap-[10px]">
-              <button>
-                <RiFacebookBoxFill className="w-[30px] h-[30px]" />
-              </button>
-              <button>
-                <AiFillTwitterCircle className="w-[30px] h-[30px]" />
-              </button>
-              <button>
-                <AiFillInstagram className="w-[30px] h-[30px]" />
-              </button>
-            </div>
-          </div>
-        </div>
-        <div>
-          <a href="">
-            <img src="/assits/assits/image/Ma.png" alt="" />
-          </a>
-        </div>
-      </div>
-      <Footer />
+        <Header />
+        <Contact />
     </div>
-  );
+  )
 }
 
-export default Contact;
+export default contact

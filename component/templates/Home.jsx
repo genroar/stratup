@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "@/component/templates/Header";
-import Footer from "@/component/organisms/Footer";
+import Header from "./Header";
+import Footer from "@/component/templates/Footer";
 import Banner from "@/component/organisms/Banner";
 import Listing from "@/component/organisms/Listing";
 import HowWorks from "../organisms/HowWorks";
@@ -9,8 +9,8 @@ import FAQ from "../organisms/FAQ";
 function Home() {
   return (
     <div>
+      <Header/>
       <div className="">
-        <Header />
         <div>
           <Banner />
           <div className="flex items-center justify-center">
@@ -23,7 +23,6 @@ function Home() {
         <HowWorks/>
         <AboutUs/>
         <FAQ/>
-        <Footer />
       </div>
     </div>
   );

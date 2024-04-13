@@ -1,12 +1,12 @@
 import Home from "@/component/templates/Home";
 import "../../strapup/app/globals.css";
+import Acount from "@/component/organisms/account/Acount";
 
 function index() {
   return (
     <div className="">
-      <div className="main">
-        <h1>i am the devel of my world </h1>
-      </div>
+        <Home/>
+        {/* <Acount /> */}
     </div>
   );
   }
