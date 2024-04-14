@@ -17,7 +17,7 @@ function Acount() {
   };
 
   return (
-    <div className=" mt-[50px]  flex gap-[20px] mx-auto -w-full margin-auto">
+    <div className=" mt-[50px]  flex gap-[20px] mx-auto w-full">
       <Sidebar
         dashboard={() => handleTabChange("dashboard")}
         listing={() => handleTabChange("listing")}
@@ -26,7 +26,7 @@ function Acount() {
         stock={() => handleTabChange("stock")}
       />
       
-      <div className="h-[1005px] w-[1200px]">
+      <div className="">
         {activeTab === "dashboard" && <Dashboard/>}
         {activeTab === "listing" && <Listingoverall/>}
         {activeTab === "notification" && <Notificationbar/>}

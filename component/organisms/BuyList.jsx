@@ -7,18 +7,18 @@ import Product from '../molecules/Product'
 
 function BuyList() {
   return (
-    <div className='flex flex-col gap-[30px]' >
-        <div className='flex gap-[30px]' > 
+    <div className='flex flex-col gap-[10px] container' >
+        <div className='flex gap-[20px] items-center pt-[30px] pb-[10px]' > 
             <Worksinput/>
             <OrderDropdown/>     
         </div>
-        <div className='w-[1006px] gap-[30px] flex flex-wrap ' > 
-          <Product/>
-          <Product/>
-          <Product/>
-          <Product/>
-          <Product/>
-          <Product/>
+        <div className='gap-[20px] flex flex-wrap ' > 
+          <Product productClass={'w-[31.9%]'}/>
+          <Product productClass={'w-[31.9%]'}/>
+          <Product productClass={'w-[31.9%]'}/>
+          <Product productClass={'w-[31.9%]'}/>
+          <Product productClass={'w-[31.9%]'}/>
+          <Product productClass={'w-[31.9%]'}/>
         </div>
     </div>
   )

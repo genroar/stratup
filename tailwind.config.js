@@ -22,7 +22,9 @@ module.exports = {
         customgrays: '#5E6062',
         customGray1: '#47484E',
         lightGray: '#F7F7F7',
-        semiTransparentGray: 'rgba(40, 40, 40, 0.5)'
+        semiTransparentGray: 'rgba(40, 40, 40, 0.5)',
+        border: 'rgba(94, 96, 98, 1)'
+
       },
       hadow: {
         customshadow: '0px 0px 10px 5px rgba(0, 0, 0, 0.13)',

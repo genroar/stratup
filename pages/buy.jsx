@@ -9,7 +9,6 @@ export default function buy() {
     <div>
       <Header />
       <Buy />
-      <Footer />
     </div>
   );
 }

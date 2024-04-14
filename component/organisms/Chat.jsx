@@ -14,8 +14,8 @@ function Chat() {
   };
 
   return (
-    <div className="flex items-center justify-center w-full bg-white">
-      <div className="w-[1340px] flex flex-col gap-[30px] items-center justify-center text-center bg-spanGray bg-opacity-10 rounded-[25px] h-[258px]">
+    <div className="flex items-center justify-center container w-full bg-gray-200 rounded-[25px]">
+      <div className="w-[1340px] flex flex-col gap-[30px] items-center justify-center text-center  h-[258px]">
         <div className="flex flex-col gap-[5px]">
           <Heading level="1">Let’s Chat</Heading>
           <SourceSpan variant="secondary">

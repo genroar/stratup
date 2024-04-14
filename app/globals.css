@@ -6,11 +6,14 @@
     font-family: 'Kumb Sans';
     src: url('../public/fonts/kumbsans/KumbhSans-Medium.ttf') format('truetype');
   }
-  
-  h1, h2, h3, h4, h5, h6 {
+  @font-face {
+    font-family: 'span';
+    src: url(../public/fonts/kumbsans/KumbhSans-Regular.ttf);
+  }
+  h1 {
     font-family: 'Kumb Sans', sans-serif;
   }
-  
+ 
 
 .header {
     box-shadow: 0px 0px 15px 5px #0000001A;

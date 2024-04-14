@@ -18,7 +18,7 @@ const Other = ({ parent, child }) => {
         <FaChevronDown />
         </div>
       </div>
-      {isOpen && <div className='text-white'>{child}</div>}
+      {isOpen && <div className='text-white bg-gray-100 mt-[10px] rounded-[20px] py-[20px] w-[360px]'>{child}</div>}
     </div>
   );
 };
