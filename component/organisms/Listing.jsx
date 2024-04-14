@@ -20,7 +20,7 @@ function Listing() {
         source={() => handleTabChange("source")}
         consign={() => handleTabChange("consign")}
       />
-      <div className=" w-[1200px] flex flex-col justify-center source items-center  rounded-tr-[50px] rounded-br-[50px] rounded-bl-[50px]">
+      <div className="flex flex-col justify-center source items-center shadow-black shadow-opacity-10  rounded-tr-[50px] rounded-br-[50px] rounded-bl-[50px]">
         {activeTab === "buy" && <BuyHome />}
         <div className="py-[50px]">
           <div>{activeTab === "sell" && <Rolex />}</div>

@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'Kumb Sans';
+    src: url('../public/fonts/kumbsans/KumbhSans-Medium.ttf') format('truetype');
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kumb Sans', sans-serif;
+  }
+  
+
 .header {
     box-shadow: 0px 0px 15px 5px #0000001A;
 }
@@ -9,9 +19,22 @@
     box-shadow: 0px 0px 10px 5px #0000000D;
 }
 .footer {
-    background-color:rgba(0, 0, 0, 0.898) ;
+    background-color:rgba(0, 0, 0, 0.898);
 }
 .five2 {
-    background-color:rgba(0, 0, 0, 0.898) ;
-
+    background-color:rgba(0, 0, 0, 0.898);
+}
+.listingbutton {
+    box-shadow: 0px -5px 15px 0px #0000001A;
+}
+.product_tab {
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+}
+.search_shadow input{
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+.container {
+    max-width: 1280px;
+    margin: auto;
 }

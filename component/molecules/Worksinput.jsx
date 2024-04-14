@@ -7,7 +7,7 @@ function Worksinput() {
     <div className="relative flex ">
       <Input variant="buy" placeholder="Input Referance"></Input>
 
-      <div className="bg-gray-500 absolute left-[630px] top-[2px] rounded-full w-[37px] h-[37px] flex items-center justify-center ">
+      <div className="bg-gray-500 absolute right-0 top-[2px] rounded-full w-[37px] h-[37px] flex items-center justify-center ">
         <CustomImage
           src="/assits/assits/svg/search.svg"
           alt="search"

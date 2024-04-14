@@ -14,15 +14,15 @@ function HowWorks() {
   };
 
   return (
-    <div className="flex flex-col bg-gray-200 ">
-      <div className="flex flex-col   items-center justify-center gap-[10px] py-[150px]">
+    <div className="flex flex-col  bg-lightGray ">
+      <div className="flex flex-col w-[835px] container  justify-center gap-[10px] py-[150px]">
         <div className="text-center">
           <Heading level="1">Find out how much your watch is worth</Heading>
         </div>
         <Worksinput />
       </div>
       <div className="pb-[100px]">
-        <div className="rounded-[50px] bg-white shadow-lg w-[1340px] m-auto">
+        <div className="rounded-[50px] container bg-white shadow-lg ">
           <div className="flex flex-col items-center work justify-center py-[20px] gap-[20px] border-b-2 border-gray-500">
             <div className="text-center">
               <Heading level="1">How it works</Heading>

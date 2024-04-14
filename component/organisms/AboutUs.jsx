@@ -2,6 +2,8 @@ import React from "react";
 import Heading from "../atoms/Heading";
 import Button from "../atoms/Button";
 import FAQdrop1 from "../atoms/FAQdrop1";
+import { TbMathGreater } from "react-icons/tb";
+import { TiMathGreaterThan } from 'react-icons/ti';
 
 function AboutUs() {
   return (
@@ -32,8 +34,11 @@ function AboutUs() {
           </div>
           <div className="relative ">
             <div className="absolute mt-[-12px] left-[425px]" > 
-            <Button  variant="aboutus">Read more</Button>
+            <div className="flex w-[142px] h-[40px] rounded-[40px] border-2 border-gray-700"><button>Read more</button>
+              <div><TbMathGreater /></div>
             </div>
+            </div>
+
           </div>
         </div>
       </div>

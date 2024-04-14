@@ -11,7 +11,7 @@ function Input({ variant, type, placeholder }) {
       break;
     case "secondary":
       inputStyle =
-        "w-[1170px] h-[41px] rounded-[40px] p-[10px]  outline-none border-2 border-opacity-10 border-gray-500  ";
+        "h-[41px] w-full rounded-[40px] p-[10px]  outline-none border-2 border-opacity-10 border-gray-500  ";
       break;
     case "third":
       inputStyle =
@@ -19,7 +19,7 @@ function Input({ variant, type, placeholder }) {
       break;
     case "buy":
       inputStyle =
-        "w-[670px] h-[41px] rounded-[40px] outline-none p-[10px]  border-2 border-opacity-10 border-gray-500  ";
+        "w-full h-[41px] rounded-[40px] outline-none p-[10px]  border-2 border-opacity-10 border-gray-500  ";
       break;
     case "four":
       inputStyle =

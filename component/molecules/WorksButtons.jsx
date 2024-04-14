@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Button from "../atoms/Button";
 
 function WorksButtons({ view, ad, consign, source }) {
-  const [activeButton, setActiveButton] = useState(null);
+  const [activeButton, setActiveButton] = useState('view');
 
   const handleButtonClick = (buttonName) => {
     setActiveButton(buttonName);

@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 
 function ListingButton({ buy, sell, source, consign }) {
-  const [activeButton, setActiveButton] = useState(null);
+  const [activeButton, setActiveButton] = useState('buy');
 
   const handleButtonClick = (buttonName) => {
     setActiveButton(buttonName);
   };
 
   return (
-    <div className='flex w-[600px] shadow-md transform rotate-y-1 rounded-tr-[25px] h-[60px] rounded-tl-[25px]'>
+    <div className='flex w-[600px] divide-x-[1px] divide-gray-300 shadow-t-custom listingbutton transform rotate-y-1 rounded-tr-[25px] h-[60px] rounded-tl-[25px]'>
       <button onClick={() => { buy(); handleButtonClick('buy'); }} className={`w-[150px] h-[60px] font-medium text-gray-700  flex items-center justify-center text-[20px] rounded-tl-[25px] ${activeButton === "buy" ? "bg-buttonGray text-white " : ""
         }`} >Buy</button>
       <button onClick={() => { sell(); handleButtonClick('sell'); }} className={`w-[150px] h-[60px]  font-medium text-gray-700  flex items-center justify-center  text-[20px] ${activeButton === "sell" ? "bg-buttonGray text-white " : ""

@@ -13,7 +13,7 @@ function Home() {
         <Header />
         <div>
           <Banner />
-          <div className="flex items-center justify-center">
+          <div className="px-[80px] flex items-center justify-center">
             <Listing />
           </div>
           <div>
