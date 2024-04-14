@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { MdDelete } from "react-icons/md";
 import { AiFillMessage } from "react-icons/ai";
 import { FaPen } from "react-icons/fa";
@@ -8,6 +8,20 @@ import $ from 'jquery';
 import '../../../app/globals.css'
 
 function Listings() {
+
+    const [activeTab, setActiveTab] = useState(null);
+    const [isButtonVisible, setIsButtonVisible] = useState(true);
+  
+    const handleTabChange = (tabName) => {
+      setActiveTab(tabName);
+      setIsButtonVisible(false); 
+    };
+  
+    const toggleNotificationButton = () => {
+      setActiveTab(null); 
+      setIsButtonVisible(true); 
+    };
+
     useEffect(() => {
         $('#myTable').DataTable();
     }, []);
@@ -19,10 +33,11 @@ function Listings() {
                     <tr>
                         <th>Image</th>
                         <th> Brand</th>
+                        <th> Model </th>
                         <th> Price </th>
                         <th> Diameter </th>
                         <th> Material </th>
-                        <th> Messages </th>
+                        <th> Message </th>
                         <th> Status </th>
                         <th> Actions </th>
                     </tr>
@@ -41,9 +56,9 @@ function Listings() {
                         <td>
                             <div className="bg-listGreen bg-opacity-10 flex items-center justify-center text-listGreen rounded-[10px] font-semibold  w-[90px] " >Available</div>
                         </td>
-                        <td>
+                        <td className="flex" >
                             <div className="bg-penbg bg-opacity-20 px-[3px] py-[6px] rounded-full" ><FaPen className="text-pen" /></div>
-                            <div><MdDelete /></div>
+                            <div className="bg-del bg-opacity-10 px-[3px] py-[6px] rounded-full"><MdDelete className="text-del" /></div>
                         </td>
                     </tr>
                 </tbody>

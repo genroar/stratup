@@ -22,6 +22,7 @@ module.exports = {
         listGreen: '#2BE03D',
         pen: '#4F99E3',
         penbg: '#1671CC',
+        del: '#FF2F2F',
       },
       hadow: {
         customshadow: '0px 0px 10px 5px rgba(0, 0, 0, 0.13)',

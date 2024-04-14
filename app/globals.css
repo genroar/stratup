@@ -44,3 +44,7 @@ span.dt-column-title {
   background-color: #1671CC;
   opacity: 0.1;
 }
+table#myTable tr, table#myTable td {
+  background: #fff !important;
+  box-shadow: none !important;
+}

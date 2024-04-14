@@ -9,12 +9,12 @@ function Notificationbar() {
 
   const handleTabChange = (tabName) => {
     setActiveTab(tabName);
-    setIsButtonVisible(false); // Hide the button when a tab is clicked
+    setIsButtonVisible(false); 
   };
 
   const toggleNotificationButton = () => {
-    setActiveTab(null); // Reset activeTab state
-    setIsButtonVisible(true); // Show the button when the back button is clicked
+    setActiveTab(null); 
+    setIsButtonVisible(true); 
   };
 
   return (
