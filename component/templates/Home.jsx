@@ -9,8 +9,8 @@ import FAQ from "../organisms/FAQ";
 function Home() {
   return (
     <div>
+      <Header/>
       <div className="">
-        <Header />
         <div>
           <Banner />
           <div className="px-[80px] flex items-center justify-center">
@@ -23,8 +23,8 @@ function Home() {
         <HowWorks/>
         <AboutUs/>
         <FAQ/>
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 }

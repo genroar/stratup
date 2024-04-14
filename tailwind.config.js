@@ -14,17 +14,24 @@ module.exports = {
       },
       colors: {
         customGray: '#47484E',
-       buttonGray : '#5E6062',
+        buttonGray: '#5E6062',
         spanGray: '#282828',
         profiletext: '#5E6062',
         footerbg: 'rgba(0, 0, 0, 0.898)',
         contactGray: '#393939',
+<<<<<<< HEAD
         customgrays: '#5E6062',
         customGray1: '#47484E',
         lightGray: '#F7F7F7',
         semiTransparentGray: 'rgba(40, 40, 40, 0.5)',
         border: 'rgba(94, 96, 98, 1)'
 
+=======
+        listGreen: '#2BE03D',
+        pen: '#4F99E3',
+        penbg: '#1671CC',
+        del: '#FF2F2F',
+>>>>>>> fc298d79642f07bd59211e6bcda80187166603be
       },
       hadow: {
         customshadow: '0px 0px 10px 5px rgba(0, 0, 0, 0.13)',

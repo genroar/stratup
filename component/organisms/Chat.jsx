@@ -6,10 +6,9 @@ import Button from "../atoms/Button";
 import Contact from "@/component/organisms/Contact";
 
 function Chat() {
-  const router = useRouter(); // Initialize useRouter
+  const router = useRouter(); 
   
   const handleButtonClick = () => {
-    // Navigate to the contact page when the button is clicked
     router.push('/contact');
   };
 

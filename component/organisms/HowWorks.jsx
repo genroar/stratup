@@ -5,6 +5,9 @@ import Heading from "../atoms/Heading";
 import WorksButtons from "../molecules/WorksButtons";
 import Filterdrop from "../atoms/Filterdrop";
 import OverView from "./OverView";
+import AdTittle from "./AdTittle";
+import ConsignTittle from "./ConsignTittle";
+import SourceTittle from "./SourceTittle";
 
 function HowWorks() {
   const [activeTab, setActiveTab] = useState('view');
@@ -38,9 +41,9 @@ function HowWorks() {
           </div>
           <div className="flex w-[1300px] gap-[50px] px-[20px] py-[20px]">
             {activeTab === "view" && <OverView />}
-            {activeTab === "ad" && 'ad'}
-            {activeTab === "consign" && 'consign'}
-            {activeTab === "source" && 'source'}
+            {activeTab === "ad" && <AdTittle/>}
+            {activeTab === "consign" && <ConsignTittle />}
+            {activeTab === "source" && <SourceTittle />}
           </div>
 
         </div>

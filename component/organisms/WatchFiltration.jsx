@@ -11,104 +11,81 @@ import ModelPaper from "./account/ModelPaper";
 import Photo from "./Photo";
 import Modelprice from "./Modelprice";
 import Modelcountry from "./Modelcountry";
+import Modelsignup from "./Modelsignup";
 
 function WatchFiltration() {
   const [selectedBrand, setSelectedBrand] = useState(null);
   const [selectedModel, setSelectedModel] = useState(null);
   const [selectedYear, setSelectedYear] = useState(null);
   const [selectCondition, setSelectedCondition] = useState(null);
-  // selelctbrand
-
   const [currentStep, setCurrentStep] = useState(1);
   const [progress, setProgress] = useState(0);
   const totalSteps = 10;
 
   const handleBrandSelect = (brand) => {
-    // Do something with the selected brand
     console.log("Selected brand:", brand);
     setCurrentStep(currentStep + 1);
     setProgress((currentStep / totalSteps) * 100);
-    console.log(currentStep);
   };
-
-  // modelwatch
 
   const handlModelSelelct = (model) => {
     console.log("selected model", model);
     setCurrentStep(currentStep + 1);
     setProgress((currentStep / totalSteps) * 100);
-    console.log(progress);
   };
-
-  //model year
 
   const handlebrandYear = (year) => {
     console.log("selected model", year);
     setCurrentStep(currentStep + 1);
     setProgress((currentStep / totalSteps) * 100);
-    console.log(progress);
   };
-
-  //modle condition
 
   const handleSelectCondition = (condition) => {
     console.log("selected condition", condition);
     setCurrentStep(currentStep + 1);
     setProgress((currentStep / totalSteps) * 100);
-    console.log(progress);
   };
-
-  // modelsize
 
   const handelSizeSelect = (size) => {
     console.log("Select size", size);
     setCurrentStep(currentStep + 1);
     setProgress((currentStep / totalSteps) * 100);
-    console.log(progress);
   };
-
-  // modle material
 
   const handleSelectMaterial = (material) => {
     console.log("Select material", material);
     setCurrentStep(currentStep + 1);
     setProgress((currentStep / totalSteps) * 100);
-    console.log(progress);
   };
-
-  // model paper 
 
   const handleSelectPaper = (paper) => {
     console.log("Select paper", paper);
     setCurrentStep(currentStep + 1);
     setProgress((currentStep / totalSteps) * 100);
-    console.log(progress);
   };
- // model paper 
 
- const handlePicSelect = (pic) => {
-  console.log("Select pic", pic);
-  setCurrentStep(currentStep + 1);
-  setProgress((currentStep / totalSteps) * 100);
-  console.log(progress);
-};
-
-  // model price 
+  const handlePicSelect = (pic) => {
+    console.log("Select pic", pic);
+    setCurrentStep(currentStep + 1);
+    setProgress((currentStep / totalSteps) * 100);
+  };
 
   const handlePriceSelect = (price) => {
     console.log("Select price", price);
     setCurrentStep(currentStep + 1);
     setProgress((currentStep / totalSteps) * 100);
-    console.log(progress);
   };
-  
-   // model country 
 
-   const handleCountrySelect = (country) => {
+  const handleCountrySelect = (country) => {
     console.log("Select country", country);
     setCurrentStep(currentStep + 1);
     setProgress((currentStep / totalSteps) * 100);
-    console.log(progress);
+  };
+
+  const handleSignSelect = (signup) => {
+    console.log("Select signup", signup);
+    setCurrentStep(currentStep + 1);
+    setProgress((currentStep / totalSteps) * 100);
   };
 
   const handleNextStep = () => {

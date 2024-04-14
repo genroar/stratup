@@ -1,4 +1,8 @@
+import Home from "@/component/templates/Home";
+import "../../strapup/app/globals.css";
+import Acount from "@/component/organisms/account/Acount";
 
+<<<<<<< HEAD
 import React from 'react'
 import Home from '@/component/templates/Home'
 import Account from './Account'
@@ -27,3 +31,14 @@ function index() {
 }
 
 export default index    
+=======
+function index() {
+  return (
+    <div className="">
+        {/* <Home/> */}
+        <Acount />
+    </div>
+  );
+  }
+export default index;
+>>>>>>> fc298d79642f07bd59211e6bcda80187166603be

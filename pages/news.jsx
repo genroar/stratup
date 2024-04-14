@@ -1,11 +1,14 @@
 import React from 'react';
+import Header from '@/component/templates/Header';
+import Footer from '@/component/templates/Footer';
 
 function News() {
     return (
         <div className='new'>
+            <Header />
             <div className='main flex justify-between px-[48px] py-[50px] '>
                 <div className='left'>
-                    <div className='text flex flex-col'>
+                    <div className='flex flex-col text'>
                         <div>
                             <div><span className='text-[20px] font-medium text-gray-800 text-opacity-50'>12/01/24</span></div>
                             <div><span className='text-[36px] font-medium text-gray-900'>Title</span></div>
@@ -31,6 +34,7 @@ function News() {
                     <div className='mt-[10px] pb-[50px]'><span className='text-[15px] font-normal text-gray-800 text-opacity-80'>Our company guarantees comfortable cooperation, high-quality teaching and <br /> excellent experts our company guarantees comfortable cooperation, high-quality <br /> teaching and  excellent experts oasd ur company</span></div>
                 </div>
             </div>
+            <Footer/>
         </div>
     );
 }
