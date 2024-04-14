@@ -6,10 +6,11 @@ import Listing from "@/component/organisms/Listing";
 import HowWorks from "../organisms/HowWorks";
 import AboutUs from "../organisms/AboutUs";
 import FAQ from "../organisms/FAQ";
+import Header2 from "../organisms/Header2";
 function Home() {
   return (
     <div>
-      <Header/>
+      <Header2 />
       <div className="">
         <div>
           <Banner />

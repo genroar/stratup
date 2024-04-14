@@ -47,4 +47,14 @@ span.dt-column-title {
 table#myTable tr, table#myTable td {
   background: #fff !important;
   box-shadow: none !important;
+  height: 50px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #282828;
+}
+th.dt-type-numeric.dt-orderable-asc.dt-orderable-desc {
+  text-align: left;
+}
+table#myTable tr, table#myTable td:hover {
+  background-color: #D9D9D9;
 }
