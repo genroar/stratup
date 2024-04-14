@@ -24,6 +24,7 @@ function Home() {
         <AboutUs/>
         <FAQ/>
       </div>
+      <Footer />
     </div>
   );
 }

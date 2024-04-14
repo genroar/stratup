@@ -8,7 +8,7 @@ function ListingButton({ buy, sell, source, consign }) {
   };
 
   return (
-    <div className="flex w-[600px] shadow-md transform rotate-y-1 rounded-tr-[25px] h-[60px] rounded-tl-[25px]">
+    <div className="flex w-[600px] shadow-top transform rotate-y-1 rounded-tr-[25px] h-[60px] rounded-tl-[25px]">
       <button
         onClick={() => {
           buy();

@@ -7,7 +7,7 @@ import Heading from '../atoms/Heading'
 function Homesource() {
   return (
     <div className=''>
-         <div className='w-[1200px] source-outer shadow-sm relative top-[-45px]  bg-opacity-10 bg-white px-[20px] py-[20px] rounded-tr-[50px] rounded-bl-[50px]  rounded-br-[50px]'>
+         <div className='w-[1200px] source-outer shadow-top shadow-sm relative top-[-45px]  bg-opacity-10 bg-white px-[20px] py-[20px] rounded-tr-[50px] rounded-bl-[50px]  rounded-br-[50px]'>
       <div className='flex main w-[1200px]'>
         <div className='w-[900px]'>
           <div className='flex flex-col gap-[10px]'>

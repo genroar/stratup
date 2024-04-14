@@ -5,8 +5,8 @@ import Acount from "@/component/organisms/account/Acount";
 function index() {
   return (
     <div className="">
-        <Home/>
-        {/* <Acount /> */}
+        {/* <Home/> */}
+        <Acount />
     </div>
   );
   }

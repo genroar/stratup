@@ -3,15 +3,44 @@
 @tailwind utilities;
 
 .header {
-    box-shadow: 0px 0px 15px 5px #0000001A;
+  box-shadow: 0px 0px 15px 5px #0000001a;
 }
 .shadow {
-    box-shadow: 0px 0px 10px 5px #0000000D;
+  box-shadow: 0px 0px 10px 5px #0000000d;
 }
 .footer {
-    background-color:rgba(0, 0, 0, 0.898) ;
+  background-color: rgba(0, 0, 0, 0.898);
 }
 .five2 {
-    background-color:rgba(0, 0, 0, 0.898) ;
+  background-color: rgba(0, 0, 0, 0.898);
+}
+/* Your CSS */
+.shadow-top {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Adjust values as needed */
+}
+.dt-layout-cell.dt-start {
+  display: none !important;
+}
+label {
+  display: none;
+}
+input#dt-search-0 {
+  width: 483px;
+  border-radius: 40px;
+  box-shadow:#0000001a ;
+}
+span.dt-column-order {
+  display: none;
 
+}
+span.dt-column-title {
+  color: #282828;
+  opacity: 0.5;
+}
+.pen {
+  color: #4F99E3;
+}
+.penbg {
+  background-color: #1671CC;
+  opacity: 0.1;
 }

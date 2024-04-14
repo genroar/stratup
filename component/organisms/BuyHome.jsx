@@ -6,7 +6,7 @@ import Product from '../molecules/Product'
 
 function BuyHome() {
   return (
-    <div className=' rounded-tr-[40px]  shadow-sm rounded-br-[40px] rounded-bl-[40px] py-[20px]' >
+    <div className=' rounded-tr-[40px] shadow-top shadow-sm rounded-br-[40px] rounded-bl-[40px] py-[20px]' >
         <div className='px-[15px]'>
             <Listingsearch />
           </div>

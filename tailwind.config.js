@@ -14,11 +14,14 @@ module.exports = {
       },
       colors: {
         customGray: '#47484E',
-       buttonGray : '#5E6062',
+        buttonGray: '#5E6062',
         spanGray: '#282828',
         profiletext: '#5E6062',
         footerbg: 'rgba(0, 0, 0, 0.898)',
-        contactGray: '#393939'
+        contactGray: '#393939',
+        listGreen: '#2BE03D',
+        pen: '#4F99E3',
+        penbg: '#1671CC',
       },
       hadow: {
         customshadow: '0px 0px 10px 5px rgba(0, 0, 0, 0.13)',
