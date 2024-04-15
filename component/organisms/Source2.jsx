@@ -5,7 +5,7 @@ import Button from '../atoms/Button'
 import AnchorTag from '../atoms/Anchortag'
 import Heading from '../atoms/Heading'
 import ButtonCross from '../atoms/ButtonCross'
-function Source2() {
+function  Source2() {
   return (
     <div className='flex flex-col gap-[80px] '>
         <div className=''>

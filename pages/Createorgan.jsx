@@ -15,7 +15,7 @@ function Createorgan() {
   const router = useRouter();
 
   const handleButtonClick = () => {
-    router.push("/Account")
+    router.push("/account")
   }
 
   const [photos, setPhotos] = useState([

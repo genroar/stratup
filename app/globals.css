@@ -3,17 +3,15 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'Kumb Sans';
-    src: url('../public/fonts/kumbsans/KumbhSans-Medium.ttf') format('truetype');
-  }
-  @font-face {
-    font-family: 'span';
-    src: url(../public/fonts/kumbsans/KumbhSans-Regular.ttf);
-  }
-  h1 {
-    font-family: 'Kumb Sans', sans-serif;
-  }
- 
+  font-family: 'Kumb Sans';
+  src: url('../public/fonts/kumbsans/KumbhSans-Medium.ttf');
+}
+
+h1, h2 {
+  font-family: 'Kumb Sans', sans-serif;
+}
+
+
 
 .header {
   box-shadow: 0px 0px 15px 5px #0000001a;
@@ -21,64 +19,79 @@
 .shadow {
   box-shadow: 0px 0px 10px 5px #0000000d;
 }
-.footer {
-<<<<<<< HEAD
-    background-color:rgba(0, 0, 0, 0.898);
-}
+
+.footer,
 .five2 {
-    background-color:rgba(0, 0, 0, 0.898);
+  background-color: rgba(0, 0, 0, 0.898);
 }
+
 .listingbutton {
-    box-shadow: 0px -5px 15px 0px #0000001A;
+  box-shadow: 0px -5px 15px 0px #0000001A;
 }
+
 .product_tab {
-    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
 }
-.search_shadow input{
-    padding: 20px;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+
+.search_shadow input {
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
 }
+
 .container {
-    max-width: 1280px;
-    margin: auto;
-=======
-  background-color: rgba(0, 0, 0, 0.898);
-}
-.five2 {
-  background-color: rgba(0, 0, 0, 0.898);
-}
-/* Your CSS */
+  max-width: 1280px;
+  margin: auto;}
+
+
 .shadow-top {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Adjust values as needed */
 }
+
 .dt-layout-cell.dt-start {
   display: none !important;
 }
+
 label {
   display: none;
 }
+
 input#dt-search-0 {
   width: 483px;
   border-radius: 40px;
-  box-shadow:#0000001a ;
+  box-shadow: #0000001a;
 }
-span.dt-column-order {
-  display: none;
 
-}
+span.dt-column-order {
+  display: none;}
 span.dt-column-title {
   color: #282828;
   opacity: 0.5;
 }
+
 .pen {
-  color: #4F99E3;
+  color: #4f99e3;
 }
+
 .penbg {
-  background-color: #1671CC;
+  background-color: #1671cc;
   opacity: 0.1;
 }
-table#myTable tr, table#myTable td {
+
+table#myTable tr,
+table#myTable td {
   background: #fff !important;
   box-shadow: none !important;
->>>>>>> fc298d79642f07bd59211e6bcda80187166603be
+  height: 50px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #282828;
+}
+
+th.dt-type-numeric.dt-orderable-asc.dt-orderable-desc {
+  text-align: left;
+}
+
+table#myTable tr,
+table#myTable td:hover {
+  background-color: #d9d9d9;
 }

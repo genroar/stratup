@@ -19,26 +19,22 @@ module.exports = {
         profiletext: '#5E6062',
         footerbg: 'rgba(0, 0, 0, 0.898)',
         contactGray: '#393939',
-<<<<<<< HEAD
         customgrays: '#5E6062',
         customGray1: '#47484E',
         lightGray: '#F7F7F7',
         semiTransparentGray: 'rgba(40, 40, 40, 0.5)',
-        border: 'rgba(94, 96, 98, 1)'
-
-=======
+        border: 'rgba(94, 96, 98, 1)',
         listGreen: '#2BE03D',
         pen: '#4F99E3',
         penbg: '#1671CC',
         del: '#FF2F2F',
->>>>>>> fc298d79642f07bd59211e6bcda80187166603be
       },
-      hadow: {
+      shadow: {
         customshadow: '0px 0px 10px 5px rgba(0, 0, 0, 0.13)',
         custom: '0px 0px 15px 5px var(--shadow-color)',
-
       },
     },
   },
-  plugins: [],
+  // Remove the plugins key if you don't plan to use any Tailwind CSS plugins
+  // plugins: [],
 };
