@@ -4,7 +4,7 @@ import Submitment from './Submitment'
 import CardSubmit from './CardSubmit'
 function RolexDay() {
     return (
-        <div className='flex gap-[20px]'>
+        <div className='flex gap-[20px] container'>
             <div>
                 <div className='flex w-[930px] justify-between'>
                     <div className='py-[15px]'><span className='text-[24px] font-normal text-gray-900'>Rolex, Daytona</span></div>

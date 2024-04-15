@@ -1,11 +1,12 @@
 import React from "react";
 import CustomImage from "../atoms/CustomImage";
 import Heading from "../atoms/Heading";
+import '../assets/css/product.css'
 
-function Product() {
+function Product({productClass}) {
   return (
-      <div className="w-[270px] h-[398px]  rounded-[25px] ">
-        <div className="image-outer relative h-[250px]  ">
+      <div className={`rounded-[25px] relative ${productClass}`}>
+        <div className="image-outer w-full relative h-[250px]  ">
           <div>
             <CustomImage
               src="/assits/assits/image/home recent 1.png"
@@ -16,7 +17,7 @@ function Product() {
             <CustomImage src="/assits/assits/image/UAE.png"></CustomImage>
           </div>
         </div>
-        <div className="text-outer flex flex-col gap-[8px] justify-center divide-y  bg-gray-100 rounded-br-[25px] rounded-bl-[25px] px-[15px] py-[10px] w-[270px] h-[148px] ">
+        <div className="text-outer flex flex-col gap-[8px] justify-center divide-y  bg-lightGray rounded-br-[25px] rounded-bl-[25px] px-[15px] py-[10px]">
           <div>
             <Heading level="5">Rolex</Heading>
           </div>
@@ -25,11 +26,11 @@ function Product() {
           </div>
           <div className="flex justify-between" >
             <p className="text-[14px] font-normal ">2017</p>
-            <p className="text-[14px] font-normal text-gray-800 ">New</p>
+            <p className="text-[14px] font-normal text-semiTransparentGray ">New</p>
           </div>
           <div className="flex justify-between" >
             <p className="text-[14px] font-semibold ">AED 5,500</p>
-            <p className="text-[14px] font-normal text-gray-800 ">Negotiatable</p>
+            <p className="text-[14px] font-normal text-semiTransparentGray ">Negotiatable</p>
           </div>
         </div>
       </div>

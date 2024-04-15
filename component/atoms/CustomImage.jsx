@@ -5,7 +5,7 @@ function CustomImage({ src, alt, variant }) {
     let imageStyle;
     switch (variant) {
       case "prime":
-        imageStyle = "w-[285px] h-[250px]";
+        imageStyle = "w-full h-[250px]";
         break;
       case "second":
         imageStyle = "w-[320px] h-[300px]";

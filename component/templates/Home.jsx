@@ -1,12 +1,10 @@
-import React from "react";
-import Header from "./Header";
-import Footer from "@/component/templates/Footer";
 import Banner from "@/component/organisms/Banner";
 import Listing from "@/component/organisms/Listing";
-import HowWorks from "../organisms/HowWorks";
+import Footer from "@/component/templates/Footer";
 import AboutUs from "../organisms/AboutUs";
 import FAQ from "../organisms/FAQ";
 import Header2 from "../organisms/Header2";
+import HowWorks from "../organisms/HowWorks";
 function Home() {
   return (
     <div>
@@ -14,7 +12,7 @@ function Home() {
       <div className="">
         <div>
           <Banner />
-          <div className="flex items-center justify-center">
+          <div className="px-[80px] flex items-center justify-center">
             <Listing />
           </div>
           <div>

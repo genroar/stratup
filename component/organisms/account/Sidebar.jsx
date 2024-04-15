@@ -9,7 +9,7 @@ import { PiWatchFill } from "react-icons/pi";
 import { IoLogOut } from "react-icons/io5";
 
 function Sidebar({ dashboard, listing, profile, notification, stock }) {
-  const [activeButton, setActiveButton] = useState(null);
+  const [activeButton, setActiveButton] = useState('dashboard');
 
   const handleButtonClick = (buttonName, callback) => {
     setActiveButton(buttonName);

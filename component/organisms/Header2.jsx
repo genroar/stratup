@@ -15,7 +15,7 @@ function Header2() {
 
   return (
     <div>
-       <div className="flex w-full py-[15px]  items-center px-[50px]  h-[65px] justify-between">
+       <div className="flex w-full py-[15px]   items-center container  h-[65px] justify-between">
       <div>
         <Link href="/" >
           <CustomImage

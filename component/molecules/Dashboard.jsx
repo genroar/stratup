@@ -6,7 +6,7 @@ function Dashboard() {
     return (
         <div className='main'>
             <div><Heading level='3'>Dashboard</Heading></div>
-            <div className='inner shadow-sm w-[990px] px-[10px] py-[20px] rounded-[20px] justify-between'>
+            <div className='inner shadow-sm w-full px-[20px] py-[20px] rounded-[20px] justify-between'>
                 <div className='box flex justify-between'>
                     <div className='activ flex w-[465px] h-[80px] shadow-sm px-[10px] rounded-[20px] justify-between'>
                         <div className='flex justify-center items-center gap-[10px]'>

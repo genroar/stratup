@@ -6,7 +6,7 @@ function Account() {
   return (
     <div>
         <AccHeader/>
-        <div className='px-[43px]' >
+        <div className='container' >
             <Acount/>
         </div>
     </div>

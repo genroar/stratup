@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import { useState } from 'react';
 
-const Filterdrop = ({ parent, child }) => {
+const Filterdrop = ({ parent, child, style }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedItem, setSelectedItem] = useState(null);
 
@@ -16,7 +16,7 @@ const Filterdrop = ({ parent, child }) => {
         <button
           onClick={() => setIsOpen(!isOpen)}
           type="button"
-          className="w-[400px] h-[40px] flex items-center justify-between "
+          className={`w-[400px] h-[40px] flex items-center justify-between ${style}`}
           id="menu-button"
           aria-expanded={isOpen ? "true" : "false"}
           aria-haspopup="true"
@@ -65,6 +65,7 @@ const Filterdrop = ({ parent, child }) => {
 Filterdrop.propTypes = {
   parent: PropTypes.string.isRequired,
   child: PropTypes.string.isRequired,
+  style: PropTypes.string, // Add style prop type
 };
 
 export default Filterdrop;

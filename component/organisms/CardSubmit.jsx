@@ -5,7 +5,7 @@ import SourceSpan from "../atoms/SourceSpan";
 
 function CardSubmit() {
   return (
-    <div className=" flex flex-col gap-[20px] ">
+    <div className=" flex flex-col gap-[20px] w-full">
       <div className="buttons flex flex-col w-[360px] gap-[10px] ">
         <Button variant="primary">Submit offer</Button>
         <div className="inner flex gap-[20px] ">
@@ -13,7 +13,7 @@ function CardSubmit() {
           <Button variant="oval">Call</Button>
         </div>
       </div>
-      <div className="info w-[360px]   ">
+      <div className="info w-full ">
         <div className="pb-[15px]">
           <Heading level="4">Info</Heading>
         </div>

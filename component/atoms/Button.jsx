@@ -24,7 +24,7 @@ const   Button = ({ href, children, variant, onClick }) => {
       break;
     case "success":
       buttonStyle =
-        "bg-buttonGray h-[40px] cursor-pointer  text-center w-[120px] rounded-[40px] py-[7px]  text-[15px] font-medium text-white";
+        "bg-customgrays h-[40px] cursor-pointer  text-center w-[120px] rounded-[40px] py-[7px]  text-[15px] font-medium text-white";
       break;
     case "danger":
       buttonStyle =
