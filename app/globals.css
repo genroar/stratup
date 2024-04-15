@@ -7,25 +7,16 @@
   src: url('../public/fonts/kumbsans/KumbhSans-Medium.ttf') format('truetype');
 }
 
-@font-face {
-  font-family: 'span';
-  src: url(../public/fonts/kumbsans/KumbhSans-Regular.ttf);
-}
-
-h1 {
-  font-family: 'Kumb Sans', sans-serif;
-}
-
 .header {
   box-shadow: 0px 0px 15px 5px #0000001a;
 }
 
-/* Other CSS rules... */
 .shadow {
   box-shadow: 0px 0px 10px 5px #0000000d;
 }
 
-.footer, .five2 {
+.footer,
+.five2 {
   background-color: rgba(0, 0, 0, 0.898);
 }
 
@@ -63,10 +54,6 @@ input#dt-search-0 {
   width: 483px;
   border-radius: 40px;
   box-shadow: #0000001a;
-}
-
-span.dt-column-order {
-  display: none;
 }
 
 span.dt-column-title {

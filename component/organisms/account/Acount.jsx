@@ -1,15 +1,15 @@
-import Dashboard from "@/component/molecules/Dashboard";
-import AccHeader from "@/pages/AccHeader";
-import { useState } from "react";
+import React, { useState } from "react";
 import "../../../app/globals.css";
-import Notificationbar from "../Notificationbar";
-import Profile from "./Profile";
 import Sidebar from "./Sidebar";
+import Dashboard from "@/component/molecules/Dashboard";
+import Profile from "./Profile";
+import Notificationbar from "../Notificationbar";
 import Stockmenag from "./Stockmenag";
-import Listings from "./listings";
+import Listingoverall from "../Listingoverall"; // Import the Listingoverall component
 
 function Acount() {
   const [activeTab, setActiveTab] = useState("dashboard");
+
   const handleTabChange = (tabName) => {
     setActiveTab(tabName);
   };
@@ -26,8 +26,9 @@ function Acount() {
         />
 
         <div className="w-[75%]">
+          {/* Render components based on active tab */}
           {activeTab === "dashboard" && <Dashboard />}
-          {activeTab === "listing" && <Listings />}
+          {activeTab === "listing" && <Listingoverall />}
           {activeTab === "notification" && <Notificationbar />}
           {activeTab === "profile" && <Profile />}
           {activeTab === "stock" && <Stockmenag />}

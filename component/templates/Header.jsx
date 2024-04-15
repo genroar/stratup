@@ -1,4 +1,4 @@
-import React , {useState} from "react";
+import React, { useState } from "react";
 import '../../app/globals.css';
 import { useRouter } from 'next/router'
 import CustomImage from "../atoms/CustomImage";
@@ -12,6 +12,7 @@ function Header() {
   const router = useRouter();
 
   return (
+<<<<<<< HEAD
     <div className=" w-full header  " >
        <div className="flex py-[15px]  container    items-center   h-[65px] justify-between">
       <div>
@@ -22,15 +23,27 @@ function Header() {
             alt="logo"
           />
         </Link>
+=======
+    <div className="header " >
+      <div className="flex container w-full py-[15px]  items-center   h-[65px] justify-between">
+        <div>
+          <Link href="/" >
+            <CustomImage
+              variant="logo"
+              src="/assits/assits/image/header-logo.png"
+              alt="logo"
+            />
+          </Link>
+        </div>
+        <div>
+          <Navigation />
+        </div>
+        <div>
+          <HeaderRight />
+        </div>
+>>>>>>> eea2462e70bc188551c1f3fb2282c20cf1ebe139
       </div>
-      <div>
-        <Navigation />
-      </div>
-      <div>
-        <HeaderRight />
-      </div>
-    </div>
-    {/* {activeTab === "login" &&  <SignUpmol />} */}
+      {/* {activeTab === "login" &&  <SignUpmol />} */}
 
     </div>
   );

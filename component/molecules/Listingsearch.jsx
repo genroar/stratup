@@ -3,7 +3,7 @@ import Input from '../atoms/Input';
 
 function Listingsearch({ shadowClass }) {
   return (
-    <div className='relative main'>
+    <div className='main relative '>
       <div className={`input relative ${shadowClass}`}>
         <Input variant='secondary' type='search' placeholder='search' />
       </div>

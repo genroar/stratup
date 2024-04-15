@@ -1,10 +1,10 @@
 import Banner from "@/component/organisms/Banner";
 import Listing from "@/component/organisms/Listing";
-import Footer from "@/component/templates/Footer";
 import AboutUs from "../organisms/AboutUs";
 import FAQ from "../organisms/FAQ";
 import Header2 from "../organisms/Header2";
 import HowWorks from "../organisms/HowWorks";
+import Footer2 from "../organisms/Footer2";
 function Home() {
   return (
     <div>
@@ -23,7 +23,7 @@ function Home() {
         <AboutUs/>
         <FAQ/>
       </div>
-      <Footer />
+      <Footer2/>
     </div>
   );
 }

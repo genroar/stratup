@@ -32,6 +32,10 @@ module.exports = {
         pen: '#4F99E3',
         penbg: '#1671CC',
         del: '#FF2F2F',
+        border2: 'rgba(94, 96, 98, 1)',
+        sourcebg: '#FDFEFF',
+      },
+      shadow: {
         overtext: 'rgba(40, 40, 40, 1)',
         Faqchild: 'rgba(103, 103, 103, 1)'
       },
@@ -41,5 +45,4 @@ module.exports = {
       },
     },
   },
-  plugins: [],
 };

@@ -13,12 +13,12 @@ function BuyList() {
             <OrderDropdown/>     
         </div>
         <div className='gap-[20px] flex flex-wrap ' > 
-          <Product productClass={'w-[31.9%]'}/>
-          <Product productClass={'w-[31.9%]'}/>
-          <Product productClass={'w-[31.9%]'}/>
-          <Product productClass={'w-[31.9%]'}/>
-          <Product productClass={'w-[31.9%]'}/>
-          <Product productClass={'w-[31.9%]'}/>
+          <Product productClass={'w-[31.9%] shadow-top '}/>
+          <Product productClass={'w-[31.9%] shadow-top '}/>
+          <Product productClass={'w-[31.9%] shadow-top '}/>
+          <Product productClass={'w-[31.9%] shadow-top '}/>
+          <Product productClass={'w-[31.9%] shadow-top '}/>
+          <Product productClass={'w-[31.9%] shadow-top '}/>
         </div>
     </div>
   )

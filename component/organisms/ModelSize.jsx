@@ -12,14 +12,7 @@ function ModelSize({ onSelectSize, onSelectType }) {
 
   return (
     <div className='flex flex-col pt-[100px]'>
-      <div>
-        <div className='main flex items-center px-[50px] py-[20px]'>
-          <button><RxCross1 /></button>
-          <div className='flex items-center justify-center w-full'>
-            <img className='w-[160px]' src="/assits/assits/image/header-Logo.png" alt="" />
-          </div>
-        </div>
-      </div>
+      
       <div className='flex flex-col items-center justify-center'>
         <div className='w-[730px] flex flex-col gap-[20px]'>
           <div className='flex justify-center'>

@@ -124,6 +124,7 @@ function WatchFiltration() {
         {currentStep === 8 && <Photo onSelectPic={handlePicSelect} onSelectType={handlePrevStep}/>}
         {currentStep === 9 && <Modelprice onSelectPrice={handlePriceSelect} onSelectType={handlePrevStep}/>}
         {currentStep === 10 && <Modelcountry onSelcetCountry={handleCountrySelect} onSelectType={handlePrevStep}/>}
+        {currentStep === 11 && <Modelsignup sub={'SignUp'} onSelectSign={handleSignSelect} onSelectType={handlePrevStep}/>}
       </div>
     </div>
   );
