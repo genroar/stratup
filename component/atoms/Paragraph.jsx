@@ -7,7 +7,7 @@ const Paragraph = ({ children }) => {
 }
 
 Paragraph.propTypes = {
-    children: PropTypes.string.isRequired
+    children: PropTypes.node.isRequired
 }
 
 export default Paragraph

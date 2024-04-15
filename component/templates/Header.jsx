@@ -12,8 +12,8 @@ function Header() {
   const router = useRouter();
 
   return (
-    <div>
-       <div className="flex w-full py-[15px] header items-center px-[50px]  h-[65px] justify-between">
+    <div className=" w-full header  " >
+       <div className="flex py-[15px]  container    items-center   h-[65px] justify-between">
       <div>
         <Link href="/" >
           <CustomImage

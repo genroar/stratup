@@ -4,27 +4,27 @@ import { AiFillMessage } from "react-icons/ai";
 import { FaPen } from "react-icons/fa";
 import DataTable from 'datatables.net-dt';
 import 'datatables.net-responsive-dt';
-import $ from 'jquery';
+// import $ from 'jquery';
 import '../../../app/globals.css'
 
 function Listings() {
 
-    const [activeTab, setActiveTab] = useState(null);
-    const [isButtonVisible, setIsButtonVisible] = useState(true);
+    // const [activeTab, setActiveTab] = useState(null);
+    // const [isButtonVisible, setIsButtonVisible] = useState(true);
 
-    const handleTabChange = (tabName) => {
-        setActiveTab(tabName);
-        setIsButtonVisible(false);
-    };
+    // const handleTabChange = (tabName) => {
+    //     setActiveTab(tabName);
+    //     setIsButtonVisible(false);
+    // };
 
-    const toggleNotificationButton = () => {
-        setActiveTab(null);
-        setIsButtonVisible(true);
-    };
+    // const toggleNotificationButton = () => {
+    //     setActiveTab(null);
+    //     setIsButtonVisible(true);
+    // };
 
-    useEffect(() => {
-        $('#myTable').DataTable();
-    }, []);
+    // useEffect(() => {
+    //     $('#myTable').DataTable();
+    // }, []);
     return (
         <>
             <div></div>

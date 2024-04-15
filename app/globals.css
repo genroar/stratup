@@ -43,7 +43,7 @@ h1 {
 }
 
 .container {
-  max-width: 1280px;
+  max-width: 1400px;
   margin: auto;
 }
 
@@ -100,4 +100,10 @@ th.dt-type-numeric.dt-orderable-asc.dt-orderable-desc {
 table#myTable tr,
 table#myTable td:hover {
   background-color: #d9d9d9;
+}
+
+
+.admin_side_bar {
+  position: fixed;
+  z-index: 1001;
 }

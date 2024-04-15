@@ -1,16 +1,13 @@
-import React from 'react'
-import Header from './Header'
 import Filter from '../molecules/Filter'
-import BuyHome from '../organisms/BuyHome'
 import BuyList from '../organisms/BuyList'
 
 function Buy() {
   return (
     <div>
-        <div className=' container flex gap-[40px] ' >
-            <Filter/>
-            <BuyList/>
-        </div>
+      <div className=' container pt-[10px] flex gap-[40px] ' >
+        <Filter />
+        <BuyList />
+      </div>
     </div>
   )
 }

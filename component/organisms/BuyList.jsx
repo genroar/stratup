@@ -7,9 +7,9 @@ import Product from '../molecules/Product'
 
 function BuyList() {
   return (
-    <div className='flex flex-col gap-[10px] container' >
+    <div className='flex flex-col  gap-[10px] container' >
         <div className='flex gap-[20px] items-center pt-[30px] pb-[10px]' > 
-            <Worksinput inputClass='w-[75%]'/>
+            <Worksinput inputClass='  w-[75%]'/>
             <OrderDropdown/>     
         </div>
         <div className='gap-[20px] flex flex-wrap ' > 

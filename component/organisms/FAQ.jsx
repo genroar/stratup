@@ -9,7 +9,7 @@ function FAQ() {
         <Heading level="2">FAQ</Heading>
         <div className="flex justify-between ">
           <div className="drops w-[70%] ">
-            <div className="divide-y w-full flex flex-col gap-[10px] " >
+            <div className="divide-y w-full flex flex-col gap-[2px] " >
               <FAQdrop1
                 parent="How can Strat Up assist me with purchasing a watch?"
                 child="Yes – Strat Up takes authenticity seriously. All of our timepieces are inspected under high magnification for any potential signs of fraudulent pieces or parts by our in-house Swiss-trained watchmakers before they are listed on our platform. In addition, all of our sellers must undergo a thorough vetting process before being able to list on our platform. We also work closely with watch brands via a Certified Pre-Owned programme, where the watches have been authenticated by the brands themselves."

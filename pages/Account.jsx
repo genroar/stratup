@@ -6,8 +6,10 @@ function Account() {
   return (
     <div>
         <AccHeader/>
-        <div className='container' >
+        <div className='main_dashboard' >
+          <div className='container'>
             <Acount/>
+          </div>
         </div>
     </div>
   )

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../../app/globals.css";
 import ListingButton from "../molecules/ListingButton";
 import BuyHome from "./BuyHome";
-import Rolex from "./WatchBrand";
+import WatchBrand from "./WatchBrand";
 import Homesource from "./Homesource";
 
 function Listing() {
@@ -20,12 +20,12 @@ function Listing() {
         source={() => handleTabChange("source")}
         consign={() => handleTabChange("consign")}
       />
-      <div className="flex flex-col justify-center source items-center shadow-black shadow-opacity-10  rounded-tr-[50px] rounded-br-[50px] rounded-bl-[50px]">
+      <div className="flex flex-col container justify-center source items-center shadow-black shadow-opacity-10  rounded-tr-[50px] rounded-br-[50px] rounded-bl-[50px]">
         {activeTab === "buy" && <BuyHome />}
         <div className="py-[50px]">
-          <div>{activeTab === "sell" && <Rolex />}</div>
+          <div>{activeTab === "sell" && <WatchBrand shadow={`shadow-top`} />}</div>
           {activeTab === "source" && <Homesource />}
-          <div className="">{activeTab === "consign" && <Rolex />}</div>
+          <div className="">{activeTab === "consign" && <WatchBrand shadow={`shadow-top`} />}</div>
         </div>
       </div>
     </div>

@@ -6,7 +6,7 @@ const EventButton = ({ onClick, children, type }) => {
 
 EventButton.propTypes = {
   onClick: PropTypes.func,
-  children: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired,
   type:PropTypes.string,
 }
 

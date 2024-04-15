@@ -108,7 +108,7 @@ const   Button = ({ href, children, variant, onClick }) => {
 
 Button.propTypes = {
   href: PropTypes.string.isRequired,
-  children: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired,
 };
 
 export default Button;

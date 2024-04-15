@@ -6,7 +6,7 @@ import Product from '../molecules/Product';
 
 function BuyHome() {
   return (
-    <div className='p-[20px] rounded-tr-[40px] shadow-top shadow-sm rounded-br-[40px] rounded-bl-[40px] py-[20px]'>
+    <div className='p-[20px]  rounded-tr-[40px] shadow-top shadow-sm rounded-br-[40px] rounded-bl-[40px] py-[20px]'>
       <div className=''>
         <Listingsearch shadowClass={`shadow-top rounded-[20px]`}  />
       </div>
