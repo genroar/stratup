@@ -12,9 +12,9 @@ const FAQdrop = ({ parent, child }) => {
 
   return (
     <div onClick={toggleDropdown} className='cursor-pointer pt-[20px] flex justify-between' >
-      <div><p className='text-24px'>{parent}  </p>
+      <div><p className='text-[24px] font-medium text-border '>{parent}  </p>
         <div className='mt-4'>
-          {isOpen && <Heading level='6'>{child}</Heading>}
+          {isOpen && <span className='text-Faqchild text-[15px] font-light ' >{child}</span>}
         </div>
       </div>
       <div className='w-[17.43px] h-[9.85px]'>

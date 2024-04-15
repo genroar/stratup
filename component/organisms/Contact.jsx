@@ -10,7 +10,7 @@ import Footer from "../templates/Footer";
 function ContactUs() {
   return (
     <div>
-      <div className="flex gap-[40px] px-[40px] py-[40px] justify-between items-center ">
+      <div className="flex  gap-[40px] px-[40px] py-[40px] justify-between items-center ">
         <div className=" flex flex-col gap-[20px] ">
           <div className="flex flex-col gap-[10px]">
             <Heading level="4">Call us at this number</Heading>

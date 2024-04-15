@@ -13,66 +13,66 @@ function BLoglatest() {
         <div className='py-[50px]'>
             <Heading level='1'>Latest posts</Heading>
         </div>
-           <div className=' flex flex-wrap m-auto gap-[10px]'>
-            <div className='bottom relative'>
+           <div className=' flex flex-wrap m-auto gap-[20px]'>
+            <div className='bottom cursor-pointer relative'>
                 <div className='image block' onClick={handleClick}>
-                    <img src="/assits/assits/image/blog latest 1.png" alt="" />
+                    <img src="/assits/assits/image/blog latest 1.png" className='w-[305px]' alt="" />
                 </div>
                 <div className=' absolute bottom-[10px] text-white left-[20px]'>
                     <span className='text-[32px] font-medium '>Title</span>
                 </div>
             </div>
-            <div className='bottom relative'>
+            <div className='bottom cursor-pointer relative'>
                 <div className='image block' onClick={handleClick}>
-                    <img src="/assits/assits/image/blog latest 2.png" alt="" />
+                    <img src="/assits/assits/image/blog latest 2.png"className='w-[305px]' alt="" />
                 </div>
                 <div className=' absolute bottom-[10px] text-white left-[20px]'>
                     <span className='text-[32px] font-medium '>Title</span>
                 </div>
             </div>
-            <div className='bottom relative'>
+            <div className='bottom cursor-pointer relative'>
                 <div className='image block' onClick={handleClick}>
-                    <img src="/assits/assits/image/blog latest 3.png" alt="" />
+                    <img src="/assits/assits/image/blog latest 3.png" className='w-[305px]' alt="" />
                 </div>
                 <div className=' absolute bottom-[10px] text-white left-[20px]'>
                     <span className='text-[32px] font-medium '>Title</span>
                 </div>
             </div>
-            <div className='bottom relative'>
+            <div className='bottom cursor-pointer relative'>
                 <div className='image block' onClick={handleClick}>
-                    <img src="/assits/assits/image/blog latest 4.png" alt="" />
+                    <img src="/assits/assits/image/blog latest 4.png" className='w-[305px]' alt="" />
                 </div>
                 <div className=' absolute bottom-[10px] text-white left-[20px]'>
                     <span className='text-[32px] font-medium '>Title</span>
                 </div>
             </div>
-            <div className='bottom relative'>
+            <div className='bottom cursor-pointer relative'>
                 <div className='image block' onClick={handleClick}>
-                    <img src="/assits/assits/image/blog latest 5.png" alt="" />
+                    <img src="/assits/assits/image/blog latest 5.png" className='w-[305px]' alt="" />
                 </div>
                 <div className=' absolute bottom-[10px] text-white left-[20px]'>
                     <span className='text-[32px] font-medium '>Title</span>
                 </div>
             </div>
-            <div className='bottom relative' onClick={handleClick}>
+            <div className='bottom cursor-pointer relative' onClick={handleClick}>
                 <div className='image block'>
-                    <img src="/assits/assits/image/blog latest 6.png" alt="" />
+                    <img src="/assits/assits/image/blog latest 6.png" className='w-[305px]' alt="" />
                 </div>
                 <div className=' absolute bottom-[10px] text-white left-[20px]'>
                     <span className='text-[32px] font-medium '>Title</span>
                 </div>
             </div>
-            <div className='bottom relative'>
+            <div className='bottom cursor-pointer relative'>
                 <div className='image block' onClick={handleClick}>
-                    <img src="/assits/assits/image/blog latest 7.png" alt="" />
+                    <img src="/assits/assits/image/blog latest 7.png" className='w-[305px]' alt="" />
                 </div>
                 <div className=' absolute bottom-[10px] text-white left-[20px]'>
                     <span className='text-[32px] font-medium '>Title</span>
                 </div>
             </div>
-            <div className='bottom relative'>
+            <div className='bottom cursor-pointer relative'>
                 <div className='image block' onClick={handleClick}>
-                    <img src="/assits/assits/image/blog latest 7.png" alt="" />
+                    <img src="/assits/assits/image/blog latest 7.png" className='w-[305px]' alt="" />
                 </div>
                 <div className=' absolute bottom-[10px] text-white left-[20px]'>
                     <span className='text-[32px] font-medium '>Title</span>

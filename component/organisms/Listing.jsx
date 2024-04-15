@@ -13,7 +13,7 @@ function Listing() {
   };
 
   return (
-    <div className="">
+    <div className=" container">
       <ListingButton
         buy={() => handleTabChange("buy")}
         sell={() => handleTabChange("sell")}

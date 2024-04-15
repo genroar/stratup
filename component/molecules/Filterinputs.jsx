@@ -9,7 +9,7 @@ function Filterinputs() {
       setIsOpen(!isOpen);
     };
   
-  return (
+  return (    
     <div className='main'>
             <div className='relative flex gap-[10px]'>
         <div>

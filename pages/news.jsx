@@ -4,9 +4,9 @@ import Footer from '@/component/templates/Footer';
 
 function News() {
     return (
-        <div className='new'>
+        <div className='  '>
             <Header />
-            <div className='main flex justify-between px-[48px] py-[50px] '>
+            <div className='main container flex justify-between  py-[50px] '>
                 <div className='left'>
                     <div className='flex flex-col text'>
                         <div>

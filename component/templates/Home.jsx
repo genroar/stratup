@@ -1,15 +1,14 @@
-import React from "react";
-import Header from "./Header";
-import Footer from "@/component/templates/Footer";
 import Banner from "@/component/organisms/Banner";
 import Listing from "@/component/organisms/Listing";
-import HowWorks from "../organisms/HowWorks";
 import AboutUs from "../organisms/AboutUs";
 import FAQ from "../organisms/FAQ";
+import Header2 from "../organisms/Header2";
+import HowWorks from "../organisms/HowWorks";
+import Footer2 from "../organisms/Footer2";
 function Home() {
   return (
     <div>
-      <Header/>
+      <Header2 />
       <div className="">
         <div>
           <Banner />
@@ -24,7 +23,7 @@ function Home() {
         <AboutUs/>
         <FAQ/>
       </div>
-      <Footer />
+      <Footer2/>
     </div>
   );
 }

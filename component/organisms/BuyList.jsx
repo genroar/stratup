@@ -9,16 +9,16 @@ function BuyList() {
   return (
     <div className='flex flex-col gap-[10px] container' >
         <div className='flex gap-[20px] items-center pt-[30px] pb-[10px]' > 
-            <Worksinput/>
+            <Worksinput inputClass='w-[75%]'/>
             <OrderDropdown/>     
         </div>
         <div className='gap-[20px] flex flex-wrap ' > 
-          <Product productClass={'w-[31.9%]'}/>
-          <Product productClass={'w-[31.9%]'}/>
-          <Product productClass={'w-[31.9%]'}/>
-          <Product productClass={'w-[31.9%]'}/>
-          <Product productClass={'w-[31.9%]'}/>
-          <Product productClass={'w-[31.9%]'}/>
+          <Product productClass={'w-[31.9%] shadow-top '}/>
+          <Product productClass={'w-[31.9%] shadow-top '}/>
+          <Product productClass={'w-[31.9%] shadow-top '}/>
+          <Product productClass={'w-[31.9%] shadow-top '}/>
+          <Product productClass={'w-[31.9%] shadow-top '}/>
+          <Product productClass={'w-[31.9%] shadow-top '}/>
         </div>
     </div>
   )

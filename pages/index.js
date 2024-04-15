@@ -1,32 +1,16 @@
+import React from 'react';
+import Home from '@/component/templates/Home';
+import Footer2 from '@/component/organisms/Footer2';
+import WatchModel from '@/component/atoms/WatchModel';
+import WatchBrand from '@/component/organisms/WatchBrand';
 
-import React from 'react'
-import Home from '@/component/templates/Home'
-import Account from './Account'
-import Source from '@/component/organisms/Source'
-import Homesource from '@/component/organisms/Homesource'
-import Listing from '@/component/organisms/Listing'
-import Createorgan from './Createorgan'
-import BLog from '@/component/organisms/BLog'
-import News from '@/pages/news'
-import BLoglatest from '@/component/organisms/BLoglatest'
-import RolexDay from '@/component/organisms/RolexDay'
-import 'tailwindcss/tailwind.css';
-
-
-function index() {
+function Index() {
   return (
     <div>
-
       <Home/>
-      {/* <RolexDay/> */}
-        {/* <Account/>  */}
-        {/* <Listing/>  */}
-        {/* <Createorgan/> */}
-          {/* <BLog/> */}
-      {/* <BLoglatest/> */}
-      {/* <News/> */}
+      {/* <Footer2/> */}
     </div>  
-  )
+  );
 }
 
-export default index    
+export default Index;

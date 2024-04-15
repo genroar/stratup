@@ -4,18 +4,13 @@
 
 @font-face {
   font-family: 'Kumb Sans';
-  src: url('../public/fonts/kumbsans/KumbhSans-Medium.ttf');
+  src: url('../public/fonts/kumbsans/KumbhSans-Medium.ttf') format('truetype');
 }
-
-h1, h2 {
-  font-family: 'Kumb Sans', sans-serif;
-}
-
-
 
 .header {
   box-shadow: 0px 0px 15px 5px #0000001a;
 }
+
 .shadow {
   box-shadow: 0px 0px 10px 5px #0000000d;
 }
@@ -40,8 +35,8 @@ h1, h2 {
 
 .container {
   max-width: 1280px;
-  margin: auto;}
-
+  margin: auto;
+}
 
 .shadow-top {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Adjust values as needed */
@@ -61,8 +56,6 @@ input#dt-search-0 {
   box-shadow: #0000001a;
 }
 
-span.dt-column-order {
-  display: none;}
 span.dt-column-title {
   color: #282828;
   opacity: 0.5;

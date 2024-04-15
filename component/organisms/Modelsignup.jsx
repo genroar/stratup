@@ -5,7 +5,7 @@ import Button from "../atoms/Button";
 import { RxCross1 } from "react-icons/rx";
 import ButtonCross from "../atoms/ButtonCross";
 
-function Modelsignup({ onSelectSign }) {
+function Modelsignup({ onSelectSign , sub }) {
   const handleSignSelect = (signup) => {
     onSelectSign(signup);
   };
@@ -14,7 +14,7 @@ function Modelsignup({ onSelectSign }) {
     <div className="flex flex-col items-center justify-center pt-[100px]">
       <div className="flex flex-col items-center justify-center ">
         <div className="flex flex-col gap-[30px] w-[360px] text-center ">
-          <Heading level="4">Sign in</Heading>
+          <Heading level="4">Sign Up</Heading>
           <div className="flex flex-col gap-[25px]">
             <div className="flex flex-col gap-[20px]">
               <input
@@ -39,7 +39,7 @@ function Modelsignup({ onSelectSign }) {
               />
             </div>
             <div className="flex flex-col gap-[10px]">
-              <Button onClick={() => handleSignSelect("Signup")} variant="primary">Submit Form</Button>
+              <Button onClick={() => handleSignSelect("Signup")} variant="primary">{sub}</Button>
             </div>
           </div>
         </div>

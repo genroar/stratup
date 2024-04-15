@@ -1,8 +1,8 @@
-import React from 'react'
-import Listingsearch from '../molecules/Listingsearch'
-import Heading from '../atoms/Heading'
-import Button from '../atoms/Button'
-import Product from '../molecules/Product'
+import React from 'react';
+import Listingsearch from '../molecules/Listingsearch';
+import Heading from '../atoms/Heading';
+import Button from '../atoms/Button';
+import Product from '../molecules/Product';
 
 function BuyHome() {
   return (
@@ -28,8 +28,9 @@ function BuyHome() {
               </div>
             </div>
           </div>
+
     </div>
-  )
+  );
 }
 
 export default BuyHome

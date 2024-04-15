@@ -116,6 +116,7 @@ function ConsignFiltration() {
         )}
         {currentStep === 7 && (
           <Modelsignup
+            sub={'Submit Form'}
             onSelectSign={handleSginSelect}
             onSelectType={() => setCurrentStep(currentStep - 1)}
           />

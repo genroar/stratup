@@ -13,13 +13,13 @@ function OverView() {
             <Heading level="1">Overview</Heading>
           </div>
           <div className="p w-[682px] flex flex-col gap-[10px] pr-[30px]">
-            <span className="text-[20px]  font-thin text-gray-900">
+            <span className="text-[20px]  font-thin text-overtext">
               Submit a free listing with ease. Fill in your watch details and
               directly get offers from interested individuals.Submit a free
               listing with ease. Fill in your watch details and directly get
               offers from interested individuals.
             </span>
-            <span className="text-[20px] font-thin text-gray-900">
+            <span className="text-[20px] font-thin text-overtext">
               Submit a free listing with ease. Fill in your watch details and
               directly get offers from interested individuals.Submit a free
               listing with ease. Fill in your watch details and directly get
