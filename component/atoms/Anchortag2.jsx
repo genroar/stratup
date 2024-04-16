@@ -10,7 +10,7 @@ const AnchorTag2 = ({ href, children, onClick }) => {
 
 AnchorTag2.propTypes = {
     href: PropTypes.string.isRequired,
-    children: PropTypes.node.isRequired
+      children: PropTypes.string.isRequired
 }
 
 export default AnchorTag2
