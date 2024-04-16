@@ -1,16 +1,17 @@
 import React from 'react';
 import Home from '@/component/templates/Home';
-import Footer2 from '@/component/organisms/Footer2';
-import WatchModel from '@/component/atoms/WatchModel';
-import WatchBrand from '@/component/organisms/WatchBrand';
+import Account from './Account';
+// Import other components as needed
 
-function Index() {
+function index() {
   return (
     <div>
-      <Home/>
-      {/* <Footer2/> */}
-    </div>  
+      {/* <Home/> */}
+      <Account />
+      {/* Add other components here */}
+    </div>
   );
 }
 
-export default Index;
+export default index;
+  
