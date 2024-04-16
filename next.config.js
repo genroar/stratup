@@ -11,6 +11,7 @@ module.exports = {
       },
     };
 
+
     // Apply PostCSS loader only for client-side CSS
     if (!isServer) {
       if (Array.isArray(config.module.rules[2].oneOf)) {
