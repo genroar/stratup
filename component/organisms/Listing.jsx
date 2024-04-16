@@ -23,9 +23,9 @@ function Listing() {
       <div className="flex flex-col container justify-center source items-center shadow-black shadow-opacity-10  rounded-tr-[50px] rounded-br-[50px] rounded-bl-[50px]">
         {activeTab === "buy" && <BuyHome />}
         <div className="py-[50px]">
-          <div>{activeTab === "sell" && <WatchBrand shadow={`shadow-top`} />}</div>
+          <div>{activeTab === "sell" && <WatchBrand shadow={`shadow-topli`} />}</div>
           {activeTab === "source" && <Homesource />}
-          <div className="">{activeTab === "consign" && <WatchBrand shadow={`shadow-top`} />}</div>
+          <div className="">{activeTab === "consign" && <WatchBrand shadow={`shadow-topli`} />}</div>
         </div>
       </div>
     </div>

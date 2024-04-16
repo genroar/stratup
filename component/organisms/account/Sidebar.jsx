@@ -11,13 +11,14 @@ import { IoLogOut } from "react-icons/io5";
 function Sidebar({ dashboard, listing, profile, notification, stock }) {
   const [activeButton, setActiveButton] = useState('dashboard');
 
+  
   const handleButtonClick = (buttonName, callback) => {
     setActiveButton(buttonName);
     callback();
   };
 
   return (
-    <div className="flex py-[px] justify-between flex-col w-[28%] shadow-lg h-[100vh]  rounded-[10px]">
+    <div className="flex py-[px] justify-between flex-col w-[25%] shadow-lg h-[100vh]  rounded-[10px]">
       <div>
         <ProfileButton onClick={() => handleButtonClick("dashboard", dashboard)} isActive={activeButton === "dashboard"} icon={<HiViewGrid className={`w-[30px] h-[30px] ${activeButton === "dashboard" ? "bg-gray-600 rounded-[10px]  w-[50px] h-[50px] px-[11px] py-[11px] flex items-center ml-[-10px] justify-center  text-white" : "bg-white"}`} />}>
           Dashboard

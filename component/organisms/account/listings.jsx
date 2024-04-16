@@ -4,7 +4,7 @@ import { AiFillMessage } from "react-icons/ai";
 import { FaPen } from "react-icons/fa";
 import DataTable from 'datatables.net-dt';
 import 'datatables.net-responsive-dt';
-// import $ from 'jquery';
+import $ from 'jquery'
 import '../../../app/globals.css'
 
 function Listings() {

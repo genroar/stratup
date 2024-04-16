@@ -1,5 +1,6 @@
 import Heading from "@/component/atoms/Heading";
-import { GoPlus } from "react-icons/go";
+import "../../../app/globals.css"
+import { GoPlus } from "react-icons";
 import React, { useState } from "react";
 import ProfileInput from "@/component/atoms/Profileinput";
 import SourceSpan from "@/component/atoms/SourceSpan";
