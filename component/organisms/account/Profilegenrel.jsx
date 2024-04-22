@@ -1,4 +1,3 @@
-import Heading from "@/component/atoms/Heading";
 import "../../../app/globals.css"
 import { GoPlus } from "react-icons";
 import React, { useState } from "react";
@@ -11,7 +10,7 @@ const DEFAULT_IMAGE_URL = "path_to_your_default_image.jpg";
 
 function Profilegenrel() {
   const [imageSrc, setImageSrc] = useState(null);
-
+  
   const handleImageUpload = (event) => {
     const file = event.target.files[0];
     if (file && file instanceof Blob) {
@@ -26,7 +25,7 @@ function Profilegenrel() {
       console.error("Invalid file selected");
     }
   };
-
+  
   return (
     <div className="flex relative flex-col gap-[20px]">
       <div className="rounded-[20px] flex flex-col divide-y border px-[20px] w-[990px] py-[20px] ">
@@ -35,7 +34,7 @@ function Profilegenrel() {
           <label
             htmlFor="fileInput"
             className=" absolute z-40 top-[100px] left-[110px] cursor-pointer "
-          >
+            >
             <GoPlus className="w-10 rounded-full bg-gray-600 px-[6px] py-[7px] h-10 text-white" />
           </label>
           <input
@@ -44,12 +43,12 @@ function Profilegenrel() {
             accept="image/*"
             className="hidden "
             onChange={handleImageUpload}
-          />
+            />
           {imageSrc && (
             <img
-              src={imageSrc}
-              alt="Uploaded"
-              className="w-[150px] h-[150px] absolute top-[0px] rounded-full"
+            src={imageSrc}
+            alt="Uploaded"
+            className="w-[150px] h-[150px] absolute top-[0px] rounded-full"
             />
           )}
         </div>
@@ -82,5 +81,4 @@ function Profilegenrel() {
     </div>
   );
 }
-
 export default Profilegenrel;

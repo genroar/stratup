@@ -6,8 +6,8 @@ import Account from './Account';
 function index() {
   return (
     <div>
-      {/* <Home/> */}
-      <Account />
+      <Home/>
+      {/* <Account /> */}
       {/* Add other components here */}
     </div>
   );
