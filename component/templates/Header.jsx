@@ -11,6 +11,7 @@ function Header() {
   const router = useRouter();
 
   return (
+<<<<<<< HEAD
     <div className="w-full header">
       <div className="header">
         <div className="flex container w-full py-[15px] items-center h-[65px] justify-between">
@@ -32,6 +33,20 @@ function Header() {
         </div>
         {/* {activeTab === "login" && <SignUpmol />} */}
       </div>
+=======
+    <div className=" w-full header ">
+       <div className="flex py-[15px]  container    items-center   h-[65px] justify-between">
+      <div>
+        <Link href="/" >
+          <CustomImage
+            variant="logo"
+            src="/assits/assits/image/header-logo.png"
+            alt="logo"
+          />
+        </Link>
+      </div>
+    </div>
+>>>>>>> 112fd9d58c1e51e9985fd8c5abc7c9bf929d1fb5
     </div>
   );
 }
