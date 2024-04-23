@@ -3,7 +3,7 @@ import Heading from "../atoms/Heading";
 
 function Banner() {
   return (
-    <div className="flex container   pt-[100px] pb-[40px] items-center justify-between  ">
+    <div className="flex container   pt-[100px] pb-[40px] items-center justify-between main_bnr ">
       <div className="flex flex-col gap-[20px]">
         <h1 className="text-[60px] leading-[60px] font-medium text-customGray1">
           Your Portal to <br /> Luxury Timepieces
