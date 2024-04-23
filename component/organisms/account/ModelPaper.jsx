@@ -12,7 +12,7 @@ import { RxCross1 } from "react-icons/rx";
   };
 
   return (
-    <div className="flex flex-col pt-[100px] items-center justify-center">
+    <div className="flex flex-col  items-center justify-center">
       <div className="flex flex-col items-center justify-center">
         <div className="w-[384px] flex flex-col justify-center items-center">
           <div className="flex s">

@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @font-face {
   font-family: 'Kumb Sans';
   src: url('../public/fonts/kumbsans/KumbhSans-Medium.ttf') format('truetype');
@@ -34,7 +35,7 @@
 }
 
 .container {
-  max-width: 1400px;
+  max-width: 1280px;
   margin: auto;
 }
 
@@ -93,4 +94,7 @@ table#myTable td:hover {
 .admin_side_bar {
   position: fixed;
   z-index: 1001;
+}
+.product_cols {
+  width: 23.26666%;
 }

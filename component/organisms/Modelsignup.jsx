@@ -11,7 +11,7 @@ function Modelsignup({ onSelectSign , sub }) {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center pt-[100px]">
+    <div className="flex flex-col items-center justify-center ">
       <div className="flex flex-col items-center justify-center ">
         <div className="flex flex-col gap-[30px] w-[360px] text-center ">
           <Heading level="4">Sign Up</Heading>

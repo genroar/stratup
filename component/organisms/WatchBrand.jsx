@@ -1,19 +1,15 @@
-import React from "react";
-import Heading from "../atoms/Heading";
 import CustomImage from "../atoms/CustomImage";
-import Button from "../atoms/Button";
+import Heading from "../atoms/Heading";
 import Other from "../atoms/Other";
 
-function WatchBrand({ onSelectBrand , shadow }) {
+function WatchBrand({ onSelectBrand , shadow  }) {
   const handleBrandSelect = (brand) => {
     onSelectBrand(brand);
-    // Navigate to the next step (e.g., WatchModel)
-    // You can use Next.js Link or router.push here
   };
 
   return (
-    <div className={`flex  flex-col pt-[100px] items-center justify-center   rounded-tr-[50px] rounded-br-[50px] rounded-bl-[50px] ${shadow} relative mt-[-50px]`}>
-      <div className="flex w-[1195px] justify-center items-center py-[50px] relative top-[-45px] rounded-br-[40px] rounded-bl-[40px] rounded-tr-[40px]">
+    <div className={`relative flex justify-center items-center `}>
+      <div className="flex   w-[1195px] justify-center items-center">
         <div className="w-[360px]   flex flex-col text-center gap-[25px] ">
           <div>
             <Heading level="4">Watch brand</Heading>

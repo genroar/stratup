@@ -5,46 +5,33 @@ import CustomImage from "../atoms/CustomImage";
 import Navigation from "../molecules/Navigation";
 import HeaderRight from "../molecules/HeaderRight";
 import SignUpmol from "../molecules/SignUpmol";
-import Link from "next/link"
+import Link from "next/link";
 
 function Header() {
-
   const router = useRouter();
 
   return (
-<<<<<<< HEAD
-    <div className=" w-full header  " >
-       <div className="flex py-[15px]  container    items-center   h-[65px] justify-between">
-      <div>
-        <Link href="/" >
-          <CustomImage
-            variant="logo"
-            src="/assits/assits/image/header-logo.png"
-            alt="logo"
-          />
-        </Link>
-=======
-    <div className="header " >
-      <div className="flex container w-full py-[15px]  items-center   h-[65px] justify-between">
-        <div>
-          <Link href="/" >
-            <CustomImage
-              variant="logo"
-              src="/assits/assits/image/header-logo.png"
-              alt="logo"
-            />
-          </Link>
+    <div className="w-full header">
+      <div className="header">
+        <div className="flex container w-full py-[15px] items-center h-[65px] justify-between">
+          <div>
+            <Link href="/">
+              <CustomImage
+                variant="logo"
+                src="/assits/assits/image/header-logo.png"
+                alt="logo"
+              />
+            </Link>
+          </div>
+          <div>
+            <Navigation />
+          </div>
+          <div>
+            <HeaderRight />
+          </div>
         </div>
-        <div>
-          <Navigation />
-        </div>
-        <div>
-          <HeaderRight />
-        </div>
->>>>>>> eea2462e70bc188551c1f3fb2282c20cf1ebe139
+        {/* {activeTab === "login" && <SignUpmol />} */}
       </div>
-      {/* {activeTab === "login" &&  <SignUpmol />} */}
-
     </div>
   );
 }

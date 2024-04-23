@@ -19,7 +19,9 @@ function Home() {
             <div></div>
           </div>
         </div>
+        <div className="mt-[50px]">
         <HowWorks/>
+        </div>
         <AboutUs/>
         <FAQ/>
       </div>

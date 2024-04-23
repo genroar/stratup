@@ -11,7 +11,7 @@ const Filterdrop = ({ parent, child }) => {
   };
 
   return (
-    <div className="main">
+    <div className="main ">
         <div className="relative">
       <div className="flex flex-row ">
         <button

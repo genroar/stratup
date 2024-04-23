@@ -11,7 +11,7 @@ function Modelmeterial({onSelectMaterial, onSelectType}) {
   }
 
   return (
-  <div className="flex flex-col  pt-[100px] items-center justify-center">
+  <div className="flex flex-col  items-center justify-center">
       <div className='flex flex-col items-center justify-center'>
           <div className='flex flex-col gap-[20px] w-[730px]'>
     <div className='flex justify-center'>

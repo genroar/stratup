@@ -4,9 +4,9 @@ import CustomImage from "../atoms/CustomImage";
 import Input from "../atoms/Input";
 function Footer() {
   return (
-    <div className="main-footer  ">
-      <div className="footer   flex gap-[180px] py-[50px]">
-        <div className="strap flex flex-col gap-[20px] pl-[40px]">
+    <div className="main-footer  footer  ">
+      <div className=" container  flex gap-[180px] py-[50px]">
+        <div className="strap flex flex-col gap-[20px] ">
           <div className="text-white">
             <CustomImage src="/assits/assits/image/footer.png" />
             <p className="text-[18px] font-light leading-[25.67px] pt-[15px]">

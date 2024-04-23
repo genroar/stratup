@@ -15,7 +15,7 @@
     };
 
     return (
-      <div className="flex flex-col  bg-lightGray ">
+      <div className="flex flex-col rounded-tl-[50px] rounded-tr-[50px]  bg-lightGray ">
         <div className="flex flex-col w-[835px] container  justify-center gap-[10px] py-[150px]">
           <div className="text-center">
             <Heading level="1">Find out how much your watch is worth</Heading>
@@ -33,7 +33,7 @@
                   view={() => handleTabChange("view")}
                   ad={() => handleTabChange("ad")}
                   consign={() => handleTabChange("consign")}
-                  source={() => handleTabChange("source ")}
+                  source={() => handleTabChange("source")}
                 />
               </div>
             </div>
@@ -41,7 +41,7 @@
               {activeTab === "view" && <OverView />}
               {activeTab === "ad" && <AdTittle/>} 
               {activeTab === "consign" && <ConsignTittle />}
-              {activeTab === "source" && <SourceTittle />}
+              {activeTab === "source" &&  <SourceTittle /> }
             </div>
 
           </div>

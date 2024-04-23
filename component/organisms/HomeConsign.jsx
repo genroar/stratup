@@ -10,7 +10,7 @@ import ProgressBar from "./ProgressBar";
 import Submitment from "./Submitment";
 import WatchBrand from "./WatchBrand";
 
-function ConsignFiltration() {
+function HomeConsign({consignShadow}) {
   const [selectedBrand, setSelectedBrand] = useState(null);
   const [selectedModel, setSelectedModel] = useState(null);
   const [selectedYear, setSelectedYear] = useState(null);
@@ -68,23 +68,9 @@ function ConsignFiltration() {
   };
 
   return (
-    <div>
+    <div className={`${consignShadow}`} >
       <div className="flex flex-col">
-        <div className="">
-          <div className="main flex items-center px-[50px] py-[20px]">
-            <ButtonCross />
-            <div className="flex items-center justify-center w-full">
-              <img
-                className="w-[160px]"
-                src="/assits/assits/image/header-Logo.png"
-                alt=""
-              />
-            </div>
-          </div>
-          <ProgressBar progress={progress} totalSteps={totalSteps} />
-        </div>
-       <div className=" ">
-       {currentStep === 1 && <WatchBrand onSelectBrand={handleBrandSelect} />}
+        {currentStep === 1 && <WatchBrand onSelectBrand={handleBrandSelect} />}
         {currentStep === 2 && (
           <Modelwatch
             onSelectModel={handlModelSelelct}
@@ -123,10 +109,9 @@ function ConsignFiltration() {
           />
         )}
         {currentStep === 8 && <Submitment />}
-       </div>
       </div>
     </div>
   );
 }
 
-export default ConsignFiltration;
+export default HomeConsign;
