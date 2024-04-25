@@ -14,7 +14,7 @@ function AboutUs2() {
           <Heading level="2">About us</Heading>
           <div className=" flex flex-col gap-[15px] ">
             <Heading level="5">
-            Strap Up is a premier luxury watch concierge based in Dubai, offering a range of <br/> services including buying, selling, sourcing, and consigning high-end watches Strap <br/> Up is a
+            Strap Up is a premier luxury watch concierge based in Dubai, offering a range of  <br/>services including buying, selling, sourcing, and consigning high-end watches Strap  Up is a
             </Heading>
             <Heading level="5">
             Strap Up is a premier luxury watch concierge based in Dubai, offering a range of <br/> services including buying, selling, sourcing, and consigning high-end watches Strap <br/> Up is a

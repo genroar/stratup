@@ -9,7 +9,7 @@ function ModelCondition({onSeleCondition, onSelectType}) {
     onSeleCondition(condition)
   }
   return (
-    <div className='flex flex-col  pt-[100px] items-center justify-center'>
+    <div className='flex flex-col items-center justify-center'>
       <div className='flex flex-col items-center justify-center w-full'>
         <div className='w-[384px] flex flex-col gap-[20px] '>
           <div className='mr-[65px]'><Modelhead onclick={onSelectType} icon={<LiaLessThanSolid />} heading='Condition' description='What is the condition of your watch?' subDescription='Select an option below'/></div>

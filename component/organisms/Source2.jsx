@@ -16,7 +16,7 @@ function Source2() {
         <div className='w-full h-[15px] bg-border2 '>
         </div>
       </div>
-      <div className="bg sourcebg flex container gap-[30px] ">
+      <div className="bg sourcebg flex justify-between container gap-[30px] ">
         <div className="left shadow-top w-[73%] rounded-[20px]  py-[30px] ">
           <div className=' mx-8 '>
             <div className='flex flex-col gap-[10px]'>

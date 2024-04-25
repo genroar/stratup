@@ -5,7 +5,7 @@ function AboutUs() {
   return (
     <div className="rounded flex flex-col   rounded-tr-[40px] rounded-tl-[40px] pt-[35px] pb-[30px]  " >
       <div className="about flex  gap-[30px] container items-center ">
-        <div className=" w-[600px]   ">
+        <div className=" w-[600px]">
           <img src="/assits/assits/image/home about us.png" alt="" />
         </div>
         <div className="gap-[30px] raltive flex flex-col ">

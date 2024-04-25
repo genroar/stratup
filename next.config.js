@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 // next.config.js
 module.exports = {
   webpack: (config, { dev, isServer }) => {
@@ -25,3 +27,4 @@ module.exports = {
     return config;
   },
 };
+>>>>>>> 112fd9d58c1e51e9985fd8c5abc7c9bf929d1fb5

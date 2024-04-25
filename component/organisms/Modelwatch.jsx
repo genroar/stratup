@@ -11,7 +11,7 @@ function Modelwatch({ onSelectModel, onSelectType }) {
   };
 
   return (
-    <div className="flex  pt-[100px] items-center justify-center">
+    <div className="flex   items-center justify-center">
       <div className="flex flex-col ">
         <div className="flex flex-col items-center justify-center">
           <div className="w-[730px]  flex flex-col gap-[20px]">
