@@ -36,7 +36,7 @@ function Profilegenrel() {
             htmlFor="fileInput"
             className=" absolute z-40 top-[100px] left-[110px] cursor-pointer "
           >
-            <GoPlus className="w-10 rounded-full bg-gray-600 px-[6px] py-[7px] h-10 text-white" />
+            <h2  className="w-10 rounded-full bg-gray-600 px-[6px] py-[7px] h-10 text-white" >  +</h2>
           </label>
           <input
             type="file"
