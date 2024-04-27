@@ -16,6 +16,7 @@ function BuyHome() {
               <Button variant='oval' >View All Listing</Button>
             </div>
             <div>
+<<<<<<< HEAD
               <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-[30px] justify-center items-center flex-wrap" >
                 <div>
                   <Product  productClass='product_cols'/>
@@ -42,6 +43,17 @@ function BuyHome() {
                   <Product  productClass='product_cols'/>
                 </div>
                 
+=======
+              <div className="flex gap-[30px] justify-between items-center flex-wrap" >
+              <Product  productClass='product_cols'/>
+              <Product  productClass='product_cols'/>
+              <Product  productClass='product_cols'/>
+              <Product  productClass='product_cols'/>
+              <Product  productClass='product_cols'/>
+              <Product  productClass='product_cols'/>
+              <Product  productClass='product_cols'/>
+                <Product  productClass='product_cols'/>
+>>>>>>> 4bb7a5e26ca1071fb11eb5bcb0551981a65283f4
               </div>
             </div>
           </div>

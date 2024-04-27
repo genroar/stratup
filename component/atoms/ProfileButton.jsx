@@ -22,7 +22,7 @@ const ProfileButton = ({ href, children, isActive, onClick, icon }) => {
 
 ProfileButton.propTypes = {
   href: PropTypes.string.isRequired,
-  children: PropTypes.node.isRequired,
+    children: PropTypes.string.isRequired,
   isActive: PropTypes.bool.isRequired,
   onClick: PropTypes.func.isRequired,
   icon: PropTypes.element,

@@ -19,7 +19,7 @@ const RootLayout = ({ children }) => {
 
 
 RootLayout.propTypes = {
-  children: PropTypes.node.isRequired
+    children: PropTypes.string.isRequired
 }
 
 export default RootLayout;

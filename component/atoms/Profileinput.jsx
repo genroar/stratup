@@ -16,7 +16,7 @@ function ProfileInput({ variant, type, children }) {
 
 ProfileInput.propTypes = {
   type: PropTypes.string.isRequired,
-  children: PropTypes.node.isRequired,
+    children: PropTypes.string.isRequired,
   variant: PropTypes.string.isRequired, 
 };
 

@@ -12,7 +12,7 @@ const Label = ({ children, htmlFor }) => {
 
 Label.propTypes = {
   htmlFor: PropTypes.string.isRequired,
-  children: PropTypes.node.isRequired,
+    children: PropTypes.string.isRequired,
 };
 
 export default Label;

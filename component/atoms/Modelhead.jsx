@@ -1,6 +1,7 @@
 import React from "react";
 import Heading from "./Heading";
 
+
 function Modelhead({ icon, heading, onclick, description, subDescription }) {
   return (
     <div className='flex items-center justify-center'>
