@@ -16,14 +16,14 @@ function Listingoverall() {
   return (
     <div className="main">
       <Listingdelte />
-      <div className="flex flex-col gap-[20px]">
+      <div className="flex flex-col  gap-[20px]">
         <Listingoverlaymalicule />
         <ListingBtn
           analytic={() => handleTabChange("analytic")}
           msg={() => handleTabChange("msg")}
           offer={() => handleTabChange("offer")}
         />
-        <div className="h-[1005px] w-[1200px]">
+        <div className="h-[1005px] ">
           {activeTab === "analytic" && <Dashanalitic />}
           {activeTab === "msg" && <Listingmassege />}
           {activeTab === "offer" && <Listingbanned />}

@@ -24,7 +24,7 @@ function BuyHome() {
               <Product  productClass='product_cols'/>
               <Product  productClass='product_cols'/>
               <Product  productClass='product_cols'/>
-                <Product  productClass='product_cols'/>
+              <Product  productClass='product_cols'/>
               </div>
             </div>
           </div>

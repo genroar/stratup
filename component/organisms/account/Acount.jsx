@@ -15,16 +15,18 @@ function Acount() {
   };
 
   return (
-    <div className="mt-10">
-      <div className="flex gap-[20px]">
-        <Sidebar
-          dashboard={() => handleTabChange("dashboard")}
-          listing={() => handleTabChange("listing")}
-          notification={() => handleTabChange("notification")}
-          profile={() => handleTabChange("profile")}
-          stock={() => handleTabChange("stock")}
-        />
+    <div className="container  ">
+      <div className="flex container justify-between gap-[20px]">
+        <div className="w-[25%]">
+          <Sidebar
+            dashboard={() => handleTabChange("dashboard")}
+            listing={() => handleTabChange("listing")}
+            notification={() => handleTabChange("notification")}
+            profile={() => handleTabChange("profile")}
+            stock={() => handleTabChange("stock")}
+          />
 
+        </div>
         <div className="w-[75%]">
           {/* Render components based on active tab */}
           {activeTab === "dashboard" && <Dashboard />}
