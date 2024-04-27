@@ -41,7 +41,7 @@ function Photo({ onSelectPic }) {
   };
 
   return (
-    <div className="flex flex-col  pt-[100px] items-center justify-center">
+    <div className="flex flex-col items-center justify-center">
       <div className="flex flex-col items-center justify-center">
         <div className="main flex flex-col justify-center items-center text-center gap-[20px]">
           <div className="inner w-[360px] gap-[10px] flex flex-col ">

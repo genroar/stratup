@@ -1,8 +1,6 @@
-import React from 'react'
-import Heading from '../atoms/Heading'
-import Button from '../atoms/Button'
-import { RxCross1 } from "react-icons/rx";
 import AnchorTag from '../atoms/Anchortag';
+import Button from '../atoms/Button';
+import Heading from '../atoms/Heading';
 
 function Submitment({onSelectSub}) {
   const handleSubSlect = (sub) => {

@@ -1,4 +1,5 @@
-// next.config.js
+
+
 module.exports = {
   webpack: (config, { dev, isServer }) => {
     // Add PostCSS support
@@ -25,3 +26,4 @@ module.exports = {
     return config;
   },
 };
+

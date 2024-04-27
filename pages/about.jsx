@@ -5,13 +5,15 @@ import Footer from "@/component/templates/Footer";
 import Header from "@/component/templates/Header";
 import HowWorks from "@/component/organisms/HowWorks";
 import React from "react";
+import HowWorkshead from "@/component/organisms/Howworkshead";
+import Header2 from "@/component/organisms/Header2";
 
 function About() {
   return (
     <div>
       <Header />
-      <AboutUs2 />
-      <HowWorks />
+      <AboutUs2/>
+      <HowWorkshead />
       <div className="py-[50px]" >
         <Chat />
       </div>

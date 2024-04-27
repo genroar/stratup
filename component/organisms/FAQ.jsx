@@ -5,7 +5,7 @@ import FAQdrop1 from '../atoms/FAQdrop1'
 function FAQ() {
   return (
     <div>
-      <div className="FAQ  container  pt-[30px] ">
+      <div className="FAQ  pt-[30px] ">
         <Heading level="2">FAQ</Heading>
         <div className="flex justify-between ">
           <div className="drops w-[70%] ">

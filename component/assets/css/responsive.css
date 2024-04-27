@@ -1,9 +1,13 @@
-@media screen and (max-width:1240px) {
-    .main_bnr {
-        padding-left: 40px !important;
-        padding-right: 40px !important;
-    }
+@media screen and (max-width:1140px) {
+    
 }
+
+
+
+
+
+
+
 @media screen and (max-width:767px) {
     .main_bnr {
         flex-direction: column;
@@ -11,3 +15,8 @@
         padding: 40px 30px;
     }
 }
+
+
+
+
+

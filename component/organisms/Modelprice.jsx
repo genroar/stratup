@@ -17,7 +17,7 @@ function Modelprice({ onSelectPrice }) {
     setIsOpen(false);
   };
   return (
-    <div className="flex flex-col items-center justify-center pt-[100px]">
+    <div className="flex flex-col items-center justify-center ">
       <div className="flex flex-col items-center justify-center w-full">
         <div className="w-[360px] flex flex-col gap-[20px] items-center text-center">
           <div className="">

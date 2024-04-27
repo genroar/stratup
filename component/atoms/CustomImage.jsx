@@ -14,7 +14,7 @@ function CustomImage({ src, alt, variant }) {
         imageStyle = "w-[225px] h-[146px]";
         break;
       case "four":
-        imageStyle = "w-[320px] h-[290px]";
+        imageStyle = "w-[100%]";
         break;
       case "five":
         imageStyle = "w-[35px] h-[35px]";

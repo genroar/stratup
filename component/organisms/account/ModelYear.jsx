@@ -14,7 +14,7 @@ import ButtonCross from '@/component/atoms/ButtonCross';
   }
 
   return (
-    <div className='flex flex-col  pt-[100px] items-center justify-center'>
+    <div className='flex flex-col  items-center justify-center'>
       <div className='flex flex-col items-center justify-center'>
         <div className='w-[730px]  flex flex-col gap-[20px]'>
           <div className=''>

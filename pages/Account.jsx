@@ -1,16 +1,11 @@
 import AccHeader from '@/pages/accheader'
 import Acount from '@/component/organisms/account/Acount'
-import React from 'react'
+import React, { useState } from 'react'
 
 function Account() {
   return (
     <div>
-        <AccHeader/>
-        <div className='main_dashboard' >
-          <div className='container'>
-            <Acount/>
-          </div>
-        </div>
+        <Acount/>
     </div>
   )
 }

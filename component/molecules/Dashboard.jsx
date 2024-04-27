@@ -1,7 +1,9 @@
+import React from "react";
 import { AiFillMessage } from "react-icons/ai";
 import { BsLightningChargeFill } from "react-icons/bs";
 import Heading from '../atoms/Heading';
 import Dashanalitic from './Dashanalitic';
+
 function Dashboard() {
     return (
         <div className='main'>
@@ -33,4 +35,4 @@ function Dashboard() {
     )
 }
 
-export default Dashboard
+export default Dashboard;

@@ -1,7 +1,5 @@
-import React from 'react'
-import Heading from '../atoms/Heading'
-import Other from '../atoms/Other'
-import { RxCross1 } from "react-icons/rx";
+import Heading from '../atoms/Heading';
+import Other from '../atoms/Other';
 
 function Modelcountry({onSelcetCountry}) {
   const handleCountrySelect = (Country) => {
@@ -9,7 +7,7 @@ function Modelcountry({onSelcetCountry}) {
   }
 
   return (
-    <div className='flex flex-col gap-[50px] pt-[100px]'>
+    <div className='flex flex-col gap-[50px]'>
       <div className=' flex flex-col justify-center items-center gap-[20px]'>
         <div className='flex flex-col text-center text'>
           <Heading level='4'>Your country</Heading>

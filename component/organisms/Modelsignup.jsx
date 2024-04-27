@@ -1,9 +1,5 @@
-import React from "react";
-import Heading from "../atoms/Heading";
-import Input from "../atoms/Input";
 import Button from "../atoms/Button";
-import { RxCross1 } from "react-icons/rx";
-import ButtonCross from "../atoms/ButtonCross";
+import Heading from "../atoms/Heading";
 
 function Modelsignup({ onSelectSign , sub }) {
   const handleSignSelect = (signup) => {
@@ -11,7 +7,7 @@ function Modelsignup({ onSelectSign , sub }) {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center pt-[100px]">
+    <div className="flex flex-col items-center justify-center ">
       <div className="flex flex-col items-center justify-center ">
         <div className="flex flex-col gap-[30px] w-[360px] text-center ">
           <Heading level="4">Sign Up</Heading>

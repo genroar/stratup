@@ -1,18 +1,21 @@
 import React from 'react';
 import Home from '@/component/templates/Home';
 import Account from './Account';
-// Import other components as needed
-import '../component/assets/css/responsive.css'
+import CardSubmit from '@/component/organisms/CardSubmit';
+import Header2 from '@/component/organisms/Header2';
+import Footer2 from '@/component/organisms/Footer2';
 
-function index() {
+
+function Index() {
   return (
     <div>
-      <Home/>
-      {/* <Account /> */}
-      {/* Add other components here */}
+      <div>
+        <Header2 />
+        <Home />
+        <Footer2 />
+      </div>
     </div>
   );
 }
 
-export default index;
-  
+export default Index;

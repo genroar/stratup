@@ -1,5 +1,5 @@
 import "../../../app/globals.css"
-import { GoPlus } from "react-icons";
+// import { GoPlus } from "react-icons";
 import React, { useState } from "react";
 import ProfileInput from "@/component/atoms/Profileinput";
 import SourceSpan from "@/component/atoms/SourceSpan";
@@ -35,7 +35,7 @@ function Profilegenrel() {
             htmlFor="fileInput"
             className=" absolute z-40 top-[100px] left-[110px] cursor-pointer "
             >
-            <GoPlus className="w-10 rounded-full bg-gray-600 px-[6px] py-[7px] h-10 text-white" />
+            {/* <GoPlus className="w-10 rounded-full bg-gray-600 px-[6px] py-[7px] h-10 text-white" /> */}
           </label>
           <input
             type="file"

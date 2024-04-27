@@ -13,7 +13,7 @@ import Modelprice from "./Modelprice";
 import Modelcountry from "./Modelcountry";
 import Modelsignup from "./Modelsignup";
 
-function WatchFiltration() {
+function HomeSell({sellShadow}) {
   const [selectedBrand, setSelectedBrand] = useState(null);
   const [selectedModel, setSelectedModel] = useState(null);
   const [selectedYear, setSelectedYear] = useState(null);
@@ -99,37 +99,20 @@ function WatchFiltration() {
   };
 
   return (
-    <div>
-      <div className="flex flex-col ">
-        <div className="">
-          <div className="main flex items-center px-[50px] py-[20px]">
-            <ButtonCross />
-            <div className="flex items-center justify-center w-full">
-              <img
-                className="w-[160px]"
-                src="/assits/assits/image/header-Logo.png"
-                alt=""
-              />
-            </div>
-          </div>
-          <ProgressBar progress={currentStep} totalSteps={totalSteps} />
-        </div >
-        <div className="pt-[100px]">
-          {currentStep === 1 && <WatchBrand onSelectBrand={handleBrandSelect} />}
-          {currentStep === 2 && <Modelwatch onSelectModel={handlModelSelelct} onSelectType={handlePrevStep} />}
-          {currentStep === 3 && <ModelYear onSelectYear={handlebrandYear} onSelectType={handlePrevStep} />}
-          {currentStep === 4 && <ModelCondition onSeleCondition={handleSelectCondition} onSelectType={handlePrevStep} />}
-          {currentStep === 5 && <ModelSize onSelectSize={handelSizeSelect} onSelectType={handlePrevStep} />}
-          {currentStep === 6 && <Modelmeterial onSelectMaterial={handleSelectMaterial} onSelectType={handlePrevStep} />}
-          {currentStep === 7 && <ModelPaper onSelectPaper={handleSelectPaper} onSelectType={handlePrevStep} />}
-          {currentStep === 8 && <Photo onSelectPic={handlePicSelect} onSelectType={handlePrevStep} />}
-          {currentStep === 9 && <Modelprice onSelectPrice={handlePriceSelect} onSelectType={handlePrevStep} />}
-          {currentStep === 10 && <Modelcountry onSelcetCountry={handleCountrySelect} onSelectType={handlePrevStep} />}
-          {currentStep === 11 && <Modelsignup sub={'SignUp'} onSelectSign={handleSignSelect} onSelectType={handlePrevStep} />}
-        </div>
-      </div>
+    <div className={`${sellShadow} py-[50px] mt-[-50px] rounded-tr-[50px] rounded-br-[50px] rounded-bl-[50px]`} >
+        {currentStep === 1 && <WatchBrand onSelectBrand={handleBrandSelect} />}
+        {currentStep === 2 && <Modelwatch onSelectModel={handlModelSelelct} onSelectType={handlePrevStep}/>}
+        {currentStep === 3 && <ModelYear onSelectYear={handlebrandYear} onSelectType={handlePrevStep} />}
+        {currentStep === 4 && <ModelCondition onSeleCondition={handleSelectCondition} onSelectType={handlePrevStep} />}
+        {currentStep === 5 && <ModelSize onSelectSize={handelSizeSelect} onSelectType={handlePrevStep} />}
+        {currentStep === 6 && <Modelmeterial onSelectMaterial={handleSelectMaterial}  onSelectType={handlePrevStep}/>}
+        {currentStep === 7 && <ModelPaper onSelectPaper={handleSelectPaper} onSelectType={handlePrevStep}/>}
+        {currentStep === 8 && <Photo onSelectPic={handlePicSelect} onSelectType={handlePrevStep}/>}
+        {currentStep === 9 && <Modelprice onSelectPrice={handlePriceSelect} onSelectType={handlePrevStep}/>}
+        {currentStep === 10 && <Modelcountry onSelcetCountry={handleCountrySelect} onSelectType={handlePrevStep}/>}
+        {currentStep === 11 && <Modelsignup sub={'SignUp'} onSelectSign={handleSignSelect} onSelectType={handlePrevStep}/>}
     </div>
   );
 }
 
-export default WatchFiltration;
+export default HomeSell;

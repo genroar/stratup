@@ -6,13 +6,18 @@ import Heading from "@/component/atoms/Heading";
 import { IoIosNotifications } from "react-icons/io";
 import Button from "@/component/atoms/Button";
 import Createorgan from "./createorgan";
-
-function AccHeader() {
+import Dashboard from "@/component/molecules/Dashboard";
+import Notificationbar from "@/component/organisms/Notificationbar";
+function AccHeader({ setActiveTab }) {
   const router = useRouter(); 
-  
-  const handleButtonClick = () => {
+  const [showDashboard, setShowDashboard] = useState(true); // State to show/hide Dashboard
 
+  const handleButtonClick = () => {
     router.push('/createorgan');
+  };
+
+  const handleNotificationClick = () => {
+    setActiveTab("notification");
   };
   return (
     <div>
@@ -30,7 +35,7 @@ function AccHeader() {
         <div className="flex items-center gap-4">
           <Heading level="4">En/Ar</Heading>
           <button onClick={handleButtonClick} className="w-[170px] h-[40px] text-white rounded-[20px] flex items-center justify-center bg-buttonGray " >+ Create Listing</button>
-          <IoIosNotifications className="w-8 h-8 bg-buttonGray px-1.5 py-1.5 rounded-full fill-white" />
+          <IoIosNotifications onClick={handleNotificationClick} className="w-8 h-8 bg-buttonGray px-1.5 py-1.5 rounded-full fill-white" /> {/* Added onClick handler */}
           <div className="w-10 h-10 rounded-full">
             <img src="/assits/assits/image/profile.png" alt="profile" />
           </div>

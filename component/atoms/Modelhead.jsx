@@ -1,5 +1,4 @@
 import React from "react";
-import { AiOutlineLessThan } from "react-icons/ai";
 import Heading from "./Heading";
 
 function Modelhead({ icon, heading, onclick, description, subDescription }) {

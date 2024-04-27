@@ -7,7 +7,7 @@ import ProPassword from "./ProPassword";
 import ProDetail from "./ProDetail";
 
 function Profile() {
-  const [activeTab, setActiveTab] = useState('genrel');
+  const [activeTab, setActiveTab] = useState("Genrel");
 
   const handleTabChange = (tabName) => {
     setActiveTab(tabName);
@@ -20,12 +20,12 @@ function Profile() {
         <Heading level="3">Profile</Heading>
       </div>
       <ProButtons
-        genrel={() => handleTabChange("genrel")}
+        genrel={() => handleTabChange("Genrel")}
         password={() => handleTabChange("password")}
         address={() => handleTabChange("address")}
       />
       <div className="h-[1005px] w-[1200px]">
-        {activeTab === "genrel" && <Profilegenrel />}
+        {activeTab === "Genrel" && <Profilegenrel />}
         {activeTab === "password" && <ProPassword />}
         {activeTab === "address" && <ProDetail />}
       </div>

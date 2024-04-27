@@ -4,27 +4,32 @@ import AboutUs from "../organisms/AboutUs";
 import FAQ from "../organisms/FAQ";
 import Header2 from "../organisms/Header2";
 import HowWorks from "../organisms/HowWorks";
-import Footer2 from "../organisms/Footer2";
+import Container from "../atoms/Container";
+
 function Home() {
   return (
-    <div>
-      <Header2 />
-      <div className="">
+
+    <div className="">
+      <Container>
         <div>
           <Banner />
-          <div className="px-[80px] flex items-center justify-center">
+          <div className="px-[40px] flex items-center justify-center">
             <Listing />
           </div>
           <div>
             <div></div>
           </div>
         </div>
-        <HowWorks/>
-        <AboutUs/>
-        <FAQ/>
+      </Container>
+      <div className="mt-[50px]">
+        <HowWorks />
       </div>
-      <Footer2/>
+      <Container>
+        <AboutUs />
+        <FAQ />
+      </Container>
     </div>
+
   );
 }
 
