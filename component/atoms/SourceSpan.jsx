@@ -17,7 +17,7 @@ function SourceSpan({ variant, children }) {
 }
 
 SourceSpan.propTypes = {
-  children: PropTypes.node.isRequired,
+    children: PropTypes.string.isRequired,
   variant: PropTypes.string.isRequired,
 };
 

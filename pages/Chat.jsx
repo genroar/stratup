@@ -1,9 +1,8 @@
 import React from "react";
 import { useRouter } from 'next/router'; // Import useRouter from Next.js
-import Heading from "../atoms/Heading";
-import SourceSpan from "../atoms/SourceSpan";
-import Button from "../atoms/Button";
-import Contact from "@/component/organisms/Contact";
+import Heading from "@/component/atoms/Heading";
+import SourceSpan from "@/component/atoms/SourceSpan";
+import Button from "@/component/atoms/Button";
 
 function Chat() {
   const router = useRouter(); 

@@ -5,7 +5,7 @@ function login() {
   return (
     <div>
       <Signintemp />
-</div>
+    </div>
   )
 }
 

@@ -9,7 +9,7 @@ function ListingBtn({ analytic , msg , offer }) {
 
   return (
     <div>
-      <div className="w-[990px] flex gap-[6px] py-[8px] border rounded-[20px] px-[8px]">
+      <div className="w flex gap-[6px] py-[8px] border rounded-[20px] px-[8px] ">
         <button
           onClick={() => {
             handleButtonClick("analytic");

@@ -16,7 +16,7 @@ function AccHeader() {
   };
   return (
     <div>
-      <div className="flex w-full py-3 header items-center px-6 h-16 justify-between">
+      <div className="flex container w-full py-3 header items-center px-6 h-16 justify-between">
         <div>
           <CustomImage
             variant="logo"
