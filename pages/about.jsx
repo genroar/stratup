@@ -1,12 +1,8 @@
 import AboutUs2 from "@/component/molecules/AboutUs2";
-import AboutUs from "@/component/organisms/AboutUs";
 import HowWorkshead from "@/component/organisms/Howworkshead";
+import Chat from "./Chat";
 import Footer from "@/component/templates/Footer";
 import Header from "@/component/templates/Header";
-import HowWorks from "@/component/organisms/HowWorks";
-import React from "react";
-import HowWorkshead from "@/component/organisms/Howworkshead";
-import Header2 from "@/component/organisms/Header2";
 
 function About() {
   return (
