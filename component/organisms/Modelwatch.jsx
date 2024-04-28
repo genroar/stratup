@@ -14,7 +14,7 @@ function Modelwatch({ onSelectModel, onSelectType }) {
     <div className="flex   items-center justify-center">
       <div className="flex flex-col ">
         <div className="flex flex-col items-center justify-center">
-          <div className="w-[730px]  flex flex-col gap-[20px]">
+          <div className="  flex flex-col gap-[20px]">
             <div className="flex items-center justify-center ">
               <Modelhead
                 icon={<LiaLessThanSolid  /> }
@@ -24,7 +24,7 @@ function Modelwatch({ onSelectModel, onSelectType }) {
                 subDescription="Find or select an option below"
               />
             </div>
-            <div className="w-[730px] flex flex-wrap gap-[10px]">
+            <div className="  grid grid-cols-2 gap-[10px]">
               <button onClick={() => handlModelSelelct("Model1")}>
                 <WatchModel text="Model 1" />
               </button>
@@ -57,7 +57,7 @@ function Modelwatch({ onSelectModel, onSelectType }) {
                 <WatchModel text="Model 8" />
               </button>
             </div>
-            <div className="flex justify-center items-center w-[73[]0px]">
+            <div className="flex justify-center items-center">
               <Other child="Other" parent="Other" />
             </div>
           </div>

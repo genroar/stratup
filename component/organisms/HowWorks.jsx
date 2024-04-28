@@ -18,7 +18,7 @@ function HowWorks() {
   return (
     <div className="rounded-tl-[50px] rounded-tr-[50px]  bg-lightGray ">
       <Container>
-        <div className="flex flex-col justify-center items-center gap-[10px] py-[150px]">
+        <div className="flex flex-col justify-center items-center gap-[10px] xl:py-[150px] lg:py-[150px] md:py-[50px] sm:py-[50px] py-[30px]">
           <div className="text-center">
             <Heading level="1">Find out how much your watch is worth</Heading>
           </div>
@@ -30,7 +30,7 @@ function HowWorks() {
               <div className="text-center">
                 <Heading level="1">How it works</Heading>
               </div>
-              <div className="pb-[8px]">
+              <div className="pb-[8px] w-full flex justify-center">
                 <WorksButtons
                   view={() => handleTabChange("view")}
                   ad={() => handleTabChange("ad")}

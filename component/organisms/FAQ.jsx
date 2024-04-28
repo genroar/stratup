@@ -7,8 +7,8 @@ function FAQ() {
     <div>
       <div className="FAQ  pt-[30px] ">
         <Heading level="2">FAQ</Heading>
-        <div className="flex justify-between ">
-          <div className="drops w-[70%] ">
+        <div className="xl:flex lg:flex  block justify-between ">
+          <div className="drops xl:w-[70%] lg:w-[70%] md:w-[70%] sm:w-[100%] w-[100%]">
             <div className="divide-y w-full flex flex-col gap-[2px] " >
               <FAQdrop1
                 parent="How can Strat Up assist me with purchasing a watch?"
@@ -28,9 +28,10 @@ function FAQ() {
               ></FAQdrop1>
             </div>
           </div>
-          <div className="w-[25%] h-[398px] mb-[20px] ">
-            <img src="/assits/assits/image/home FAQ.png" alt="" />
-          </div>
+          <div className="xl:w-[25%] lg:w-[25%] md:w-[100%] w-[100%] sm:w-[100%] h-[398px] my-[20px] hidden sm:block">
+  <img className="w-full h-[398px] object-contain" src="/assits/assits/image/home FAQ.png" alt="" />
+</div>
+
         </div>
       </div>
     </div>
@@ -38,3 +39,4 @@ function FAQ() {
 }
 
 export default FAQ
+ 

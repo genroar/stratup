@@ -21,7 +21,7 @@ import ButtonCross from '@/component/atoms/ButtonCross';
             <Modelhead onclick={onSelectType} icon={<LiaLessThanSolid />} heading='Year' description='What year is your watch?' subDescription='Select an option below' />
 
           </div>
-          <div className='w-[730px] flex flex-wrap gap-[10px]'>
+          <div className='grid grid-cols-2 gap-[10px]'>
             <button onClick={ () => handlebrandYear('year1')} ><WatchModel text='2024' /></button>
             <button onClick={ () => handlebrandYear('year2')}> <WatchModel text='2023' /></button>
             <button onClick={ () => handlebrandYear('year3')}> <WatchModel text='2022' /></button>

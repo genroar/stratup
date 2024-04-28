@@ -34,13 +34,8 @@ function Profilegenrel() {
           <label
             htmlFor="fileInput"
             className=" absolute z-40 top-[100px] left-[110px] cursor-pointer "
-<<<<<<< HEAD
             >
             {/* <GoPlus className="w-10 rounded-full bg-gray-600 px-[6px] py-[7px] h-10 text-white" /> */}
-=======
-          >
-            <h2  className="w-10 rounded-full bg-gray-600 px-[6px] py-[7px] h-10 text-white" >  +</h2>
->>>>>>> 4bb7a5e26ca1071fb11eb5bcb0551981a65283f4
           </label>
           <input
             type="file"

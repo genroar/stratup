@@ -5,18 +5,22 @@ import ListingBtn from "../molecules/ListingBtn";
 import Listingmessenger from "./Listingmessenger";
 
 function Listingmassege() {
-    const [showMessenger, setShowMessenger] = useState(false); // State to control the visibility of Listingmessenger
+  const [showMessenger, setShowMessenger] = useState(true); // State to control the visibility of Listingmessenger
+  const [showSender, setShowSender] = useState(false); // State to control the visibility of sender
 
-    // Function to toggle the visibility of Listingmessenger
-    const toggleMessenger = () => {
-      setShowMessenger(!showMessenger);
-    };
+  // Function to toggle the visibility of Listingmessenger and sender
+  const toggleMessenger = () => {
+    setShowMessenger(false);
+    setShowSender(true);
+  };
   
 
 
   return (
     <div>
-      <div className="w-[990px] flex flex-col py-[20px] px-[20px] shadow-sm rounded-[20px]">
+      
+      {!showSender && 
+        <div className="w-[990px] flex flex-col py-[20px] px-[20px] shadow-sm rounded-[20px]">
         <button onClick={toggleMessenger} >
           <div className="flex rounded-[10px] py-[4px] pl-[5px] hover:bg-gray-100 gap-[100px]">
             <div className="image  relative flex items-center gap-[10px] ">
@@ -90,7 +94,8 @@ function Listingmassege() {
           </div>
         </button>
       </div>
-      {showMessenger && <Listingmessenger/>}
+      }
+      {!showMessenger && <Listingmessenger/>}
     </div>
   );
 }

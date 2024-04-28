@@ -12,7 +12,7 @@ function HeaderRight() {
  }
 
   return (
-    <div className="flex gap-[10px] h-[40px]">
+    <div className="xl:flex lg:flex flex xl:flex-row lg:flex-row flex-col gap-[10px]">
       <Button
         onClick={handleLogin}
         variant="success"

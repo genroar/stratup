@@ -12,7 +12,7 @@ const Dropdown = ({child, parent}) => {
   };
 
   return (
-    <div className="relative inline-block text-left">
+    <div className="relative inline-block text-left xl:block lg:block flex justify-center ] xl:mt-[0px] lg-mt-[0px] mt-[20px">
       <button
         onClick={() => setIsOpen(!isOpen)}
         type="button"

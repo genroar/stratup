@@ -98,3 +98,7 @@ table#myTable td:hover {
   position: fixed;
   z-index: 1001;
 }
+
+.shadow-bottom {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Adjust values as needed */
+}

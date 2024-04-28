@@ -22,7 +22,7 @@ function Listing() {
         source={() => handleTabChange("source")}
         consign={() => handleTabChange("consign")}
       />
-      <div className="flex flex-col justify-center  source items-center  shadow-opacity-10  rounded-tr-[50px] rounded-br-[50px] rounded-bl-[50px]">
+      <div className=" flex-col justify-center  source items-center  shadow-opacity-10  rounded-tr-[50px] rounded-br-[50px]  rounded-bl-[50px]">
         {activeTab === "buy" && <BuyHome />}
         <div className="py-[50px] w-full">
           <div>{activeTab === "sell" && <HomeSell sellShadow={`shadow-top`} />}</div>

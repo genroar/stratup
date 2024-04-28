@@ -85,7 +85,7 @@ const   Button = ({ href, children, variant, onClick }) => {
       break;
     case "submit":
       buttonStyle =
-        "bg-buttonGray h-[41px] cursor-pointer text-center w-[235px] text-[16px] font-medium rounded-[20px] py-[7px] curser-pointer text-white leading-[19.5px]";
+        "bg-buttonGray h-[41px] sm:w-[180px]  cursor-pointer text-center w-[235px] text-[16px] font-medium rounded-[20px] py-[7px] curser-pointer text-white leading-[19.5px]";
       break;
     default:
       buttonStyle = "";
@@ -94,7 +94,7 @@ const   Button = ({ href, children, variant, onClick }) => {
 
   return (
     <a
-    className={buttonStyle}
+    className={`${buttonStyle}`}
     onClick={() => {
       handleButtonClick(variant);
       onClick && onClick();

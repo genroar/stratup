@@ -17,15 +17,6 @@ function BuyList() {
         <Worksinput inputClass=' w-full lg:w-[75%]' />
         <OrderDropdown />     
       </div>
-<<<<<<< HEAD
-      <div className='gap-[20px] flex  flex-wrap'> 
-          <Product productClass=' w-[48%] lg:w-[31.9%] shadow-top' />
-          <Product productClass='w-[48%] lg:w-[31.9%] shadow-top' />
-          <Product productClass='w-[48%] lg:w-[31.9%] shadow-top' />
-          <Product productClass='w-[48%] lg:w-[31.9%] shadow-top' />
-          <Product productClass='w-[48%] lg:w-[31.9%] shadow-top' />
-          <Product  productClass='w-[48%] lg:w-[31.9%] shadow-top' />
-=======
       <div className='gap-[20px] flex flex-wrap'> 
           <Product productClass=' w-[48%] lg:w-[31.8%] shadow-top' />
           <Product productClass='w-[48%] lg:w-[31.8%] shadow-top' />       
@@ -33,7 +24,6 @@ function BuyList() {
           <Product productClass='w-[48%] lg:w-[31.8%] shadow-top' />
           <Product productClass='w-[48%] lg:w-[31.8%] shadow-top' />
           <Product  productClass='w-[48%] lg:w-[31.8%] shadow-top' />
->>>>>>> 4bb7a5e26ca1071fb11eb5bcb0551981a65283f4
       </div>
     </div>
   )

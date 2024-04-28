@@ -4,7 +4,7 @@ import Heading from "../atoms/Heading";
 function SourceTittle() {
   return (
     <div>
-      <div className="grid grid-cols-2 gap-[50px] px-[20px] py-[20px]">
+      <div className="grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-[50px] px-[20px] py-[20px]">
         <div className="">
           <img className="w-full" src="/assits/assits/image/work.png" alt="" />
         </div>
