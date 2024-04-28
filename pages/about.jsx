@@ -1,6 +1,6 @@
 import AboutUs2 from "@/component/molecules/AboutUs2";
 import AboutUs from "@/component/organisms/AboutUs";
-import Chat from "@/pages/Chat";
+import HowWorkshead from "@/component/organisms/Howworkshead";
 import Footer from "@/component/templates/Footer";
 import Header from "@/component/templates/Header";
 import HowWorks from "@/component/organisms/HowWorks";
