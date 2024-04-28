@@ -4,10 +4,15 @@ import { useRouter } from "next/router";
 import CustomImage from "../atoms/CustomImage";
 
 function Blog() {
+
   const router = useRouter();
   const handleClick = () => {
     router.push('news');
   };
+
+  const position = ["md:"]
+  const headingStyle = [""]
+  const paragraphStyle = [""]
 
   return (
     <div className="flex gap-[20px] justify main">

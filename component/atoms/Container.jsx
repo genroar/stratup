@@ -1,7 +1,11 @@
+import React from "react"
+import '../../app/globals.css'
+
+
 function Container({ children }) {
     return (
-      <div className="">{children}</div>
+      <div className="container_main">{children}</div>
     )
   }
   
-  export default Container
+  export default Container
