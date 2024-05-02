@@ -49,7 +49,7 @@ const   Button = ({ href, children, variant, onClick }) => {
       break;
     case "oval":
       buttonStyle =
-        "bg-white h-[40px] border-2 cursor-pointer border-black border-opacity-10 text-center w-[170px] rounded-[40px]  pt-[6px] text-[16px] font-normal  text-buttonGray";
+        "bg-white h-[40px] border-[1px] cursor-pointer border-black border-opacity-[10px] text-center w-[150px] rounded-[40px]  pt-[6px] text-[16px] font-normal  text-buttonGray";
       break;
     case "high-oval":
       buttonStyle =
@@ -87,6 +87,10 @@ const   Button = ({ href, children, variant, onClick }) => {
       buttonStyle =
         "bg-buttonGray h-[41px] sm:w-[180px]  cursor-pointer text-center w-[235px] text-[16px] font-medium rounded-[20px] py-[7px] curser-pointer text-white leading-[19.5px]";
       break;
+      case "submit1":
+        buttonStyle =
+          "bg-buttonGray h-[41px]  cursor-pointer text-center xl:w-[235px] lg:w-[235px] md:w-[235px] sm:w-[full] text-[16px] font-medium rounded-[20px] py-[7px] curser-pointer text-white leading-[19.5px]";
+        break;
     default:
       buttonStyle = "";
       break;

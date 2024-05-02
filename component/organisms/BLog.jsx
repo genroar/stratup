@@ -10,10 +10,10 @@ function Blog() {
   };
 
   return (
-    <div className="flex gap-[20px] justify main">
-      <div className="relative w-[50%] lft">
+    <div className="grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-1  gap-[20px] justify main">
+      <div className="relative w-[100%] lft">
         <div className="block  cursor-pointer image1" onClick={handleClick}>
-          <img src="/assits/assits/image/blog 1.png" className="w-[100%]" alt="" />
+          <img  src="/assits/assits/image/blog 1.png" className="w-[100%]" alt="" />
         </div>
         <div className="text absolute bottom-[15px] text-white left-[35px]">
           <span className="text-[32px] font-medium">Title</span>
@@ -22,7 +22,7 @@ function Blog() {
           </p>
         </div>
       </div>
-      <div className="right flex flex-col w-[50%] gap-[20px]">
+      <div className="right flex flex-col w-[100%] gap-[20px]">
         <div className="flex justify-between  gap-[20px] ">
           <div className="relative w-[50%] ">
             <div className="block cursor-pointer " onClick={handleClick}>

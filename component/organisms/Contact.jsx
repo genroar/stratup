@@ -10,7 +10,7 @@ import Footer from "../templates/Footer";
 function ContactUs() {
   return (
     <div>
-      <div className="flex  gap-[40px] px-[40px] py-[40px] justify-between items-center ">
+      <div className="grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-1  gap-[40px] px-[40px] py-[40px] justify-between items-center ">
         <div className=" flex flex-col gap-[20px] ">
           <div className="flex flex-col gap-[10px]">
             <Heading level="4">Call us at this number</Heading>
@@ -47,7 +47,7 @@ function ContactUs() {
         </div>
         <div>
           <Link href="">
-            <img src="/assits/assits/image/Ma.png" alt="" />
+            <img className="w-full" src="/assits/assits/image/Ma.png" alt="" />
           </Link>
         </div>
       </div>

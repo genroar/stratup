@@ -10,7 +10,7 @@ function WorksButtons({ view, ad, consign, source }) {
   const stylebut = ["xl:text-[20px]  lg:text-[20px] md:text-[20px] sm:text-[20px]  xm:text-[20px] text-[14px] font-normal "]
 
   return (
-    <div className="flex xl:w-[58%] lg:w-[58%] md:w-[75%] sm:w-[95%] xm:w-[98%] w-[99%] xl:gap-[10px] lg:gap-[10px] md:gap-[10px] sm:gap-[10px] xm:gap-[10px] gap-[5px] bg-gray-100  rounded-[25px] ">
+    <div className="flex xl:w-[58%]  lg:w-[58%] md:w-[75%] sm:w-[95%] xm:w-[98%] w-[99%] xl:gap-[10px] lg:gap-[10px] md:gap-[10px] sm:gap-[10px] xm:gap-[10px] gap-[5px] bg-gray-100  rounded-[25px] ">
       <button
         onClick={() => {
           handleButtonClick("view");

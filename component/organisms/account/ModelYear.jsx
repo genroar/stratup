@@ -14,12 +14,11 @@ import ButtonCross from '@/component/atoms/ButtonCross';
   }
 
   return (
-    <div className='flex flex-col  items-center justify-center'>
-      <div className='flex flex-col items-center justify-center'>
-        <div className='w-[730px]  flex flex-col gap-[20px]'>
+    <div className=' flex justify-center items-center'>
+      <div className='xl:w-[55%] lg:w-[55%] md:w-[70%]'>
+        <div className='  flex flex-col gap-[20px]'>
           <div className=''>
             <Modelhead onclick={onSelectType} icon={<LiaLessThanSolid />} heading='Year' description='What year is your watch?' subDescription='Select an option below' />
-
           </div>
           <div className='grid grid-cols-2 gap-[10px]'>
             <button onClick={ () => handlebrandYear('year1')} ><WatchModel text='2024' /></button>
@@ -31,7 +30,7 @@ import ButtonCross from '@/component/atoms/ButtonCross';
             <button onClick={ () => handlebrandYear('year7')}> <WatchModel text='2018' /></button>
             <button onClick={ () => handlebrandYear('year8')}> <WatchModel text='2017' /></button>
           </div>
-          <div className='flex justify-center items-center w-[740px]'><Other child='Other' parent='Other' /></div>
+          <div className='flex justify-center items-center w-[100%]'><Other child='Other' parent='Other' /></div>
         </div>
       </div>
     </div>

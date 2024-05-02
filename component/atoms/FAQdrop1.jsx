@@ -12,13 +12,13 @@ const FAQdrop = ({ parent, child }) => {
 
   return (
     <div onClick={toggleDropdown} className='cursor-pointer pt-[20px] flex justify-between' >
-      <div><p className='text-[24px] font-medium text-border '>{parent}  </p>
-        <div className='mt-4'>
+      <div><p className='xl:text-[24px] lg:text-[24px] md:text-[20px] sm:text-[18px] text-[16px] font-medium text-border '>{parent}  </p>
+        <div className='xl:my-4 lg:mt-4 md:mt-2 sm:mt-2 mt-2'>
           {isOpen && <span className='text-Faqchild text-[15px] font-light ' >{child}</span>}
         </div>
       </div>
       <div className='w-[17.43px] h-[9.85px]'>
-        {isOpen ? <MdExpandLess className='ml-[10px] cursor-pointer' onClick={toggleDropdown} /> : <MdExpandMore className='ml-[10px] cursor-pointer' onClick={toggleDropdown} />}
+        {isOpen ? <MdExpandLess className='ml-[10px] text-[25px] text-gray-600  cursor-pointer' onClick={toggleDropdown} /> : <MdExpandMore className='ml-[10px] text-[25px] text-gray-600 cursor-pointer' onClick={toggleDropdown} />}
       </div>
     </div>
   );

@@ -43,7 +43,11 @@
 }
 
 .shadow-top {
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Adjust values as needed */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adjust values as needed */
+}
+
+.shadow-search {
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.1); /* Adjust values as needed */
 }
 
 .dt-layout-cell.dt-start {

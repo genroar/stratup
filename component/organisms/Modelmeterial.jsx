@@ -11,10 +11,10 @@ function Modelmeterial({onSelectMaterial, onSelectType}) {
   }
 
   return (
-  <div className="flex flex-col  items-center justify-center">
-      <div className='flex flex-col items-center justify-center'>
-          <div className='flex flex-col gap-[20px] w-[730px]'>
-    <div className='flex justify-center'>
+  <div className=" flex items-center justify-center">
+      <div className='xl:w-[55%] lg:w-[55%] md:w-[70%]'>
+          <div className='flex flex-col gap-[20px]'>
+    <div className=''>
     <Modelhead
       onclick={onSelectType}
         icon={<LiaLessThanSolid />}
@@ -23,7 +23,7 @@ function Modelmeterial({onSelectMaterial, onSelectType}) {
         subDescription='Select an option below'
       />
     </div>
-      <div className='w-[730px] flex flex-wrap flex-row gap-[10px]'>
+      <div className='grid grid-cols-2 gap-[10px]'>
         <button onClick={() => handleMaterialSeclet('materiral 1')} ><WatchModel text='Steel' /></button>
         <button onClick={() => handleMaterialSeclet('materiral 2')}><WatchModel text='Yellow Gold' /></button>
         <button onClick={() => handleMaterialSeclet('materiral 3')}><WatchModel text='White Gold' /></button>

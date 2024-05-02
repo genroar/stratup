@@ -1,40 +1,41 @@
-import { TbMathGreater } from "react-icons/tb";
+import { IoIosArrowForward } from "react-icons/io";
 import Heading from "../atoms/Heading";
 
 function AboutUs() {
   return (
-    <div className="rounded flex flex-col   rounded-tr-[40px] rounded-tl-[40px] pt-[35px] pb-[30px]  " >
-      <div className="about xl:flex lg:flex  gap-[30px] items-center ">
-        <div className=" xl:w-[40%] lg:w-[40%] md:w-[100%]">
+    <div className="">
+          <div className="rounded flex flex-col rounded-tr-[40px] rounded-tl-[40px] pt-[35px] pb-[30px]  " >
+      <div className="about grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-1 grid-cols-1   gap-[30px] items-center ">
+        <div className=" ">
           <img className='w-full' src="/assits/assits/image/home about us.png" alt="" />
         </div>
-        <div className="gap-[30px] xl:w-[60%] lg:w-[100%] md:w-[100%] raltive flex flex-col ">
+        <div className="gap-[30px]  raltive flex flex-col ">
           <div className="text flex flex-col md:mt-4 sm:mt-4 gap-[13px] ">
             <Heading level="2">About us</Heading>
             <div className=" flex flex-col gap-[12px] ">
-              <span className=" leading-lineHeight text-[18px] font-regular leading-[26px] text-gray-700 ">
+              <span className=" leading-lineHeight xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[16px] text-[14px] font-regular leading-[26px] text-gray-700 ">
                 Describtion of the project - Our company guarantees comfortable{" "}
-                <br />
                 cooperation, high-quality teaching and excellent experts. Our
-                company <br /> guarantees comfortable cooperation, high-quality
-                teaching and excellent <br /> experts our company guarantees
+                company  guarantees comfortable cooperation, high-quality
+                teaching and excellent experts our company guarantees
                 comfortable{" "}
               </span>
-              <span className=" leading-lineHeight text-[18px] font-regular leading-[26px] text-gray-700 ">
-                Describtion of the project - Our company guarantees comfortable <br /> cooperation, high-quality teaching and excellent experts. Our company <br />  guarantees comfortable cooperation, high-quality teaching and excellent <br />  experts our company guarantees comfortable high-quality teaching and <br />  excellent experts our company guarantees comfortable high-quality <br />  teaching and excellent experts our company guarantees comfortable
+              <span className=" leading-lineHeight  xl:text-[18px] lg:text-[18px] md:text-[18px] sm:text-[16px] text-[14px] font-regular leading-[26px] text-gray-700 ">
+                Describtion of the project - Our company guarantees comfortable  cooperation, high-quality teaching and excellent experts. Our company  guarantees comfortable cooperation, high-quality teaching and excellent   experts our company guarantees comfortable high-quality teaching and   excellent experts our company guarantees comfortable high-quality  teaching and excellent experts our company guarantees comfortable
               </span>
             </div>
           </div>
           <div className="relative ">
-            <div className="float-right mt-[-12px]" >
-              <div className="flex  w-[142px] h-[40px] rounded-[40px] border-[1px] border-border items-center justify-between px-[10px] text-[16px] font-medium "><button className="text-border">Read more</button>
-                <div><TbMathGreater className="text-border" /></div>
+            <div className="xl:float-right lg:float-right md:float-right mt-[-12px]" >
+              <div className="flex  xl:w-[142px] h-[40px] lg:w-[142px] md:w-[142px] sm:w-[full] rounded-[40px] border-[1px] border-border items-center justify-between px-[10px] text-[16px] font-medium "><button className="text-border">Read more</button>
+                <div><IoIosArrowForward className="text-gray-600" /></div>
               </div>
             </div>
           </div>
         </div>
       </div>
 
+    </div>
     </div>
   );
 }

@@ -12,9 +12,9 @@ import { RxCross1 } from "react-icons/rx";
   };
 
   return (
-    <div className="flex flex-col  items-center justify-center">
-      <div className="flex flex-col items-center justify-center">
-        <div className="w-[384px] flex flex-col justify-center items-center">
+    <div className="flex justify-center items-center gap-[90px] flex-col ">
+      <div className=" ">
+        <div className="w-[390px] flex  gap-[20px] flex-col">
           <div className="flex s">
             <Modelhead
               onclick={ onSelectType}

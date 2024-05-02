@@ -22,7 +22,7 @@ function HowWorkshead() {
             <div className="text-center">
               <Heading level="1">How it works</Heading>
             </div>
-            <div className="pb-[8px]">
+            <div className="pb-[8px] w-full flex justify-center">
               <WorksButtons
                 view={() => handleTabChange("view")}
                 ad={() => handleTabChange("ad")}
@@ -31,7 +31,7 @@ function HowWorkshead() {
               />
             </div>
           </div>
-          <div className="flex w-[1300px] gap-[50px] px-[5px] py-[5px]">
+          <div className="flex gap-[50px] px-[5px] py-[5px]">
             {activeTab === "view" && <OverView />}
             {activeTab === "ad" && <AdTittle/>} 
             {activeTab === "consign" && <ConsignTittle />}

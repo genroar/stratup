@@ -8,7 +8,7 @@ function Navigation() {
   return (
 
     <div className='xl:flex lg:flex block text-gray-300 text-[16px] font-normal gap-[30px]'>
-      <ul className='xl:flex lg:flex xl:gap-[30px] lg:gap-[13px]'>
+      <ul className='xl:flex lg:flex xl:gap-[30px]  lg:gap-[13px]'>
         <li className={listStyle}><Link className={fontSize} href='/buy'>Buy</Link></li>
         <li className={listStyle}><Link className={fontSize} href='/sell'>Sell</Link></li>
         <li className={listStyle}><Link className={fontSize} href='/sources'>Sources</Link></li>

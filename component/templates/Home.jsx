@@ -25,7 +25,9 @@ function Home() {
         <HowWorks />
       </div>
       <Container>
+        <div className="">
         <AboutUs />
+        </div>
         <FAQ />
       </Container>
     </div>

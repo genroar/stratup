@@ -24,7 +24,7 @@ const Dropdown = ({child, parent}) => {
       >
         {selectedItem || 'AED'}
         <svg
-          className="-mr-1 ml-2 h-5 w-5"
+          className="-mr-1 ml-2 mt-[8px] h-5 w-5"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 20 20"
           fill="currentColor"

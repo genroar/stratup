@@ -13,7 +13,7 @@ function BLoglatest() {
             <div className='py-[50px]'>
                 <Heading level='1'>Latest posts</Heading>
             </div>
-            <div className=' grid grid-cols-4 flex-wrap m-auto gap-[20px]'>
+            <div className=' grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 grid-cols-2 m-auto gap-[20px]'>
                 <div className='bottom cursor-pointer relative'>
                     <div className='image block' onClick={handleClick}>
                         <img src="/assits/assits/image/blog latest 1.png" className='w-[100%]' alt="" />

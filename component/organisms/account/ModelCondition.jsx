@@ -9,14 +9,14 @@ function ModelCondition({onSeleCondition, onSelectType}) {
     onSeleCondition(condition)
   }
   return (
-    <div className='flex flex-col items-center justify-center'>
-      <div className='flex flex-col items-center justify-center w-full'>
-        <div className='w-[384px] flex flex-col gap-[20px] '>
-          <div className='mr-[65px]'><Modelhead onclick={onSelectType} icon={<LiaLessThanSolid />} heading='Condition' description='What is the condition of your watch?' subDescription='Select an option below'/></div>
-          <div className='flex flex-col gap-[10px]'>
-            <button onClick={() => handleSelectCondition("condition1")} className='w-[360px] shadow-sm rounded-[20px] h-[51px]'> <WatchModel text='New (Unworn)' /></button>
-            <button onClick={() => handleSelectCondition("condition1")} className='w-[360px] shadow-sm rounded-[20px] h-[51px]'> <WatchModel text='Used (Like New)' /></button>
-            <button onClick={() => handleSelectCondition("condition1")} className='w-[360px] shadow-sm rounded-[20px] h-[51px]'> <WatchModel text='Used (Signs of Use)' /></button>
+    <div className='flex  flex-col items-center justify-center'>
+      <div className='xl:w-[35%] lg:w-[40%] md:w-[50%] sm:w-[45%] w-[50%]'>
+        <div className=' flex flex-col gap-[20px] '>
+          <div className=''><Modelhead onclick={onSelectType} icon={<LiaLessThanSolid />} heading='Condition' description='What is the condition of your watch?' subDescription='Select an option below'/></div>
+          <div className='flex justify-center items-center flex-col gap-[10px]'>
+            <button onClick={() => handleSelectCondition("condition1")} className='w-full shadow-sm rounded-[20px] h-[51px]'> <WatchModel text='New (Unworn)' /></button>
+            <button onClick={() => handleSelectCondition("condition1")} className='w-full shadow-sm rounded-[20px] h-[51px]'> <WatchModel text='Used (Like New)' /></button>
+            <button onClick={() => handleSelectCondition("condition1")} className='w-full shadow-sm rounded-[20px] h-[51px]'> <WatchModel text='Used (Signs of Use)' /></button>
           </div>
         </div>
       </div>

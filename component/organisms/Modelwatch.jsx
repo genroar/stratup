@@ -12,10 +12,10 @@ function Modelwatch({ onSelectModel, onSelectType }) {
 
   return (
     <div className="flex   items-center justify-center">
-      <div className="flex flex-col ">
-        <div className="flex flex-col items-center justify-center">
-          <div className="  flex flex-col gap-[20px]">
-            <div className="flex items-center justify-center ">
+      <div className=" ">
+        <div className="">
+          <div className="  flex  flex-col gap-[20px]">
+            <div className=" ">
               <Modelhead
                 icon={<LiaLessThanSolid  /> }
                 onclick = {onSelectType}

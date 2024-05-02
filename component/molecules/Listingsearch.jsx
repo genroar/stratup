@@ -7,7 +7,7 @@ function Listingsearch({ shadowClass }) {
       <div className={`input relative ${shadowClass}`}>
         <Input variant='secondary' type='search' placeholder='search' />
       </div>
-      <div className='svg bg-gray-800 w-[40px] h-[40px] flex justify-center top-[1px] items-center rounded-[100%] absolute right-0'>
+      <div className='svg bg-gray-700 w-[40px] h-[40px] flex justify-center top-[1px] items-center rounded-[100%] absolute right-0'>
         <img src="/assits/assits/svg/search.svg" alt="" />
       </div>
     </div>

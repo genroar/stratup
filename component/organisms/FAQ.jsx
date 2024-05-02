@@ -8,7 +8,7 @@ function FAQ() {
       <div className="FAQ  pt-[30px] ">
         <Heading level="2">FAQ</Heading>
         <div className="xl:flex lg:flex  block justify-between ">
-          <div className="drops xl:w-[70%] lg:w-[70%] md:w-[70%] sm:w-[100%] w-[100%]">
+          <div className="drops xl:w-[70%] lg:w-[70%] md:w-[100%] sm:w-[100%] w-[100%]">
             <div className="divide-y w-full flex flex-col gap-[2px] " >
               <FAQdrop1
                 parent="How can Strat Up assist me with purchasing a watch?"

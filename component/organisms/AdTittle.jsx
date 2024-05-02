@@ -6,7 +6,7 @@ function AdTittle() {
     <div>
       <div className="grid xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-[50px] px-[20px] py-[20px]">
         <div className="">
-          <img className="w-full" src="/assits/assits/image/work.png" alt="" />
+          <img className="w-full" src="/assits/assits/image/home about us.png" alt="" />
         </div>
         <div className="flex flex-col justify-center text">
           <div className="items-center">
