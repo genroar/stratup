@@ -1,10 +1,14 @@
-import Banner from "@/component/organisms/Banner";
-import Listing from "@/component/organisms/Listing";
-import AboutUs from "../organisms/AboutUs";
 import FAQ from "../organisms/FAQ";
+import AboutUs from "../organisms/AboutUs";
+import Footer2 from "../organisms/Footer2";
 import Header2 from "../organisms/Header2";
 import HowWorks from "../organisms/HowWorks";
+<<<<<<< HEAD
 import Container from "../atoms/Container";
+=======
+import Banner from "@/component/organisms/Banner";
+import Listing from "@/component/organisms/Listing";
+>>>>>>> origin/CodeUpdate
 
 function Home() {
   return (

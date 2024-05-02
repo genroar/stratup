@@ -6,11 +6,21 @@
   font-family: 'Kumb Sans';
   src: url('../public/fonts/kumbsans/KumbhSans-Medium.ttf') format('truetype');
 }
+<<<<<<< HEAD
 .container_main {
   max-width: 100%;
   margin: 0 auto;
   padding: 0px 3%;
 }
+=======
+
+.container_main {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0px 3% ;
+}
+
+>>>>>>> origin/CodeUpdate
 .header {
   box-shadow: 0px 0px 15px 5px #0000001a;
 }

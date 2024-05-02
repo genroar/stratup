@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+<<<<<<< HEAD
     "chart.js": "^4.4.2",
     "next": "^14.2.2",
     "prop-types": "^15.8.1",
@@ -16,6 +17,29 @@
     "react-dom": "^18.2.0",
     "react-icons": "^5.1.0",
     "reacticons": "^0.0.1"
+=======
+<<<<<<< HEAD
+    "chart.js": "^3.7.0",
+    "datatables.net-dt": "^2.0.3",
+    "datatables.net-responsive-dt": "^3.0.1",
+    "i": "^0.3.7",
+    "jquery": "^3.7.1",
+    "next": "^14.2.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-feather": "^2.0.10",
+    "react-icons": "^5.0.1",
+    "style-loader": "^4.0.0",
+    "update": "^0.7.4"
+=======
+    "autoprefixer": "^10.4.19",
+    "chart.js": "^4.4.2",
+    "next": "^14.2.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.1.0"
+>>>>>>> cb38449f9d60d31a2b05cbd683343ce7efebe052
+>>>>>>> origin/CodeUpdate
   },
   "devDependencies": {
     "autoprefixer": "^10.4.19",
