@@ -3,14 +3,7 @@ import HowWorkshead from "@/component/organisms/Howworkshead";
 import Chat from "./Chat";
 import Footer from "@/component/templates/Footer";
 import Header from "@/component/templates/Header";
-<<<<<<< HEAD
-import HowWorks from "@/component/organisms/HowWorks";
-import React from "react";
-import HowWorkshead from "@/component/organisms/Howworkshead";
-import Header2 from "@/component/organisms/Header2";
-import Container from "@/component/atoms/Container"; 
-=======
->>>>>>> origin/CodeUpdate
+import Container from "@/component/atoms/Container";
 
 function About() {
   return (

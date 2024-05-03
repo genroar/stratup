@@ -70,7 +70,7 @@ function ConsignFiltration() {
   return (
     <div>
       <div className="flex flex-col">
-        <div className="">
+      <div className="">
           <div className="main flex items-center px-[50px] py-[20px]">
             <ButtonCross />
             <div className="flex items-center justify-center w-full">
@@ -83,7 +83,7 @@ function ConsignFiltration() {
           </div>
           <ProgressBar progress={progress} totalSteps={totalSteps} />
         </div>
-       <div className=" ">
+       <div className="pt-[20px]">
        {currentStep === 1 && <WatchBrand onSelectBrand={handleBrandSelect} />}
         {currentStep === 2 && (
           <Modelwatch

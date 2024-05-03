@@ -8,7 +8,7 @@ const Heading = ({ level, children }) => {
       case "1":
         return "xl:text-[36px] lg:text-[36px] md:text-[30px] sm:text-[28px] text-[20px] font-medium  text-customGray ";
       case "2":
-        return "text-[32px] text-medium text-gray-800 ";
+        return "text-[32px] text-medium custom-gray ";
       case "3":
         return "text-[24px] text-medium text-gray-700 ";
       case "4":

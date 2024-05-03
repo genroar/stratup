@@ -1,30 +1,30 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+/* styles/fonts.css */
 
-@font-face {
-  font-family: 'Kumb Sans';
-  src: url('../public/fonts/kumbsans/KumbhSans-Medium.ttf') format('truetype');
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+* {
+  font-family: "Kumbh Sans", sans-serif;
 }
-<<<<<<< HEAD
 .container_main {
   max-width: 100%;
   margin: 0 auto;
   padding: 0px 3%;
 }
-=======
-
-.container_main {
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 0px 3% ;
-}
-
->>>>>>> origin/CodeUpdate
 .header {
   box-shadow: 0px 0px 15px 5px #0000001a;
 }
-
+.custom-gray{
+  color: rgba(71, 72, 78, 1);
+}
+.customtext{
+  color: rgba(40, 40, 40, 1);
+}
 .shadow {
   box-shadow: 0px 0px 10px 5px #0000000d;
 }

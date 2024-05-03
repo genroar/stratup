@@ -31,7 +31,7 @@ function Header2() {
             <div>
               <Navigation />
             </div>
-            <div className="flex justify-end gap-[15px]">
+            <div className="flex justify-end gap-[15px] items-center">
               <Heading level="4">En/Ar</Heading>
               <HeaderRight />
             </div>
@@ -104,13 +104,13 @@ function Header2() {
                 </div>
               </Container>
             </div>
-            <div className={`mt-4 absolute w-full text-center`}>
+            <div className={`mt-4 absolute w-full text-center `}>
               <div>
                 <Navigation />
               </div>
               <div className="lg:flex gap-[15px] flex flex-col-reverse items-center xl:my-[0] lg:my-[0] mt-[10px]">
-                <Heading level="4">En/Ar</Heading>
-                <div className="xl:my-[0] lg:my-[0] mt-[10px] flex justify-center">
+              <div className="items-center flex justify-center"><Heading level="4">En/Ar</Heading></div>
+                <div className="xl:my-[0] lg:my-[0] mt-[10px] flex items-center justify-center">
                   <HeaderRight />
                 </div>
               </div>
@@ -124,8 +124,6 @@ function Header2() {
   );
 }
 
-<<<<<<< HEAD
-=======
 
 
 
@@ -136,5 +134,4 @@ function Header2() {
 
 
 
->>>>>>> origin/CodeUpdate
 export default Header2;

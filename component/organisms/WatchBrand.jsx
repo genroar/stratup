@@ -9,7 +9,7 @@ function WatchBrand({ onSelectBrand , shadow  }) {
 
   return (
     <div className={`relative flex justify-center items-center `}>
-      <div className="flex   w-[1195px] justify-center items-center">
+      <div className="flex   w-[100%] justify-center items-center">
         <div className="w-[360px]   flex flex-col text-center gap-[25px] ">
           <div>
             <Heading level="4">Watch brand</Heading>

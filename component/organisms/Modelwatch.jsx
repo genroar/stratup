@@ -5,16 +5,17 @@ import Modelhead from "../atoms/Modelhead";
 import { LiaLessThanSolid } from "react-icons/lia";
 import Other from "../atoms/Other";
 import ButtonCross from "../atoms/ButtonCross";
+
 function Modelwatch({ onSelectModel, onSelectType }) {
   const handlModelSelelct = (Model) => {
     onSelectModel(Model);
   };
 
   return (
-    <div className="flex   items-center justify-center">
-      <div className=" ">
+    <div className="flex w-[100%] items-center justify-center">
+      <div className="">
         <div className="">
-          <div className="  flex  flex-col gap-[20px]">
+          <div className="flex xl:w-[700px] lg:w-[700px] md:w-[100%] flex-col gap-[20px]">
             <div className=" ">
               <Modelhead
                 icon={<LiaLessThanSolid  /> }

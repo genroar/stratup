@@ -99,7 +99,7 @@ function HomeSell() {
   };
 
   return (
-    <div className={` shadow-top py-[50px] mt-[-50px] rounded-tr-[50px] rounded-br-[50px] rounded-bl-[50px]`} >
+    <div className={`  py-[50px] mt-[-50px] rounded-tr-[50px] rounded-br-[50px] rounded-bl-[50px]`} >
         {currentStep === 1 && <WatchBrand onSelectBrand={handleBrandSelect} />}
         {currentStep === 2 && <Modelwatch onSelectModel={handlModelSelelct} onSelectType={handlePrevStep}/>}
         {currentStep === 3 && <ModelYear onSelectYear={handlebrandYear} onSelectType={handlePrevStep} />}

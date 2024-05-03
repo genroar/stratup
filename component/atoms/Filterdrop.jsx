@@ -11,7 +11,7 @@ const Filterdrop = ({ parent, child, style }) => {
   };
 
   return (
-    <div className="relative ">
+    <div className="relative">
       <div className="flex flex-row ">
         <button
           onClick={() => setIsOpen(!isOpen)}
@@ -23,7 +23,7 @@ const Filterdrop = ({ parent, child, style }) => {
         >
           <span className="text-[20px] text-medium">{selectedItem || parent}</span>
           <svg
-            className="w-5 h-5 ml-2"
+            className="w-5 mt-4 h-5 ml-2"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 20 20"
             fill="currentColor"
@@ -40,7 +40,7 @@ const Filterdrop = ({ parent, child, style }) => {
 
       {isOpen && (
         <div
-          className="origin-top-right  right-0 mt-2 w-[300px] rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5"
+          className="origin-top-right  right-0 mt-2 w-[300px] bg-white ring-1 relative ring-black ring-opacity-5"
           role="menu"
           aria-orientation="vertical"
           aria-labelledby="menu-button"

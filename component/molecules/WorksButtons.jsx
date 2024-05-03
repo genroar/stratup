@@ -16,7 +16,7 @@ function WorksButtons({ view, ad, consign, source }) {
           handleButtonClick("view");
           view();
         }}
-        className={` h-[55px] text-center cursor-pointer xl:w-[150px] lg:w-[150px] md:w-[150px] sm:w-[150px] xm:w-[150px] w-[130px] flex justify-center items-center ${stylebut} text-buttonGray rounded-[40px] ${
+        className={` h-[55px] text-center cursor-pointer xl:w-[150px] lg:w-[150px] md:w-[150px] sm:w-[150px] xm:w-[150px] w-[130px] flex justify-center text-[20px] font-normal  items-center ${stylebut} text-buttonGray rounded-[40px] ${
           activeButton === "view" ? "bg-buttonGray text-white " : ""
         }`}
       >

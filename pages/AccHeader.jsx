@@ -1,13 +1,9 @@
-import React, { useState } from "react";
-import { useRouter } from 'next/router'; // Import useRouter from Next.js
 import CustomImage from "@/component/atoms/CustomImage";
-import Navigation from "@/component/molecules/Navigation";
 import Heading from "@/component/atoms/Heading";
+import Navigation from "@/component/molecules/Navigation";
+import { useRouter } from 'next/router'; // Import useRouter from Next.js
+import { useState } from "react";
 import { IoIosNotifications } from "react-icons/io";
-import Button from "@/component/atoms/Button";
-import Createorgan from "./createorgan";
-import Dashboard from "@/component/molecules/Dashboard";
-import Notificationbar from "@/component/organisms/Notificationbar";
 function AccHeader({ setActiveTab }) {
   const router = useRouter(); 
   const [showDashboard, setShowDashboard] = useState(true); // State to show/hide Dashboard
@@ -20,13 +16,13 @@ function AccHeader({ setActiveTab }) {
     setActiveTab("notification");
   };
   return (
-    <div>
-      <div className="flex container w-full py-3 header items-center px-6 h-16 justify-between">
+    <div className=" shadow-top" >
+      <div className="flex  w-full py-3  items-center px-6 h-16 justify-between">
         <div>
           <CustomImage
             variant="logo"
             src="/assits/assits/image/header-logo.png"
-            alt="logo"
+            alt="logo"a
           />
         </div>
         <div>

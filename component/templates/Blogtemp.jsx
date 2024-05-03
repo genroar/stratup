@@ -8,7 +8,7 @@ function  Blogtemp() {
 
 
   return (
-    <div className="py-10 container">
+    <div className="py-10">
       <Container>
         <div className="pb-6">
           <Heading level="1">Blog</Heading>

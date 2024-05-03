@@ -1,18 +1,14 @@
 import FAQ from "../organisms/FAQ";
-import AboutUs from "../organisms/AboutUs";
+import AboutUs from "../organisms/About-Us";
 import Footer2 from "../organisms/Footer2";
 import Header2 from "../organisms/Header2";
 import HowWorks from "../organisms/HowWorks";
-<<<<<<< HEAD
 import Container from "../atoms/Container";
-=======
-import Banner from "@/component/organisms/Banner";
-import Listing from "@/component/organisms/Listing";
->>>>>>> origin/CodeUpdate
+import Banner from "../organisms/Banner";
+import Listing from "../organisms/Listing";
 
 function Home() {
   return (
-
     <div className="">
       <Container>
         <div>
@@ -30,12 +26,11 @@ function Home() {
       </div>
       <Container>
         <div className="">
-        <AboutUs />
+          <AboutUs />
         </div>
         <FAQ />
       </Container>
     </div>
-
   );
 }
 

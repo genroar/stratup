@@ -16,7 +16,7 @@ const OrderDropdown = () => {
       <button
         onClick={() => setIsOpen(!isOpen)}
         type="button"
-        className="inline-flex justify-center w-[220px] h-[40px] rounded-[40px] flex px-[15px] items-center justify-between border border-gray-300 shadow-sm items-center justify-center flex bg-gray-300 bg-opacity-20 text-sm font-medium text-gray-700 "
+        className="inline-flex justify-center w-[230px] h-[40px] rounded-[40px] flex px-[15px] items-center justify-between border border-gray-300 shadow-sm items-center justify-center flex bg-gray-300 bg-opacity-20 text-sm font-medium text-gray-700 "
         id="menu-button"
         aria-expanded="true"
         aria-haspopup="true"

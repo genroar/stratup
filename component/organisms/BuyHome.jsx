@@ -16,44 +16,104 @@ function BuyHome() {
               <Button variant='oval' >View All Listing</Button>
             </div>
             <div>
-<<<<<<< HEAD
               <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 grid-cols-2 gap-[30px] justify-center items-center" >
                 <div>
-                  <Product  productClass='product_cols'/>
+                  <Product  productClass='product_cols' 
+                    src='/assits/assits/image/home recent 1.png'
+                    FlagSrc= '/assits/assits/image/UAE.png'
+                    ProductTitle='Rolex' 
+                    Date='Datejust' 
+                    Year='2017' 
+                    YearStatus='New' 
+                    ProductPrice='AED 5,500' 
+                    ProductCategory='Negotiable'
+                  />
                 </div>
                 <div>
-                  <Product  productClass='product_cols'/>
+                    <Product  productClass='product_cols' 
+                      src='/assits/assits/image/home recent 2.png'
+                      FlagSrc= '/assits/assits/image/UAE.png'
+                      ProductTitle='Rolex' 
+                      Date='Datejust' 
+                      Year='2017' 
+                      YearStatus='New' 
+                      ProductPrice='AED 5,500' 
+                      ProductCategory='Negotiable'
+                    />
                 </div>
                 <div>
-                  <Product  productClass='product_cols'/>
+                    <Product  productClass='product_cols' 
+                      src='/assits/assits/image/home recent 3.png'
+                      FlagSrc= '/assits/assits/image/UAE.png'
+                      ProductTitle='Rolex' 
+                      Date='Datejust' 
+                      Year='2017' 
+                      YearStatus='New' 
+                      ProductPrice='AED 5,500' 
+                      ProductCategory='Negotiable'
+                    />
                 </div>
                 <div>
-                  <Product  productClass='product_cols'/>
+                    <Product  productClass='product_cols' 
+                      src='/assits/assits/image/home recent 4.png'
+                      FlagSrc= '/assits/assits/image/UAE.png'
+                      ProductTitle='Rolex' 
+                      Date='Datejust' 
+                      Year='2017' 
+                      YearStatus='New' 
+                      ProductPrice='AED 5,500' 
+                      ProductCategory='Negotiable'
+                    />
                 </div>
                 <div>
-                  <Product  productClass='product_cols'/>
+                  <Product  productClass='product_cols' 
+                    src='/assits/assits/image/home recent 2.png'
+                    FlagSrc= '/assits/assits/image/UAE.png'
+                    ProductTitle='Rolex' 
+                    Date='Datejust' 
+                    Year='2017' 
+                    YearStatus='New' 
+                    ProductPrice='AED 5,500' 
+                    ProductCategory='Negotiable'
+                  />
                 </div>
                 <div>
-                  <Product  productClass='product_cols'/>
+                  <Product  productClass='product_cols' 
+                    src='/assits/assits/image/home recent 4.png'
+                    FlagSrc= '/assits/assits/image/UAE.png'
+                    ProductTitle='Rolex' 
+                    Date='Datejust' 
+                    Year='2017' 
+                    YearStatus='New' 
+                    ProductPrice='AED 5,500' 
+                    ProductCategory='Negotiable'
+                  />
                 </div>
                 <div>
-                  <Product  productClass='product_cols'/>
+                  <Product  productClass='product_cols' 
+                    src='/assits/assits/image/home recent 1.png'
+                    FlagSrc= '/assits/assits/image/UAE.png'
+                    ProductTitle='Rolex' 
+                    Date='Datejust' 
+                    Year='2017' 
+                    YearStatus='New' 
+                    ProductPrice='AED 5,500' 
+                    ProductCategory='Negotiable'
+                  />
                 </div>
                 <div>
-                  <Product  productClass='product_cols'/>
+                  <Product  productClass='product_cols' 
+                    src='/assits/assits/image/home recent 3.png'
+                    FlagSrc= '/assits/assits/image/UAE.png'
+                    ProductTitle='Rolex' 
+                    Date='Datejust' 
+                    Year='2017' 
+                    YearStatus='New' 
+                    ProductPrice='AED 5,500' 
+                    ProductCategory='Negotiable'
+                  />
                 </div>
                 
-=======
-              <div className="flex gap-[30px] justify-between items-center flex-wrap" >
-              <Product  productClass='product_cols'/>
-              <Product  productClass='product_cols'/>
-              <Product  productClass='product_cols'/>
-              <Product  productClass='product_cols'/>
-              <Product  productClass='product_cols'/>
-              <Product  productClass='product_cols'/>
-              <Product  productClass='product_cols'/>
-              <Product  productClass='product_cols'/>
->>>>>>> origin/CodeUpdate
               </div>
             </div>
           </div>

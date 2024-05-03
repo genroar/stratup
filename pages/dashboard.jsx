@@ -1,13 +1,14 @@
-import AccHeader from '@/pages/accheader'
+import AccHeader from '@/pages/AccHeader'
 import Acount from '@/component/organisms/account/Acount'
 import React, { useState } from 'react'
 
-function Account() {
+function Dashboard() {
   return (
     <div>
-        <Acount/>
+        {/* <AccHeader/> */}
+        <Acount />
     </div>
   )
 }
 
-export default Account
+export default Dashboard

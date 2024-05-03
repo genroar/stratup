@@ -13,7 +13,7 @@ function RolexDay() {
                 </div>
                 <div className='card-image flex flex-col gap-[10px]'>
                     <img className='w-[100%]' src="/assits/assits/image/card.png" alt="" />
-                    <div className='flex justify-between' >
+                    <div className='grid grid-cols-4 w-[100%]' >
                         <img className='' src="/assits/assits/image/card 1.png" alt="" />
                         <img className='' src="/assits/assits/image/card 2.png" alt="" />
                         <img className='' src="/assits/assits/image/card 3.png" alt="" />

@@ -13,13 +13,13 @@ function OverView() {
             <Heading level="1">Overview</Heading>
           </div>
           <div className="p flex flex-col gap-[10px] pr-[30px]">
-            <span className="xl:text-[20px] lg:text-[20px] md:text-[17px] sm:text-[15px] text-[14px] font-thin text-overtext">
+            <span className="xl:text-[20px] lg:text-[20px] md:text-[17px] text-gray-700 sm:text-[15px] text-[14px] font-thin text-overtext">
               Submit a free listing with ease. Fill in your watch details and
               directly get offers from interested individuals.Submit a free
               listing with ease. Fill in your watch details and directly get
               offers from interested individuals.
             </span>
-            <span className="xl:text-[20px] lg:text-[20px] md:text-[17px] sm:text-[15x] text-[14px] font-thin text-overtext">
+            <span className="xl:text-[20px] lg:text-[20px] md:text-[17px] text-gray-700 sm:text-[15x] text-[14px] font-thin text-overtext">
               Submit a free listing with ease. Fill in your watch details and
               directly get offers from interested individuals.Submit a free
               listing with ease. Fill in your watch details and directly get
