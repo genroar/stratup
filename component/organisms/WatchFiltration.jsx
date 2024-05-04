@@ -4,7 +4,7 @@ import Modelwatch from "./Modelwatch";
 import WatchBrand from "./WatchBrand";
 import ModelYear from "./account/ModelYear";
 import { useState } from "react";
-import ProgressBar from "./ProgressBar";
+import ProgressBar from "./ProgressBarBracnd";
 import ModelCondition from "./account/ModelCondition";
 import Modelmeterial from "./Modelmeterial";
 import ModelPaper from "./account/ModelPaper";
@@ -12,6 +12,7 @@ import Photo from "./Photo";
 import Modelprice from "./Modelprice";
 import Modelcountry from "./Modelcountry";
 import Modelsignup from "./Modelsignup";
+
 
 function WatchFiltration() {
   const [selectedBrand, setSelectedBrand] = useState(null);
@@ -112,7 +113,7 @@ function WatchFiltration() {
               />
             </div>
           </div>
-          <ProgressBar progress={currentStep} totalSteps={totalSteps} />
+          <ProgressBar barProgress={currentStep} totalSteps={totalSteps} />
         </div >
         <div className="pt-[100px]">
           {currentStep === 1 && <WatchBrand onSelectBrand={handleBrandSelect} />}
