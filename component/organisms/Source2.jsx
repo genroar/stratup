@@ -22,6 +22,7 @@ function Source2() {
       </Container>
         <ProgressBar />
         <Container>
+          
         <div className=" mt-10 bg sourcebg  w-[100%] justify-between xl:flex ">
           <div className="left shadow-top xl:w-[73%] lg:w-[100%]  gap-[30px] rounded-[20px]  ">
             <div className=' mx-8 xl:pt-[20px] lg:pt-[20px] lg:pb-[90px] md:pt-[20px] md:pb-[90px] sm:pt-[20px] sm:pb-[30px] pt-[20px] pb-[30px]'>
