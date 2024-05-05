@@ -11,9 +11,9 @@ function Product({ productClass, src, FlagSrc, ProductTitle, Date, Year, YearSta
   }
 
   return (
-    <div className={`rounded-[25px] relative ${productClass}`} onClick={handleProductClick}>
+    <div className={`rounded-[25px] relative ${productClass}`}>
       <div className="image-outer w-full relative h-[250px]  ">
-        <div>
+        <div className="cursor-pointer"  onClick={handleProductClick}>
           <CustomImage
             src={src}
             variant="prime"
@@ -24,8 +24,8 @@ function Product({ productClass, src, FlagSrc, ProductTitle, Date, Year, YearSta
         </div>
       </div>
       <div className="text-outer flex flex-col gap-[8px] justify-center divide-y  bg-lightGray rounded-br-[25px] rounded-bl-[25px] px-[15px] py-[15px]">
-        <div className="">
-          <Heading level="5">
+        <div className="cursor-pointer" onClick={handleProductClick}>
+          <Heading level="5" >
             {ProductTitle}
           </Heading>
         </div>

@@ -7,16 +7,16 @@ function WorksButtons({ view, ad, consign, source }) {
   const handleButtonClick = (buttonName) => {
     setActiveButton(buttonName);
   };
-  const stylebut = ["xl:text-[20px]  lg:text-[20px] md:text-[20px] sm:text-[20px]  xm:text-[20px] text-[14px] font-normal "]
+  const stylebut = ["xl:text-[20px]  lg:text-[20px] md:text-[28px] sm:text-[17px]  xm:text-[15px] text-[12px] font-normal "]
 
   return (
-    <div className="flex xl:w-[58%]  lg:w-[58%] md:w-[75%] sm:w-[95%] xm:w-[98%] w-[99%] xl:gap-[10px] lg:gap-[10px] md:gap-[10px] sm:gap-[10px] xm:gap-[10px] gap-[5px] bg-gray-100  rounded-[25px] ">
+    <div className={`flex xl:w-[58%]  lg:w-[58%] md:w-[75%] sm:w-[95%] xm:w-[98%] w-[99%] xl:gap-[10px] lg:gap-[10px] md:gap-[10px] sm:gap-[10px] xm:gap-[10px] ${stylebut} gap-[5px] bg-gray-100  rounded-[25px]`}>
       <button
         onClick={() => {
           handleButtonClick("view");
           view();
         }}
-        className={` h-[55px] text-center cursor-pointer xl:w-[150px] lg:w-[150px] md:w-[150px] sm:w-[150px] xm:w-[150px] w-[130px] flex justify-center text-[20px] font-normal  items-center ${stylebut} text-buttonGray rounded-[40px] ${
+        className={` h-[55px] text-center cursor-pointer xl:w-[150px] lg:w-[150px] md:w-[150px] sm:w-[150px] xm:w-[150px] w-[130px] flex justify-center font-normal  items-center ${stylebut} text-buttonGray rounded-[40px] ${
           activeButton === "view" ? "bg-buttonGray text-white " : ""
         }`}
       >

@@ -21,20 +21,20 @@ function AboutUs() {
             <div className="text flex flex-col md:mt-4 sm:mt-4 gap-[13px]">
               <Heading level="2">About us</Heading>
               <div className=" flex flex-col gap-[12px]">
-                <span className="leading-lineHeight text-[18px] font-regular leading-[26px] text-gray-700 ">
+                <span className="leading-lineHeight xl:text-[20px] lg:text-[20px] md:text-[17px] text-gray-700 sm:text-[15px] text-[14px] font-thin text-overtext">
                   Description of the project - Our company guarantees comfortable cooperation, high-quality teaching and excellent experts. Our
                   company guarantees comfortable cooperation, high-quality
                   teaching and excellent experts our company guarantees
                   comfortable
                 </span>
-                <span className="leading-lineHeight text-[18px] font-regular leading-[26px] text-gray-700 ">
+                <span className="leading-lineHeight xl:text-[20px] lg:text-[20px] md:text-[17px] text-gray-700 sm:text-[15px] text-[14px] font-thin text-overtext">
                   Description of the project - Our company guarantees comfortable cooperation, high-quality teaching and excellent experts. Our company guarantees comfortable cooperation, high-quality teaching and excellent experts our company guarantees comfortable high-quality teaching and excellent experts our company guarantees comfortable high-quality teaching and excellent experts our company guarantees comfortable
                 </span>
               </div>
             </div>
             <div className="relative ">
               <div className="xl:float-right lg:float-right md:float-right mt-[-12px]">
-                <div className="flex xl:w-[142px] h-[40px] lg:w-[142px] md:w-[142px] sm:w-[full] rounded-[40px] border-[1px] border-border items-center justify-between px-[10px] text-[16px] font-medium">
+                <div className="flex xl:w-[142px] h-[40px] lg:w-[142px]  md:w-[142px] sm:w-[full] rounded-[40px] border-[1px] border-border items-center justify-between px-[10px] text-[16px] font-medium">
                   <button className="text-border items-center gap-[18px] flex justify-between" onClick={handleButtonClick}>Read more <IoIosArrowForward className="text-gray-600" /></button>
                 </div>
               </div>

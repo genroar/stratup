@@ -2,15 +2,24 @@ import React from "react";
 import Button from "../atoms/Button";
 import Heading from "../atoms/Heading";
 import SourceSpan from "../atoms/SourceSpan";
+import { useRouter } from 'next/router';
 
 function CardSubmit() {
+  const router = useRouter();
+
+  const handleProductClick = () => {
+    router.push('/submintform');
+  }
+
   return (
-    <div className=" flex flex-col gap-[20px] w-full">
+    <div className="flex flex-col gap-[20px] w-full">
       <div className="buttons flex flex-col w-[360px] gap-[10px] ">
-        <Button variant="primary">Submit offer</Button>
+        <div className="" onClick={handleProductClick}>
+          <Button variant="primary">Submit offer</Button>
+        </div>
         <div className="inner flex gap-[20px] ">
-          <Button variant="oval">Send a message</Button>
-          <Button variant="oval">Call</Button>
+          <button className="bg-white h-[40px] border-[1px] cursor-pointer border-black border-opacity-[10px] text-center w-[175px] rounded-[40px] text-[16px] font-normal  text-buttonGray">Send amessage</button>
+          <button className="bg-white h-[40px] border-[1px] cursor-pointer border-black border-opacity-[10px] text-center w-[175px] rounded-[40px] text-[16px] font-normal  text-buttonGray">Call</button>
         </div>
       </div>
       <div className="info w-full ">
@@ -53,19 +62,19 @@ function CardSubmit() {
           <div className="pb-[15px]" >
             <Heading level="4">Location</Heading>
           </div>
-          <div className="shadow rounded-[15px] px-[18px] ">
+          <div className="shadow rounded-[15px] px-[18px] divide-y">
             <div className="flex py-[7px] gap-[85px]">
               <SourceSpan variant="primary">Brand</SourceSpan>
               <SourceSpan variant="secondary">Rolex</SourceSpan>
             </div>
           </div>
         </div>
-        <div className="  location">
-          <div className="pb-[15px] " >
-            <Heading level="4">Menaged By</Heading>
+        <div className="location">
+          <div className="pb-[15px]" >
+            <Heading level="4">Managed By</Heading>
           </div>
-          <div className="w-[360px] rounded-[15px] shadow-sm h-[53px] flex items-center justify-center  " >
-            <div className="  w-[138px] h-[23px] ">
+          <div className="w-[360px] rounded-[15px] shadow-sm h-[53px] flex items-center justify-center">
+            <div className="w-[138px] h-[23px] ">
               <img src="/assits/assits/image/header-logo.png" alt="" />
             </div>
           </div>

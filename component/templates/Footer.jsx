@@ -40,7 +40,7 @@ function Footer() {
                 <Link href="consign">Consign</Link>
               </div>
             </div>
-            <div className="flex flex-col xl:gap-[40px] lg:gap-[40px] md:gap-[40px] sm:gap-[20px]  gap-[20px] xl:pl-[100px] lg:pl-[100px] md:pl-[20px]  xl:justify-end  lg:justify-end md:justify-end sm:justify-center justify-center items-center ">
+            <div className="flex flex-col pb-[80px]  xl:pl-[100px] lg:pl-[100px] md:pl-[20px]  xl:justify-end  lg:justify-end md:justify-end sm:justify-center justify-center items-center ">
               <span className="mb-4 text-[20px] xl:flex lg:flex md:flex sm:hidden hidden text-medium text-white">Follow us</span>
               <div className="flex flex-row xl:gap-[10px] lg:gap-[10px] md:gap-[10px] sm:gap-[20px] gap-[20px]  xl:justify-end  lg:justify-end md:justify-end sm:justify-center justify-center items-center" >
                 <img src="/assits/assits/svg/facebook.svg" alt="" />
