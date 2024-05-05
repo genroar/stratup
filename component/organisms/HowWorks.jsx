@@ -30,7 +30,7 @@ function HowWorks() {
               <div className="text-center pt-[10px]">
                 <Heading level="2">How it works</Heading>
               </div>
-              <div className="pb-[8px] w-full flex justify-center">
+              <div className="pb-[8px] xl:px-[px] lg:px-[px] md:px-[px] sm:px-[px] px-[10px]  w-full flex justify-center">
                 <WorksButtons
                   view={() => handleTabChange("view")}
                   ad={() => handleTabChange("ad")}

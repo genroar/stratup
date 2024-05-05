@@ -8,7 +8,7 @@ function CardSubmit() {
     <div className=" flex flex-col gap-[20px] w-full">
       <div className="buttons flex flex-col w-[360px] gap-[10px] ">
         <Button variant="primary">Submit offer</Button>
-        <div className="inner flex gap-[20px] ">
+        <div className="inner flex gap-[50px] ">
           <Button variant="oval">Send a message</Button>
           <Button variant="oval">Call</Button>
         </div>

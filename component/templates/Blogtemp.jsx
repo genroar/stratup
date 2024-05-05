@@ -11,7 +11,7 @@ function  Blogtemp() {
     <div className="py-10">
       <Container>
         <div className="pb-6">
-          <Heading level="1">Blog</Heading>
+          <span className="xl:text-[36px] lg:text-[36px] md:text-[32px] sm:text-[32px] text-[32px] font-medium  text-customGray">Blog</span>
         </div>
         <BLog />
         <BLoglatest />

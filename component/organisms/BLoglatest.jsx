@@ -11,7 +11,7 @@ function BLoglatest() {
 
         <div>
             <div className='py-[50px]'>
-                <Heading level='1'>Latest posts</Heading>
+          <span className="xl:text-[36px] lg:text-[36px] md:text-[32px] sm:text-[32px] text-[32px] font-medium  text-customGray">Latest posts</span>
             </div>
             <div className=' grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 grid-cols-2 m-auto gap-[20px]'>
                 <div className='bottom cursor-pointer relative'>

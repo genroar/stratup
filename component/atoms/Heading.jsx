@@ -6,7 +6,7 @@ const Heading = ({ level, children }) => {
   const getHeadingStyles = (level) => {
     switch (level) {
       case "1":
-        return "xl:text-[36px] lg:text-[36px] md:text-[30px] sm:text-[28px] text-[20px] font-medium  text-customGray ";
+        return "xl:text-[36px] lg:text-[36px] md:text-[30px] sm:text-[25px] text-[17px] font-medium  text-customGray ";
       case "2":
         return "text-[32px] text-medium custom-gray ";
       case "3":
