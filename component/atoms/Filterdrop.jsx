@@ -19,11 +19,11 @@ const Filterdrop = ({ parent, child, style }) => {
 
   return (
     <div className="relative">
-      <div className="flex flex-row ">
+      <div className="flex flex-row justify-between">
         <button
           onClick={handleToggleClick}
           type="button"
-          className={`w-[400px] h-[40px] flex items-center justify-between ${style}`}
+          className={`w-full h-[40px] justify-between flex items-center ${style}`}
           id="menu-button"
           aria-expanded={isOpen ? "true" : "false"}
           aria-haspopup="true"

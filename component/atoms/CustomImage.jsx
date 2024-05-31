@@ -1,11 +1,11 @@
 import PropTypes from "prop-types";
 
-function CustomImage({ src, alt, variant }) {
+function CustomImage({ src, alt, variant, style }) {
   const imageType = (variant) => {
     let imageStyle;
     switch (variant) {
       case "prime":
-        imageStyle = "w-full h-[250px]";
+        imageStyle = "w-full xl:h-[250px] lg:h-[250px] md:h-[250px] sm:h-[200px] h-[170px]";
         break;
       case "second":
         imageStyle = "w-[320px] h-[300px]";

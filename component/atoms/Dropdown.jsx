@@ -68,7 +68,7 @@ const Dropdown = ({child, parent}) => {
               role="menuitem"
               onClick={() => handleItemClick('US Dollar')}
             >
-              US Dollar
+              USD
             </a>
           </div>
         </div>

@@ -13,7 +13,7 @@ function Home() {
       <Container>
         <div>
           <Banner />
-          <div className="xl:px-[40px] lg:px-[40px] md:px-[20px] px-[0px] items-center justify-center">
+          <div className="xl:px-[40px] lg:px-[40px] md:px-[20px] px-[0px] items-center justify-center ">
             <Listing />
           </div>
           <div>

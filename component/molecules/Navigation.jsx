@@ -5,7 +5,7 @@ function Navigation() {
 
   
 
-  const fontSize = 'xl:text-[16px] lg:text-[16px] text-[32px] xl:text-gray-300 lg:text-gray-300 text-gray-900 leading-[40px]'
+  const fontSize = 'xl:text-[16px] font-normal lg:text-[16px] text-[32px] xl:text-gray-300 lg:text-gray-300 text-gray-900 leading-[40px]'
   return (
 
     <div className='xl:flex lg:flex block text-gray-300 text-[16px] items-center font-normal gap-[30px]'>

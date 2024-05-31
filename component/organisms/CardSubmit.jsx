@@ -80,6 +80,10 @@ function CardSubmit() {
           </div>
         </div>
       </div>
+      <div className="description py-[20px] xl:hidden lg:flex md:block sm:block block flex-col">
+                    <div className='pb-[6px]'><span className='text-[20px] pb-[20px] font-medium text-gray-800'>Watch Description</span></div>
+                    <div className=''><span className='text-[15px] font-light '>Strap Up is a premier luxury watch concierge based in Dubai, offering a range of services including buying, selling, sourcing, and consigning high-end watches Strap Up is a premier luxury watch concierge based in Dubai, offering a range of services including buying, selling, sourcing, and consigning high-end watchesStrap Up is a premier luxury watch concierge based in Dubai, offering a range</span></div>
+                </div>
     </div>
   );
 }

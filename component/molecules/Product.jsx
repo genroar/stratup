@@ -12,7 +12,7 @@ function Product({ productClass, src, FlagSrc, ProductTitle, Date, Year, YearSta
 
   return (
     <div className={`rounded-[25px] relative ${productClass}`}>
-      <div className="image-outer w-full relative h-[250px]  ">
+      <div className="image-outer w-full relative xl:h-[250px] lg:h-[250px] md:h-[250px] sm:h-[200px] h-[170px]  ">
         <div className="cursor-pointer"  onClick={handleProductClick}>
           <CustomImage
             src={src}

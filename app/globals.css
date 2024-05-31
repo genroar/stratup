@@ -1,118 +1,118 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
-/* styles/fonts.css */
+  @import 'tailwindcss/base';
+  @import 'tailwindcss/components';
+  @import 'tailwindcss/utilities';
+  /* styles/fonts.css */
 
 
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
-* {
-  font-family: "Kumbh Sans", sans-serif;
-}
-.container_main {
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 0px 3%;
-}
-.header {
-  box-shadow: 0px 0px 15px 5px #0000001a;
-}
-.custom-gray{
-  color: rgba(71, 72, 78, 1);
-}
-.customtext{
-  color: rgba(40, 40, 40, 1);
-}
-.shadow {
-  box-shadow: 0px 0px 10px 5px #0000000d;
-}
+  @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+  * {
+    font-family: "Kumbh Sans", sans-serif;
+  }
+  .container_main {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0px 3%;
+  }
+  .header {
+    box-shadow: 0px 0px 15px 5px #0000001a;
+  }
+  .custom-gray{
+    color: rgba(71, 72, 78, 1);
+  }
+  .customtext{
+    color: rgba(40, 40, 40, 1);
+  }
+  .shadow {
+    box-shadow: 0px 0px 10px 5px #0000000d;
+  }
 
-.footer,
-.five2 {
-  background-color: rgba(0, 0, 0, 0.898);
-}
+  .footer,
+  .five2 {
+    background-color: rgba(0, 0, 0, 0.898);
+  }
 
-.listingbutton {
-  box-shadow: 0px -5px 15px 0px #0000001A;
-}
+  .listingbutton {
+    box-shadow: 0px -5px 15px 0px #0000001A;
+  }
 
-.product_tab {
-  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
-}
+  .product_tab {
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+  }
 
-.search_shadow input {
-  padding: 20px;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
-}
+  .search_shadow input {
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  }
 
-.container {
-  max-width: 1280px;
-  margin: auto;
-}
+  .container {
+    max-width: 1280px;
+    margin: auto;
+  }
 
-.shadow-top {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adjust values as needed */
-}
+  .shadow-top {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adjust values as needed */
+  }
 
-.shadow-search {
-  box-shadow: 0 0 7px rgba(0, 0, 0, 0.1); /* Adjust values as needed */
-}
+  .shadow-search {
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.1); /* Adjust values as needed */
+  }
 
-.dt-layout-cell.dt-start {
-  display: none !important;
-}
+  .dt-layout-cell.dt-start {
+    display: none !important;
+  }
 
-label {
-  display: none;
-}
+  label {
+    display: none;
+  }
 
-input#dt-search-0 {
-  width: 483px;
-  border-radius: 40px;
-  box-shadow: #0000001a;
-}
+  input#dt-search-0 {
+    width: 483px;
+    border-radius: 40px;
+    box-shadow: #0000001a;
+  }
 
-span.dt-column-title {
-  color: #282828;
-  opacity: 0.5;
-}
+  span.dt-column-title {
+    color: #282828;
+    opacity: 0.5;
+  }
 
-.pen {
-  color: #4f99e3;
-}
+  .pen {
+    color: #4f99e3;
+  }
 
-.penbg {
-  background-color: #1671cc;
-  opacity: 0.1;
-}
+  .penbg {
+    background-color: #1671cc;
+    opacity: 0.1;
+  }
 
-table#myTable tr,
-table#myTable td {
-  background: #fff !important;
-  box-shadow: none !important;
-  height: 50px;
-  font-size: 13px;
-  font-weight: 500;
-  color: #282828;
-}
+  table#myTable tr,
+  table#myTable td {
+    background: #fff !important;
+    box-shadow: none !important;
+    height: 50px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #282828;
+  }
 
-th.dt-type-numeric.dt-orderable-asc.dt-orderable-desc {
-  text-align: left;
-}
+  th.dt-type-numeric.dt-orderable-asc.dt-orderable-desc {
+    text-align: left;
+  }
 
-table#myTable tr,
-table#myTable td:hover {
-  background-color: #d9d9d9;
-}
+  table#myTable tr,
+  table#myTable td:hover {
+    background-color: #d9d9d9;
+  }
 
 
-.admin_side_bar {
-  position: fixed;
-  z-index: 1001;
-}
+  .admin_side_bar {
+    position: fixed;
+    z-index: 1001;
+  }
 
-.shadow-bottom {
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Adjust values as needed */
-}
+  .shadow-bottom {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Adjust values as needed */
+  }
