@@ -9,8 +9,8 @@ function RolexDay() {
                       <div>  <span className='text-[24px] xl:font-normal lg:font-norma md:font-medium sm:font-medium font-medium  xl:text-gray-900 lg:text-gray-900 md:text-gray-600 sm:text-gray-500 text-gray-500'>Rolex, </span></div>
                       <div>  <span className='text-[24px] font-normal  text-gray-900'> Daytona</span></div>
                     </div>
+                    <div className='xl:flex lg:flex md:block sm:block block xl:pt-[0px] lg:pt-[0px] md:pt-[25px] sm:pt-[25px] pt-[25px] text-right gap-[20px] items-center justify-center'>
                         <div><span className='text-[20px] font-semibold text-gray-900'>AED 5,500</span></div>
-                    <div className='xl:flex lg:flex md:block sm:block block xl:pt-[0px] lg:pt-[0px] md:pt-[25px] sm:pt-[25px] pt-[25px]☻ gap-[20px] items-center justify-center'>
                         <div><span className='text-[13px] font-normal text-gray-900 text-opacity-50'>Negotiable</span></div>
                     </div>
                 </div>
