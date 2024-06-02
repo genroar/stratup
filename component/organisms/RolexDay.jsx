@@ -32,7 +32,7 @@ function RolexDay() {
                 <CardSubmit />
             </div>
         </div>
-    )
+    )   
 }
 
 export default RolexDay;
